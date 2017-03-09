@@ -31,16 +31,13 @@
       <string v="oracle.bm.commonIde.data.project.ModelerProjectSettings/modelersContentSet"/>
       <string v="oracle.tip.tools.ide.pm.addin.PMProjectSettings/Integration_Content"/>
    </list>
+   <value n="defaultPackage" v="okowitz5"/>
    <hash n="oracle.bm.commonIde.data.project.ModelerProjectSettings">
       <hash n="modelersContentSet">
-         <list n="pattern-filters">
-            <string v="+**"/>
-         </list>
          <list n="url-path">
             <url path="model/"/>
          </list>
       </hash>
-      <value n="modelersVersion" v="10.13"/>
    </hash>
    <hash n="oracle.ide.model.ResourcePaths">
       <hash n="resourcesContentSet">
@@ -52,7 +49,12 @@
          </list>
       </hash>
    </hash>
+   <hash n="oracle.jdeveloper.compiler.OjcConfiguration">
+      <value n="internalEncoding" v="Cp1252"/>
+   </hash>
    <hash n="oracle.jdeveloper.model.J2eeSettings">
+      <value n="j2eeWebAppName" v="okowitz5-okowitz5-webapp"/>
+      <value n="j2eeWebContextRoot" v="okowitz5-okowitz5-context-root"/>
       <hash n="webContentSet">
          <list n="url-path">
             <url path="public_html/"/>
@@ -90,19 +92,8 @@
          <string v="Default"/>
       </list>
    </hash>
-   <hash n="oracle.jdevimpl.config.JProjectLibraries">
-      <list n="exportedReferences">
-         <hash>
-            <value n="id" v="Servlet Runtime"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-      </list>
-      <list n="libraryReferences">
-         <hash>
-            <value n="id" v="Servlet Runtime"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-      </list>
+   <hash n="oracle.jdevimpl.config.JProjectPaths">
+      <url n="outputDirectory" path="classes/"/>
    </hash>
    <hash n="oracle.tip.tools.ide.pm.addin.PMProjectSettings">
       <hash n="Integration_Content">

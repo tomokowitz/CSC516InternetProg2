@@ -4,7 +4,7 @@ import java.io.PrintWriter;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
-public class okowitz5b extends HttpServlet {
+public class okowitz5c extends HttpServlet {
     private static final String CONTENT_TYPE = "text/html; charset=windows-1252";
 
     public void init(ServletConfig config) throws ServletException {
@@ -16,18 +16,11 @@ public class okowitz5b extends HttpServlet {
     public void doGet(HttpServletRequest request, 
                       HttpServletResponse response) throws ServletException, 
                                                            IOException {
-                                                           
-        ServletContext context = getServletContext();
-        RequestDispatcher dispatcher = context.getRequestDispatcher("/okowitz5c");
-        dispatcher.forward(request, response);
-        
-        int CAKEID;
-        String CAKENAME = "";
-        double CAKEPRICE;
+        String strErrMsg = "";
         response.setContentType(CONTENT_TYPE);
         PrintWriter out = response.getWriter();
         out.println("<html>");
-        out.println("<head><title>okowitz5b</title></head>");
+        out.println("<head><title>okowitz5c</title></head>");
         out.println("<body>");
         out.println("<p>The servlet has received a GET. This is the reply.</p>");
         out.println("</body></html>");
@@ -39,13 +32,11 @@ public class okowitz5b extends HttpServlet {
     public void doPost(HttpServletRequest request, 
                        HttpServletResponse response) throws ServletException, 
                                                             IOException {
-        int CAKEID;
-        String CAKENAME = "";
-        double CAKEPRICE;
+        String strErrMsg = "";
         response.setContentType(CONTENT_TYPE);
         PrintWriter out = response.getWriter();
         out.println("<html>");
-        out.println("<head><title>okowitz5b</title></head>");
+        out.println("<head><title>okowitz5c</title></head>");
         out.println("<body>");
         out.println("<p>The servlet has received a POST. This is the reply.</p>");
         out.println("</body></html>");

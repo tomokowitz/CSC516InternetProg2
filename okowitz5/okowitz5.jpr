@@ -1,26 +1,26 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <jpr:project xmlns:jpr="http://xmlns.oracle.com/ide/project">
    <hash n="component-versions">
-      <value n="oracle.adf.dt.migration.ProjectMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.adfdt.controller.jsf.addin.JSFProjectMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.adfdt.controller.struts.addin.db.ADFStrutsProjectMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.adfdt.controller.struts.addin.StrutsProjectMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
+      <value n="oracle.adf.dt.migration.ProjectMigrator" v="10.1.3.3.0"/>
+      <value n="oracle.adfdt.controller.jsf.addin.JSFProjectMigrator" v="10.1.3.3.0"/>
+      <value n="oracle.adfdt.controller.struts.addin.db.ADFStrutsProjectMigrator" v="10.1.3.3.0"/>
+      <value n="oracle.adfdt.controller.struts.addin.StrutsProjectMigrator" v="10.1.3.3.0"/>
       <value n="oracle.adfdtinternal.model.portlet.migration.WebCenterProjectMigrator" v="10.1.3.3.0"/>
       <value n="oracle.adfdtinternal.view.faces.addin.ADFFacesLibraryMigrator" v="10.1.3.3.0"/>
-      <value n="oracle.bm.commonIde.ProjectUpgrader" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.ide.model.Project" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.ide.model.ResourcePathsMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.jbo.dt.jclient.migrator.JCProjectMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.jbo.dt.jdevx.ui.appnav.APProjectMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.jdeveloper.dbmodeler.migration.ProjectMigratorHelper" v="10.1.3.0.4;10.1.3.3.0"/>
+      <value n="oracle.bm.commonIde.ProjectUpgrader" v="10.1.3.3.0"/>
+      <value n="oracle.ide.model.Project" v="10.1.3.3.0"/>
+      <value n="oracle.ide.model.ResourcePathsMigrator" v="10.1.3.3.0"/>
+      <value n="oracle.jbo.dt.jclient.migrator.JCProjectMigrator" v="10.1.3.3.0"/>
+      <value n="oracle.jbo.dt.jdevx.ui.appnav.APProjectMigrator" v="10.1.3.3.0"/>
+      <value n="oracle.jdeveloper.dbmodeler.migration.ProjectMigratorHelper" v="10.1.3.3.0"/>
       <value n="oracle.jdeveloper.ejb.EjbMigrator" v="10.1.3.3.0"/>
-      <value n="oracle.jdeveloper.offlinedb.migration.OfflineDBProjectMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
+      <value n="oracle.jdeveloper.offlinedb.migration.OfflineDBProjectMigrator" v="10.1.3.3.0"/>
       <value n="oracle.jdevimpl.jsp.JsfLibraryMigrator" v="10.1.3.3.0"/>
-      <value n="oracle.jdevimpl.jsp.JspMigrator" v="10.1.3.0.4;10.1.3.1.0"/>
-      <value n="oracle.jdevimpl.runner.RunConfigurationsMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.jdevimpl.webservices.WebServicesMigratorHelper" v="10.1.3.0.4;10.1.3.3.0"/>
+      <value n="oracle.jdevimpl.jsp.JspMigrator" v="10.1.3.1.0"/>
+      <value n="oracle.jdevimpl.runner.RunConfigurationsMigrator" v="10.1.3.3.0"/>
+      <value n="oracle.jdevimpl.webservices.WebServicesMigratorHelper" v="10.1.3.3.0"/>
       <value n="oracle.tip.tools.ide.pm.addin.PMProjectMigrator" v="10.1.3.3.0"/>
-      <value n="oracle.toplink.addin.migration.TopLinkProjectMigrator" v="10.1.3.0.4;10.1.3.1.0"/>
+      <value n="oracle.toplink.addin.migration.TopLinkProjectMigrator" v="10.1.3.1.0"/>
    </hash>
    <list n="contentSets">
       <string v="oracle.jdeveloper.model.PathsConfiguration/javaContentSet"/>
@@ -31,12 +31,9 @@
       <string v="oracle.bm.commonIde.data.project.ModelerProjectSettings/modelersContentSet"/>
       <string v="oracle.tip.tools.ide.pm.addin.PMProjectSettings/Integration_Content"/>
    </list>
-   <value n="defaultPackage" v="project1"/>
+   <value n="defaultPackage" v="okowitz5"/>
    <hash n="oracle.bm.commonIde.data.project.ModelerProjectSettings">
       <hash n="modelersContentSet">
-         <list n="pattern-filters">
-            <string v="+**"/>
-         </list>
          <list n="url-path">
             <url path="model/"/>
          </list>
@@ -56,13 +53,9 @@
       <value n="internalEncoding" v="Cp1252"/>
    </hash>
    <hash n="oracle.jdeveloper.model.J2eeSettings">
-      <value n="j2eeWebAppName" v="Application1-Project1-webapp"/>
-      <value n="j2eeWebContextRoot" v="Application1-Project1-context-root"/>
+      <value n="j2eeWebAppName" v="okowitz5-okowitz5-webapp"/>
+      <value n="j2eeWebContextRoot" v="okowitz5-okowitz5-context-root"/>
       <hash n="webContentSet">
-         <list n="pattern-filters">
-            <string v="-ex1.htm.html"/>
-            <string v="+**"/>
-         </list>
          <list n="url-path">
             <url path="public_html/"/>
          </list>
@@ -71,10 +64,6 @@
    <hash n="oracle.jdeveloper.model.PathsConfiguration">
       <hash n="javaContentSet">
          <list n="pattern-filters">
-            <string v="-ex9.htm"/>
-            <string v="-ex8.htm"/>
-            <string v="-ex7.htm"/>
-            <string v="-ex6.htm"/>
             <string v="+**"/>
          </list>
          <list n="url-path">
