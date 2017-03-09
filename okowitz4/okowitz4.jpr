@@ -81,6 +81,7 @@
       <string v="oracle.mds.internal.dt.ide.MDSADFLibVirtualNodeCSProvider/mdsLibVirtualNodeContentSet"/>
       <string v="oracle.adfdtinternal.model.ide.settings.ADFMSettings/adfmContentSet"/>
       <string v="oracle.toplink.workbench.addin/toplinkContentSet"/>
+      <string v="oracle.toplink.addin.TopLinkProjectSettings/toplinkContentSet"/>
    </list>
    <value n="defaultPackage" v="okowitz4"/>
    <hash n="oracle.bm.commonIde.data.project.ModelerProjectSettings">
@@ -194,6 +195,16 @@
       <hash n="Integration_Content">
          <list n="pattern-filters">
             <string v="+**"/>
+         </list>
+      </hash>
+   </hash>
+   <hash n="oracle.toplink.addin.TopLinkProjectSettings">
+      <hash n="toplinkContentSet">
+         <list n="pattern-filters">
+            <string v="+**"/>
+         </list>
+         <list n="url-path">
+            <url path="toplink/"/>
          </list>
       </hash>
    </hash>
