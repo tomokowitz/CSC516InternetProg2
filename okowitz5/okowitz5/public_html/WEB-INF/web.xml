@@ -5,9 +5,25 @@
         <servlet-name>okowitz5c</servlet-name>
         <servlet-class>okowitz5c</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>okowitz5a</servlet-name>
+        <servlet-class>okowitz5a</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>okowitz5b</servlet-name>
+        <servlet-class>okowitz5b</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>okowitz5c</servlet-name>
         <url-pattern>/okowitz5c</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>okowitz5a</servlet-name>
+        <url-pattern>/okowitz5a</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>okowitz5b</servlet-name>
+        <url-pattern>/okowitz5b</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>35</session-timeout>
