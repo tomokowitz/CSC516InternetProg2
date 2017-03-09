@@ -71,6 +71,12 @@ public class okowitz5a extends HttpServlet {
     public void doPost(HttpServletRequest request, 
                        HttpServletResponse response) throws ServletException, 
                                                             IOException {
+        
+        ServletContext context = getServletContext();
+        RequestDispatcher dispatcher = context.getRequestDispatcher("/okowitz5b");
+        dispatcher.forward(request, response);
+        
+        
         String CAKENAME = "";
         int CAKEID;
         double CAKEPRICE;
