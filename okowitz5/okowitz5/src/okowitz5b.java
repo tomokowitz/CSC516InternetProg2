@@ -1,6 +1,10 @@
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.*;
+
 import javax.servlet.*;
 import javax.servlet.http.*;
 
@@ -35,13 +39,37 @@ public class okowitz5b extends HttpServlet {
                        HttpServletResponse response) throws ServletException, 
                                                             IOException {
                                                             
-        ServletContext context = getServletContext();
-                RequestDispatcher dispatcher = context.getRequestDispatcher("/okowitz5c");
-                dispatcher.forward(request, response);
-                
+        String url = "jdbc:odbc:bakery";
+             // more generally, url = "jdbc:mySubprotocol:myDataSource";
+               
+             Connection con;
+             // A Connection represents a session with a specific database.
+             // Within the
+             // context of a Connection, SQL statements are executed and
+             // results are returned.
+            
+             Statement stmt;
+             // A Statement object is used for executing a static SQL
+             // statement and obtaining
+             // the results produced by it.                
         int CAKEID;
-        String CAKENAME = "";
+        
+        String input1= request.getParameter( "CAKEID" );
+        CAKEID = Integer.parseInt( request.getParameter( "CAKEID" ));
+        String CAKENAME = request.getParameter( "CAKENAME" );
         double CAKEPRICE;
+        CAKEPRICE = Double.parseDouble(request.getParameter( "CAKEPRICE" ));
+        
+        con =   DriverManager.getConnection("jdbc:ucanaccess://C:/Users/Tom Okowitz/Documents/IT and Software/jdbc/bakery.accdb");
+        stmt = con.createStatement();
+        
+        stmt.executeUpdate("insert into ENROLLMENTS values(" +
+                                input1 + ",'" + input2 + "','" +
+                                today_date + "','');");
+         
+             stmt.close();
+             con.close();
+             
         response.setContentType(CONTENT_TYPE);
         PrintWriter out = response.getWriter();
         out.println("<html>");

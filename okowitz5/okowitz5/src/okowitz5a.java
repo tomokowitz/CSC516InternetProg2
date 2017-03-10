@@ -89,62 +89,112 @@ public class okowitz5a extends HttpServlet {
                                                            
         // Returns a ResultSet that contains the data produced by the
               // query; never null
-              ResultSet rs = stmt.executeQuery(query);
-                while (rs.next()) // advances the current row until no more
-              {
-               // get the data from the current row
-               int cakeID = rs.getInt("Matches");
-               
-               if(cakeID > 0)
-               {
-               
-               }
-              }
-              // In many cases, it is desirable to immediately release a
-              // Statements's database and JDBC resources instead of
-              // waiting for this to happen when it is
-              // automatically closed; the close method provides this
-              // immediate release.
-              stmt.close();
-             
-              // Releases Connection's resources
-              con.close();
-             }
-             catch(SQLException ex)
-             {
-              System.err.println("SQLException: " + ex.getMessage());
-             }
-        int CAKEID;
-        String CAKENAME = "";
-        double CAKEPRICE;
-        response.setContentType(CONTENT_TYPE);
-        PrintWriter out = response.getWriter();
-        out.println("<html>");
-        out.println("<head><title>okowitz5a</title></head>");
-        out.println("<body>");
-        out.println("<p>The servlet has received a GET. This is the reply.</p>");
-        out.println("</body></html>");
-        out.close();
+              
+//               
+//              ResultSet rs = stmt.executeQuery(query);
+//                while (rs.next()) // advances the current row until no more
+//              {
+//               // get the data from the current row
+//               int cakeID = rs.getInt("Matches");
+//               
+//               if(cakeID > 0)
+//               {
+//               
+//               }
+//              }
+//              // In many cases, it is desirable to immediately release a
+//              // Statements's database and JDBC resources instead of
+//              // waiting for this to happen when it is
+//              // automatically closed; the close method provides this
+//              // immediate release.
+//              stmt.close();
+//             
+//              // Releases Connection's resources
+//              con.close();
+//             }
+//             catch(SQLException ex)
+//             {
+//              System.err.println("SQLException: " + ex.getMessage());
+//             }
+//        int CAKEID;
+//        String CAKENAME = "";
+//        double CAKEPRICE;
+//        response.setContentType(CONTENT_TYPE);
+//        PrintWriter out = response.getWriter();
+//        out.println("<html>");
+//        out.println("<head><title>okowitz5a</title></head>");
+//        out.println("<body>");
+//        out.println("<p>The servlet has received a GET. This is the reply.</p>");
+//        out.println("</body></html>");
+//        out.close();
     }
 
     public void doPost(HttpServletRequest request, 
                        HttpServletResponse response) throws ServletException, 
                                                             IOException {
                                                             
-        ServletContext context = getServletContext();
-                RequestDispatcher dispatcher = context.getRequestDispatcher("/okowitz5b");
-                dispatcher.forward(request, response);
+        
                 
         int CAKEID;
-        String CAKENAME = "";
+        
+        String input1= request.getParameter( "CAKEID" );
+        CAKEID = Integer.parseInt( request.getParameter( "CAKEID" ));
+        String CAKENAME = request.getParameter( "CAKENAME" );
         double CAKEPRICE;
-        response.setContentType(CONTENT_TYPE);
-        PrintWriter out = response.getWriter();
-        out.println("<html>");
-        out.println("<head><title>okowitz5a</title></head>");
-        out.println("<body>");
-        out.println("<p>The servlet has received a POST. This is the reply.</p>");
-        out.println("</body></html>");
-        out.close();
+        CAKEPRICE = Double.parseDouble(request.getParameter( "CAKEPRICE" ));
+        
+        try
+        {
+            stmt.setString(1, input1);
+            ResultSet rs = stmt.executeQuery();
+            rs.next();
+            int match_count = rs.getInt("MATCHES");
+              while (rs.next()) // advances the current row until no more
+                {
+                // get the data from the current row
+                int cakeID = rs.getInt("Matches");
+             
+                if(cakeID > 0)
+                {
+             
+                    String paramErrMsg = "This cake ID already exists.";
+                    request.setAttribute("strErrMsg", paramErrMsg);
+                    ServletContext context = getServletContext();
+                    RequestDispatcher dispatcher = context.getRequestDispatcher("/okowitz5c");
+                    dispatcher.forward(request, response);
+                }
+                else 
+                {
+                    
+                    request.setAttribute("CAKEID", CAKEID);
+                    request.setAttribute("CAKENAME", CAKENAME);
+                    request.setAttribute("CAKEPRICE", CAKEPRICE);
+                    
+                    ServletContext context = getServletContext();
+                    RequestDispatcher dispatcher = context.getRequestDispatcher("/okowitz5b");
+                    dispatcher.forward(request, response);
+                }
+             }
+            
+        
+                
+        
+                
+              
+                        
+                response.setContentType(CONTENT_TYPE);
+                PrintWriter out = response.getWriter();
+                out.println("<html>");
+                out.println("<head><title>okowitz5a</title></head>");
+                out.println("<body>");
+                out.println("<p>The servlet has received a POST. This is the reply.</p>");
+                out.println("</body></html>");
+                out.close();
+        
+        }
+        catch(SQLException ex)
+        {
+           System.err.println("SQLException: " + ex.getMessage());
+        }
     }
 }
