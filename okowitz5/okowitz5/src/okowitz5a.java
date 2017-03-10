@@ -3,6 +3,7 @@ import java.io.PrintWriter;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -19,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 public class okowitz5a extends HttpServlet {
     private static final String CONTENT_TYPE = "text/html; charset=windows-1252";
 
-
+    PreparedStatement stmt;
     public void init(ServletConfig config) throws ServletException {
         super.init(config);
         
@@ -32,7 +33,7 @@ public class okowitz5a extends HttpServlet {
              // context of a Connection, SQL statements are executed and
              // results are returned.
             
-             Statement stmt;
+             //Statement stmt;
              // A Statement object is used for executing a static SQL
              // statement and obtaining
              // the results produced by it.
@@ -51,19 +52,53 @@ public class okowitz5a extends HttpServlet {
               //con = DriverManager.getConnection(url, "", "");
               con =   DriverManager.getConnection("jdbc:ucanaccess://C:/Users/Tom Okowitz/Documents/IT and Software/jdbc/bakery.accdb");
               // Returns a new Statement object for this Connection
-              stmt = con.createStatement();
+              stmt = con.prepareStatement(query);
               
+//        // Returns a ResultSet that contains the data produced by the
+//              // query; never null
+//              ResultSet rs = stmt.executeQuery(query);
+//                while (rs.next()) // advances the current row until no more
+//              {
+//               // get the data from the current row
+//               int cakeID = rs.getInt("Matches");
+//               
+//               if(cakeID > 0)
+//               {
+//               
+//               }
+//              }
+//              // In many cases, it is desirable to immediately release a
+//              // Statements's database and JDBC resources instead of
+//              // waiting for this to happen when it is
+//              // automatically closed; the close method provides this
+//              // immediate release.
+//              stmt.close();
+//             
+//              // Releases Connection's resources
+//              con.close();
+             }
+             catch(SQLException ex)
+             {
+              System.err.println("SQLException: " + ex.getMessage());
+             }
+    }
+
+    public void doGet(HttpServletRequest request, 
+                      HttpServletResponse response) throws ServletException, 
+                                                           IOException {
+                                                           
         // Returns a ResultSet that contains the data produced by the
               // query; never null
               ResultSet rs = stmt.executeQuery(query);
                 while (rs.next()) // advances the current row until no more
               {
                // get the data from the current row
-               int customerID = rs.getInt("CustomerID");
-               String customerName = rs.getString("CustomerName");
-               String customerEmail = rs.getString("CustomerEmail");
-               System.out.println(customerID + "\t" + customerName + "\t" +
-                                  customerEmail);
+               int cakeID = rs.getInt("Matches");
+               
+               if(cakeID > 0)
+               {
+               
+               }
               }
               // In many cases, it is desirable to immediately release a
               // Statements's database and JDBC resources instead of
@@ -79,11 +114,6 @@ public class okowitz5a extends HttpServlet {
              {
               System.err.println("SQLException: " + ex.getMessage());
              }
-    }
-
-    public void doGet(HttpServletRequest request, 
-                      HttpServletResponse response) throws ServletException, 
-                                                           IOException {
         int CAKEID;
         String CAKENAME = "";
         double CAKEPRICE;
