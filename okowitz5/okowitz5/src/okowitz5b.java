@@ -59,16 +59,29 @@ public class okowitz5b extends HttpServlet {
         String CAKENAME = request.getParameter( "CAKENAME" );
         double CAKEPRICE;
         CAKEPRICE = Double.parseDouble(request.getParameter( "CAKEPRICE" ));
+
+        try {
+            con =   DriverManager.getConnection("jdbc:ucanaccess://C:/Users/Tom Okowitz/Documents/IT and Software/jdbc/bakery.accdb");
+            stmt = con.createStatement();
+            
+            stmt.executeUpdate("insert into CAKES values(" +
+                                CAKEID + ",'" + CAKENAME + "'," +
+                                    CAKEPRICE + ");");
+            stmt.close();
+            con.close();
         
-        con =   DriverManager.getConnection("jdbc:ucanaccess://C:/Users/Tom Okowitz/Documents/IT and Software/jdbc/bakery.accdb");
-        stmt = con.createStatement();
         
-        stmt.executeUpdate("insert into ENROLLMENTS values(" +
-                                input1 + ",'" + input2 + "','" +
-                                today_date + "','');");
-         
-             stmt.close();
-             con.close();
+        } catch (SQLException e) {
+            // TODO ISABELA
+            // System.err.println("SQLException: " + e.getMessage());
+            String paramErrMsg = e.getMessage();
+            request.setAttribute("strErrMsg", paramErrMsg);
+            ServletContext context = getServletContext();
+            RequestDispatcher dispatcher = context.getRequestDispatcher("/okowitz5c");
+            dispatcher.forward(request, response);
+        }
+        
+             
              
         response.setContentType(CONTENT_TYPE);
         PrintWriter out = response.getWriter();
