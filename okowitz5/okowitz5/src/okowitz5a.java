@@ -37,7 +37,8 @@ public class okowitz5a extends HttpServlet {
              // statement and obtaining
              // the results produced by it.
             
-             String query = "select * from CUSTOMERS";
+         
+        String query = "select COUNT(*) as MATCHES from CUSTOMERS where CAKEID like ? ;";
              
         try
              {
