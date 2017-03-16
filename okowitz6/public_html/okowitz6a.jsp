@@ -12,7 +12,13 @@
 }
     </style>
   </head>
-  <body>An error occured:<br/><pre>
+  <body>
+  <input type="select"
+  
+  
+  
+  
+  An error occured:<br/><pre>
     <%
       if (exception != null) 
       { 
