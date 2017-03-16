@@ -1,0 +1,251 @@
+06/10/15 11:14:45.681 10.1.3.0.0 Started
+06/10/15 11:14:52.481 jsp2-jsp2-webapp: 10.1.3.0.0 Started
+06/10/15 11:17:41.504 jsp2-jsp2-webapp: 10.1.3.0.0 Stopped
+06/10/15 11:17:42.225 10.1.3.0.0 Started
+06/10/15 11:17:45.520 jsp2-jsp2-webapp: 10.1.3.0.0 Started
+06/10/15 17:38:12.403 jsp2-jsp2-webapp: 10.1.3.0.0 Stopped
+06/10/15 17:38:24.300 10.1.3.0.0 Started
+06/10/15 17:38:48.855 jsp2-jsp2-webapp: 10.1.3.0.0 Started
+06/10/15 17:39:00.873 jsp2-jsp2-webapp: Servlet error
+java.lang.IllegalAccessError: void _ex4$Vote.<init>(_ex4, java.lang.String, java.lang.String)
+	at _ex4._jspService(_ex4.java:131)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.0.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:60)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:416)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:478)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:401)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+06/10/15 17:39:12.850 jsp2-jsp2-webapp: Servlet error
+java.lang.IllegalAccessError: void _ex4$Vote.<init>(_ex4, java.lang.String, java.lang.String)
+	at _ex4._jspService(_ex4.java:131)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.0.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:60)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:416)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:478)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:401)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+06/10/15 17:39:15.984 jsp2-jsp2-webapp: Servlet error
+java.lang.IllegalAccessError: void _ex4$Vote.<init>(_ex4, java.lang.String, java.lang.String)
+	at _ex4._jspService(_ex4.java:131)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.0.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:60)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:416)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:478)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:401)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+06/10/15 17:39:28.562 jsp2-jsp2-webapp: Servlet error
+java.lang.IllegalAccessError: void _ex4$Vote.<init>(_ex4, java.lang.String, java.lang.String)
+	at _ex4._jspService(_ex4.java:131)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.0.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:60)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:416)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:478)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:401)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+06/10/15 21:28:27.438 jsp2-jsp2-webapp: 10.1.3.0.0 Stopped
+06/10/15 21:28:28.690 10.1.3.0.0 Started
+06/10/15 21:28:35.870 jsp2-jsp2-webapp: 10.1.3.0.0 Started
+06/10/15 21:54:15.975 jsp2-jsp2-webapp: Servlet error
+java.lang.IllegalAccessError: void _ex4$Vote.<init>(_ex4, java.lang.String, java.lang.String)
+	at _ex4._jspService(_ex4.java:131)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.0.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:60)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:416)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:478)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:401)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+06/10/15 21:55:28.499 jsp2-jsp2-webapp: 10.1.3.0.0 Stopped
+06/10/15 21:55:30.121 10.1.3.0.0 Started
+06/10/15 21:55:38.924 jsp2-jsp2-webapp: 10.1.3.0.0 Started
+06/10/15 22:23:59.740 jsp2-jsp2-webapp: 10.1.3.0.0 Stopped
+06/10/15 22:24:07.331 10.1.3.0.0 Started
+06/10/15 22:24:24.756 jsp2-jsp2-webapp: 10.1.3.0.0 Started
+06/10/15 22:43:42.430 10.1.3.0.0 Started
+06/10/15 22:43:49.721 jsp2-jsp2-webapp: 10.1.3.0.0 Started
+06/10/15 22:46:31.343 10.1.3.0.0 Started
+06/10/15 22:46:39.675 jsp2-jsp2-webapp: 10.1.3.0.0 Started
+06/10/15 22:46:47.897 jsp2-jsp2-webapp: An existing connection was forcibly closed by the remote host.
+
+06/10/15 22:49:57.850 jsp2-jsp2-webapp: 10.1.3.0.0 Stopped
+06/10/15 22:49:58.621 10.1.3.0.0 Started
+06/10/15 22:50:03.468 jsp2-jsp2-webapp: 10.1.3.0.0 Started
+06/10/15 22:55:04.50 jsp2-jsp2-webapp: 10.1.3.0.0 Stopped
+06/10/15 22:55:05.72 10.1.3.0.0 Started
+06/10/15 22:55:13.43 jsp2-jsp2-webapp: 10.1.3.0.0 Started
+06/10/15 23:51:03.341 jsp2-jsp2-webapp: JspServlet: unable to dispatch to requested page: java.io.FileNotFoundException: C:\Documents and Settings\john\Desktop\sed2\jsp2\jsp2\jsp2\classes\.jsps\_ex6.class (The system cannot find the file specified.
+)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at oracle.jsp.provider.JspFilesystemResource.fromStream(JspFilesystemResource.java:149)
+	at oracle.jsp.runtimev2.JspPageCompiler.addSMAP(JspPageCompiler.java:671)
+	at oracle.jsp.runtimev2.JspPageCompiler.attemptCompilePage(JspPageCompiler.java:625)
+	at oracle.jsp.runtimev2.JspPageCompiler.compilePage(JspPageCompiler.java:348)
+	at oracle.jsp.runtimev2.JspPageInfo.compileAndLoad(JspPageInfo.java:610)
+	at oracle.jsp.runtimev2.JspPageTable.compileAndServe(JspPageTable.java:634)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:370)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:478)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:401)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind.server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind.server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind.server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind.util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+
+06/10/15 23:52:55.692 jsp2-jsp2-webapp: 10.1.3.0.0 Stopped
+06/10/15 23:53:03.263 10.1.3.0.0 Started
+06/10/15 23:53:18.675 jsp2-jsp2-webapp: 10.1.3.0.0 Started
+06/10/15 23:53:26.56 jsp2-jsp2-webapp: JspServlet: unable to dispatch to requested page: java.io.FileNotFoundException: C:\Documents and Settings\john\Desktop\sed2\jsp2\jsp2\jsp2\classes\.jsps\_ex6.class (The system cannot find the file specified.
+)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at oracle.jsp.provider.JspFilesystemResource.fromStream(JspFilesystemResource.java:149)
+	at oracle.jsp.runtimev2.JspPageCompiler.addSMAP(JspPageCompiler.java:671)
+	at oracle.jsp.runtimev2.JspPageCompiler.attemptCompilePage(JspPageCompiler.java:625)
+	at oracle.jsp.runtimev2.JspPageCompiler.compilePage(JspPageCompiler.java:348)
+	at oracle.jsp.runtimev2.JspPageInfo.compileAndLoad(JspPageInfo.java:610)
+	at oracle.jsp.runtimev2.JspPageTable.compileAndServe(JspPageTable.java:634)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:370)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:478)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:401)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind.server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind.server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind.server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind.util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:298)
+	at java.lang.Thread.run(Thread.java:595)
+
+06/10/16 00:01:47.988 jsp2-jsp2-webapp: Servlet error
+java.io.IOException: The Writer is closed
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.EvermindJSPWriter.write(EvermindJSPWriter.java:522)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.EvermindJSPWriter.write(EvermindJSPWriter.java:488)
+	at _ex7._jspService(_ex7.java:130)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.0.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:60)
+	at oracle.jsp.runtimev2.JspPageTable.compileAndServe(JspPageTable.java:662)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:370)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:478)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:401)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+06/10/16 00:02:13.254 jsp2-jsp2-webapp: Servlet error
+java.io.IOException: The Writer is closed
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.EvermindJSPWriter.write(EvermindJSPWriter.java:522)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.EvermindJSPWriter.write(EvermindJSPWriter.java:488)
+	at _ex7._jspService(_ex7.java:129)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.0.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:60)
+	at oracle.jsp.runtimev2.JspPageTable.compileAndServe(JspPageTable.java:662)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:370)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:478)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:401)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+06/10/16 00:02:57.818 jsp2-jsp2-webapp: 10.1.3.0.0 Stopped
+06/10/16 00:03:00.973 10.1.3.0.0 Started
+06/10/16 00:03:16.435 jsp2-jsp2-webapp: 10.1.3.0.0 Started
+06/10/16 06:58:13.986 10.1.3.0.0 Started
+06/10/16 06:58:28.256 jsp2-jsp2-webapp: 10.1.3.0.0 Started
+06/10/16 07:51:24.484 jsp2-jsp2-webapp: 10.1.3.0.0 Stopped
+06/10/16 07:51:30.582 10.1.3.0.0 Started
+06/10/16 07:51:48.518 jsp2-jsp2-webapp: 10.1.3.0.0 Started
