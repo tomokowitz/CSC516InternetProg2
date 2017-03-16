@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'windows-1252'?>
 <orion-application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.oracle.com/technology/oracleas/schema http://xmlns.oracle.com/oracleas/schema/orion-application-10_0.xsd" version="10.0" xmlns="http://www.oracle.com/technology/oracleas/schema">
-    <web-module id="Application3-Project1-webapp" path="file:/C:/Users/john/Desktop/516/jsp1/Project1/public_html/"/>
+    <web-module id="Application3-Project1-webapp" path="file:/C:/Users/tomokowitz/Documents/IT and Software/GitHub/CSC516InternetProg2/jsp1/Project1/public_html/"/>
     <log>
         <file path="Application2-oc4j-app.log" xmlns=""/>
     </log>
