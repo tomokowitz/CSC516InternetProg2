@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application"
+             version="10.1.3.41.57" id="DataBindings" SeparateXMLFiles="false"
+             Package="okowitz6" ClientType="Generic">
+  <pageMap>
+    <page path="/okowitz6.jsp" usageId="okowitz6PageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="okowitz6PageDef" path="okowitz6.pageDefs.okowitz6PageDef"/>
+  </pageDefinitionUsages>
+</Application>
