@@ -6,9 +6,9 @@
 <%! // Declarations ok for the page
   String url = "jdbc:odbc:bakery";
   Connection con;
-  Statement stmt3;
-  PreparedStatement stmt4;
-  String query4 = "select CUSTOMERID from CUSTOMERS;";
+  Statement stmt1;
+  PreparedStatement stmt2;
+  String query1 = "select CUSTOMERID from CUSTOMERS;";
   
   public void setupDB()
   {
@@ -24,8 +24,8 @@
     try
     {
            con = DriverManager.getConnection(url, "", "");
-           stmt3 = con.createStatement();
-           stmt4 = con.prepareStatement(query4);
+           stmt1 = con.createStatement();
+           stmt2 = con.prepareStatement(query1);
     }
     catch(SQLException ex)
     {
@@ -45,14 +45,41 @@
     </style>
   </head>
   <body>
-  <select name="">
-  <option value=1 selected="selected">Human</option>
-            <option value=7>Dog</option>
-            <option value=100>Fruit Fly</option>
+  <%
+    setupDB();
+    try
+    {
+        ResultSet rs1 = stmt2.executeQuery(query1); 
+        
+         %>
+    <% out.println("<select name="customerids">)";
+      
+        while (rs1.next())
+              {
+                string cid = rs.getString("CUSTOMERID");
+                
+                out.println(" <option value='" + cid + "'>");
+                out.println( );
+                out.println("</option>");
+                
+                }
+    
+   
+  
+  
+  %>
+ 
   </select>
   
   
-  
+   <%
+        
+    }
+    catch (Exception e)
+    {
+       e.printStackTrace();     
+    }
+  %>
   
   An error occured:<br/><pre>
     <%
@@ -65,5 +92,7 @@
         out.println(charArrayWriter.toString()); 
       } 
     %>
-    </pre></body>
+    </pre>
+    
+    </body>
 </html>
