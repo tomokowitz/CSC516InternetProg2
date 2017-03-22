@@ -31,7 +31,7 @@
       <string v="oracle.bm.commonIde.data.project.ModelerProjectSettings/modelersContentSet"/>
       <string v="oracle.tip.tools.ide.pm.addin.PMProjectSettings/Integration_Content"/>
    </list>
-   <value n="defaultPackage" v="okowitz6"/>
+   <value n="defaultPackage" v="jsptestproj"/>
    <hash n="oracle.bm.commonIde.data.project.ModelerProjectSettings">
       <hash n="modelersContentSet">
          <list n="url-path">
@@ -53,8 +53,8 @@
       <value n="internalEncoding" v="Cp1252"/>
    </hash>
    <hash n="oracle.jdeveloper.model.J2eeSettings">
-      <value n="j2eeWebAppName" v="okowitz6-okowitz6-webapp"/>
-      <value n="j2eeWebContextRoot" v="okowitz6-okowitz6-context-root"/>
+      <value n="j2eeWebAppName" v="JSPTest-JSPTestProj-webapp"/>
+      <value n="j2eeWebContextRoot" v="JSPTest-JSPTestProj-context-root"/>
       <hash n="webContentSet">
          <list n="url-path">
             <url path="public_html/"/>
@@ -98,34 +98,10 @@
             <value n="id" v="JSP Runtime"/>
             <value n="isJDK" v="false"/>
          </hash>
-         <hash>
-            <value n="id" v="ADF Model Runtime"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="ADF Controller Runtime"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="ADF Common Runtime"/>
-            <value n="isJDK" v="false"/>
-         </hash>
       </list>
       <list n="libraryReferences">
          <hash>
             <value n="id" v="JSP Runtime"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="ADF Model Runtime"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="ADF Controller Runtime"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
-            <value n="id" v="ADF Common Runtime"/>
             <value n="isJDK" v="false"/>
          </hash>
       </list>

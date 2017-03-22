@@ -5,11 +5,9 @@ import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 import oracle.jsp.el.*;
 import javax.servlet.jsp.el.*;
-import java.io.CharArrayWriter;
-import java.io.PrintWriter;
 
 
-public class _okowitz6 extends com.orionserver.http.OrionHttpJspPage {
+public class _JSPTest extends com.orionserver.http.OrionHttpJspPage {
 
 
   // ** Begin Declarations
@@ -34,27 +32,15 @@ public class _okowitz6 extends com.orionserver.http.OrionHttpJspPage {
     int __jsp_tag_starteval;
     ServletContext application = pageContext.getServletContext();
     JspWriter out = pageContext.getOut();
-    _okowitz6 page = this;
+    _JSPTest page = this;
     ServletConfig config = pageContext.getServletConfig();
     javax.servlet.jsp.el.VariableResolver __ojsp_varRes = (VariableResolver)new OracleVariableResolverImpl(pageContext);
-    Throwable exception = (Throwable) request.getAttribute(PageContext.EXCEPTION);
 
     try {
 
 
       out.write(__oracle_jsp_text[0]);
       out.write(__oracle_jsp_text[1]);
-      
-            if (exception != null) 
-            { 
-              out.println(exception.getMessage());
-              CharArrayWriter charArrayWriter = new CharArrayWriter(); 
-              PrintWriter printWriter = new PrintWriter(charArrayWriter, true); 
-              exception.printStackTrace(printWriter); 
-              out.println(charArrayWriter.toString()); 
-            } 
-          
-      out.write(__oracle_jsp_text[2]);
 
     }
     catch (Throwable e) {
@@ -73,15 +59,13 @@ public class _okowitz6 extends com.orionserver.http.OrionHttpJspPage {
     }
 
   }
-  private static final char __oracle_jsp_text[][]=new char[3][];
+  private static final char __oracle_jsp_text[][]=new char[2][];
   static {
     try {
     __oracle_jsp_text[0] = 
     "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n\"http://www.w3.org/TR/html4/loose.dtd\">\n".toCharArray();
     __oracle_jsp_text[1] = 
-    "\n<html>\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\"/>\n    <title>okowitz6</title>\n    <style type=\"text/css\">\n      body {\n      background-color: #ffde73; \n}\n    </style>\n  </head>\n  <body>An error occured:<br/><pre>\n    ".toCharArray();
-    __oracle_jsp_text[2] = 
-    "\n    </pre></body>\n</html>".toCharArray();
+    "\n<html>\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\"/>\n    <title>JSPTest</title>\n  </head>\n  <body> Testing JSP </body>\n</html>".toCharArray();
     }
     catch (Throwable th) {
       System.err.println(th);
