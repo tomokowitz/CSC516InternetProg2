@@ -1,0 +1,4 @@
+"CUSTOMERID","CUSTOMERNAME","CUSTOMEREMAIL"
+1,"Alex","alex@strose.edu"
+2,"Barbara","barbara@strose.edu"
+3,"Carl","carl@strose.edu"
