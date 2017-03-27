@@ -59,6 +59,10 @@
       <value n="j2eeWebAppName" v="jsp2-jsp2-webapp"/>
       <value n="j2eeWebContextRoot" v="jsp2-jsp2-context-root"/>
       <hash n="webContentSet">
+         <list n="pattern-filters">
+            <string v="-IMG_0892.JPG"/>
+            <string v="+**"/>
+         </list>
          <list n="url-path">
             <url path="public_html/"/>
          </list>

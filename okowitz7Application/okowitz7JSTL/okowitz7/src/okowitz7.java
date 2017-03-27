@@ -17,27 +17,27 @@ public class okowitz7 {
         return name;
     }
 
-    public void setCakes_sold(Integer cakes_sold) {
+    public void setCakes_sold(int cakes_sold) {
         this.cakes_sold = cakes_sold;
     }
 
-    public Integer getCakes_sold() {
+    public int getCakes_sold() {
         return cakes_sold;
     }
 
-    public void setDelivery_fee(Number delivery_fee) {
+    public void setDelivery_fee(double delivery_fee) {
         this.delivery_fee = delivery_fee;
     }
 
-    public Number getDelivery_fee() {
+    public double getDelivery_fee() {
         return delivery_fee;
     }
 
-    public void setTotal(Number total) {
+    public void setTotal(double total) {
         this.total = total;
     }
 
-    public Number getTotal() {
+    public double getTotal() {
         return total;
     }
 }
