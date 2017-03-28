@@ -12,5 +12,19 @@
 }
     </style>
   </head>
-  <body></body>
+  <body>
+    <jsp:useBean id="myCakes" class="okowitz7" />
+  
+    <jsp:setProperty name="myCakes" property="name"
+    value='<%= request.getParameter("name") %>'/>
+    
+    <jsp:setProperty name="myCakes" property="cakes_sold"
+    value='<%= request.getParameter("cakesSold") %>' />
+    
+    <jsp:getProperty name="myCakes" property="name" />
+    
+    <jsp:getProperty name="myCakes" property="cakes_sold" />
+    
+    
+  </body>
 </html>
