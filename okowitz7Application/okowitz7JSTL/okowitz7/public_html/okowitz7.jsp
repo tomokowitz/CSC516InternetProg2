@@ -25,6 +25,9 @@
     
     <jsp:getProperty name="myCakes" property="cakes_sold" />
     
+    <jsp:setProperty name="myCakes" property="total"
+    value=
+    
     
   </body>
 </html>

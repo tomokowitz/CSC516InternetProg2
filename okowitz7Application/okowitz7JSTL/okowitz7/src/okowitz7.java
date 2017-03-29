@@ -40,4 +40,9 @@ public class okowitz7 {
     public double getTotal() {
         return total;
     }
+    
+    private double calDelivertyFee(int cakes_sold){
+        
+        return cakes_sold * 2;
+    }
 }
