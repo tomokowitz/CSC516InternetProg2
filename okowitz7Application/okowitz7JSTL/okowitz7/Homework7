@@ -2,7 +2,9 @@ Homework 7
  
 Create a project named <lastname>7.
  
-Write an HTML file named <lastname>7.htm that contains form elements to let someone enter a person's name and the number of cakes that person has ordered.. The action of the HTML file should go to a jsp file named <lastname>7.jsp.
+Write an HTML file named <lastname>7.htm that contains form elements to let 
+someone enter a person's name and the number of cakes that person has ordered..
+The action of the HTML file should go to a jsp file named <lastname>7.jsp.
  
 The jsp will calculate the total and delivery fee for that order for that person.
  
