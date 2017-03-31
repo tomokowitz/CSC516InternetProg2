@@ -11,19 +11,18 @@
    <jsp:useBean id="myCakes" class="okowitz7" >
   <jsp:setProperty name="myCakes" property="*" />
 </jsp:useBean>
-  
-    <jsp:setProperty name="myCakes" property="custName"
-    value='<%= request.getParameter("custName") %>'/>
+    <c:set var="deliver_fee" value="0"/>
     
-    <jsp:setProperty name="myCakes" property="cakes_sold"
-    value='<%= request.getParameter("cakesSold") %>' />
+   
     Customer:
     <c:out value="${myCakes.custName}" />
-    <jsp:getProperty name="myCakes" property="custName" />
+    
   <P> # of cakes sold:
-    <jsp:getProperty name="myCakes" property="cakes_sold" />
+    <c:out value="${myCakes.cakes_sold}" />
+    
   <P> Delivery fee:
-    <jsp:getProperty name="myCakes" property="delivery_fee" />
+    <c:set var="deliver_fee" value="${myCakes.cakes_sold * 2}"/>
+    <c:out value
     <P> _______________________
     <P> Total:
     <jsp:getProperty name="myCakes" property="total"/>
