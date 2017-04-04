@@ -9,10 +9,10 @@
   </head>
   <body>
    <jsp:useBean id="myCakes" class="okowitz7" >
-  <jsp:setProperty name="myCakes" property="*" />
-</jsp:useBean>
+        <jsp:setProperty name="myCakes" property="*" />
+    </jsp:useBean>
     <c:set var="deliver_fee" value="0"/>
-    
+    <c:set var="cakes_price" value="${myCakes.cakes_sold * 12 }" />
    
     Customer:
     <c:out value="${myCakes.custName}" />
@@ -22,9 +22,9 @@
     
   <P> Delivery fee:
     <c:set var="deliver_fee" value="${myCakes.cakes_sold * 2}"/>
-    <c:out value
+    <c:out value ="${deliver_fee}"  />
     <P> _______________________
-    <P> Total:
-    <jsp:getProperty name="myCakes" property="total"/>
+    <P> Total: 
+    $<c:out value="${ cakes_price + deliver_fee  }"/>
   </body>
 </html>
