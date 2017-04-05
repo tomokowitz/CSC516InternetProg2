@@ -1,0 +1,11 @@
+Homework 8
+ 
+Modify Homework 7 in the following way:
+ 
+Have a second jsp named <lastname>8.jsp that will display in a table the data 
+for all people entered in this session using the first jsp. You will want to 
+have another Bean named <lastname>8.java that includes an ArrayList. 
+This bean should include methods that let you add a <lastname>7 object 
+to the ArrayList (setPerson) and return the ArrayList (getAll).
+ 
+You cannot use any java scriptlets in your jsp page. Use only JSTL tags.

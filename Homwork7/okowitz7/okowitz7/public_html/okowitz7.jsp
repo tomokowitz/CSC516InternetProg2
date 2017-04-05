@@ -12,13 +12,22 @@
         <jsp:setProperty name="myCakes" property="*" />
     </jsp:useBean>
     <c:set var="deliver_fee" value="0"/>
+    
     <c:set var="cakes_price" value="${myCakes.cakes_sold * 12 }" />
    
     Customer:
-    <c:out value="${myCakes.custName}" />
+    <c:set var="name" value="${myCakes.custName}" />
+    <c:if test="${ empty myCakes.custName}">
+        <c:set var="name" value="Name parameter is blank." />
+    </c:if>
+    <c:out value="${ name }" />
     
   <P> # of cakes sold:
-    <c:out value="${myCakes.cakes_sold}" />
+    <c:set var="sold" value="${myCakes.cakes_sold}" />
+    <c:if test="${ empty myCakes.cakes_sold}">
+        <c:set var="sold" value="Cakes Sold parameter is blank." />
+    </c:if>
+    <c:out value="${ sold }" />
     
   <P> Delivery fee:
     <c:set var="deliver_fee" value="${myCakes.cakes_sold * 2}"/>
