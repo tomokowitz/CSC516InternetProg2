@@ -1,14 +1,13 @@
 public class okowitz7 {
-    String name;
-    int cakes_sold;
-    double delivery_fee;
-    double total; 
-
 
     public okowitz7() {
     }
 
-
+    String name;
+    int cakes_sold;
+    double delivery_fee;
+    double total; 
+  
     public void setName(String name) {
         this.name = name;
     }
@@ -41,9 +40,16 @@ public class okowitz7 {
         return total;
     }
     
+<<<<<<< HEAD
     public double calcDelivertyFee(int cakes_sold){
         
         return cakes_sold * 2;
         
+=======
+    public double calcDeliveryFee(){
+        
+        return this.cakes_sold * 2;
+>>>>>>> origin/master
     }
+
 }

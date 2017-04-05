@@ -95,6 +95,13 @@
    <hash n="oracle.jdevimpl.config.JProjectLibraries">
       <list n="exportedReferences">
          <hash>
+<<<<<<< HEAD
+            <value n="id" v="ADF Model Runtime"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ADF Model Generic Runtime"/>
+=======
             <value n="id" v="JSP Runtime"/>
             <value n="isJDK" v="false"/>
          </hash>
@@ -104,11 +111,19 @@
          </hash>
          <hash>
             <value n="id" v="JSTL 1.0 Tags"/>
+>>>>>>> origin/master
             <value n="isJDK" v="false"/>
          </hash>
       </list>
       <list n="libraryReferences">
          <hash>
+<<<<<<< HEAD
+            <value n="id" v="ADF Model Runtime"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="ADF Model Generic Runtime"/>
+=======
             <value n="id" v="JSP Runtime"/>
             <value n="isJDK" v="false"/>
          </hash>
@@ -118,6 +133,7 @@
          </hash>
          <hash>
             <value n="id" v="JSTL 1.0 Tags"/>
+>>>>>>> origin/master
             <value n="isJDK" v="false"/>
          </hash>
       </list>
