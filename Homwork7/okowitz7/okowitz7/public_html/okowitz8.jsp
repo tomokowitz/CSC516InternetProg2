@@ -8,7 +8,39 @@
     <title>okowitz8</title>
   </head>
   <body>
-  
-  
+  <jsp:useBean id="myCakes" scope="application" class="okowitz8" >
+        <jsp:setProperty name="myCakes" property="*" />
+    </jsp:useBean>
+  <jsp:useBean id="myCake" scope="request"
+               class="okowitz7">
+    </jsp:useBean>
+    
+    
+    <c:set var="cakeList" value="${myCakes.all}" />
+    <table border="2">
+    <tr>
+      <th>Customer Name</th><th>Cakes Sold</th><th>Total</th><th>Bet</th>
+      <th>Number</th>
+    </tr>
+    <c:forEach begin="0" end="${people.userCount - 1}"
+               var="i">
+      <tr>
+        <td>
+          <c:out value="${cakeList[i].custName}" />
+        </td>
+        <td>
+          <c:out value="${cakeList[i].cakes_sold}" />
+        </td>
+        <td>
+          <c:out value="${cakeList[i].cakes_sold}" />
+        </td>
+        <td>
+          <c:out value="${cakeList[i].total}" />
+        </td>
+        
+      </tr>
+      
+    </c:forEach>
+    </table>
   </body>
 </html>

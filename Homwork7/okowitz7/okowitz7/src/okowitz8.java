@@ -13,7 +13,7 @@ public class okowitz8 {
         this.people = people;
     }
 
-    public ArrayList getPeople() {
+    public ArrayList getAll() {
         return people;
     }
 
