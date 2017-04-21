@@ -3,26 +3,30 @@ import java.util.ArrayList;
 public class okowitz8 {
 
 
-    ArrayList people;
-    okowitz7 person;
+    ArrayList allOrders;
+    okowitz7 order;
+    int orderCount;
     
     public okowitz8() {
     }
 
-    public void setPeople(ArrayList people) {
-        this.people = people;
+    public void setAllOrders(ArrayList allOrders) {
+        this.allOrders = allOrders;
     }
 
     public ArrayList getAll() {
-        return people;
+        return allOrders;
     }
 
-    public void setPerson(okowitz7 person) {
-        this.person = person;
-        this.people.add(person);
+    public void setOrder(okowitz7 order) {
+        this.order = order;
+        this.allOrders.add(order);
     }
 
-    public okowitz7 getPerson() {
-        return person;
+    public okowitz7 getOrder() {
+        return order;
+    }
+    public int getOrderCount() {
+        return allOrders.size();
     }
 }

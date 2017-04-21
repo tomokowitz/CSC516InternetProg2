@@ -8,21 +8,21 @@
     <title>okowitz8</title>
   </head>
   <body>
-  <jsp:useBean id="myCakes" scope="application" class="okowitz8" >
-        <jsp:setProperty name="myCakes" property="*" />
+  <jsp:useBean id="myOrders" scope="application" class="okowitz8" >
+        <jsp:setProperty name="myOrders" property="*" />
     </jsp:useBean>
   <jsp:useBean id="myCake" scope="request"
                class="okowitz7">
     </jsp:useBean>
     
     
-    <c:set var="cakeList" value="${myCakes.all}" />
+    <c:set var="cakeList" value="${myOrders.all}" />
     <table border="2">
     <tr>
       <th>Customer Name</th><th>Cakes Sold</th><th>Total</th><th>Bet</th>
       <th>Number</th>
     </tr>
-    <c:forEach begin="0" end="${people.userCount - 1}"
+    <c:forEach begin="0" end="${myOrders.orderCount - 1}"
                var="i">
       <tr>
         <td>

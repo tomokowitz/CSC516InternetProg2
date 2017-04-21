@@ -11,6 +11,19 @@
    <jsp:useBean id="myCakes" class="okowitz7" >
         <jsp:setProperty name="myCakes" property="*" />
     </jsp:useBean>
+    <jsp:useBean id="myOrders" scope="application" class="okowitz8" >
+        <jsp:setProperty name="myOrders" property="*" />
+    </jsp:useBean>
+    
+    <c:set target="${myCakes}" value="${param.custName}"
+           property="name"/>
+    <c:set target="${myCakes}" value="${param.cakes_sold}"
+           property="cakes_sold"/>
+    <c:set target="${myOrders}" value="${myCakes}"
+           property="order"/>
+    
+    
+    
     <c:set var="deliver_fee" value="0"/>
     
     <c:set var="cakes_price" value="${myCakes.cakes_sold * 12 }" />
