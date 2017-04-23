@@ -9,6 +9,8 @@
   </head>
   <body>
    <jsp:useBean id="myCakes" class="okowitz7" >
+        
+        
         <jsp:setProperty name="myCakes" property="*" />
     </jsp:useBean>
     <jsp:useBean id="myOrders" scope="application" class="okowitz8" >
@@ -16,10 +18,10 @@
     </jsp:useBean>
     
     <c:set target="${myCakes}" value="${param.custName}"
-           property="name"/>
+           property="custName"/>
     <c:set target="${myCakes}" value="${param.cakes_sold}"
            property="cakes_sold"/>
-    <c:set target="${myOrders}" value="${myCakes}"
+    <c:set target="${myOrders}" value="${myCakes}" // bug here tvo 23 apr 2017
            property="order"/>
     
     
@@ -27,13 +29,7 @@
     <c:set var="deliver_fee" value="0"/>
     
     <c:set var="cakes_price" value="${myCakes.cakes_sold * 12 }" />
-   
-    Customer:
-    <c:set var="name" value="${myCakes.custName}" />
-    <c:if test="${ empty myCakes.custName}">
-        <c:set var="name" value="Name parameter is blank." />
-    </c:if>
-    <c:out value="${ name }" />
+
     
   <P> # of cakes sold:
     <c:set var="sold" value="${myCakes.cakes_sold}" />

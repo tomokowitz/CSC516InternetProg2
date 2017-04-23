@@ -19,8 +19,7 @@
     <c:set var="cakeList" value="${myOrders.all}" />
     <table border="2">
     <tr>
-      <th>Customer Name</th><th>Cakes Sold</th><th>Total</th><th>Bet</th>
-      <th>Number</th>
+      <th>Customer Name</th><th>Cakes Sold</th><th>Total</th><th>Number</th>
     </tr>
     <c:forEach begin="0" end="${myOrders.orderCount - 1}"
                var="i">
@@ -32,7 +31,7 @@
           <c:out value="${cakeList[i].cakes_sold}" />
         </td>
         <td>
-          <c:out value="${cakeList[i].cakes_sold}" />
+          <c:out value="${cakeList[i].deliver_fee}" />
         </td>
         <td>
           <c:out value="${cakeList[i].total}" />

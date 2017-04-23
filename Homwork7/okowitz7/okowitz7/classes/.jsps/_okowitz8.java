@@ -44,13 +44,13 @@ public class _okowitz8 extends com.orionserver.http.OrionHttpJspPage {
       out.write(__oracle_jsp_text[0]);
       out.write(__oracle_jsp_text[1]);
       out.write(__oracle_jsp_text[2]);
-      okowitz8 myCakes;
+      okowitz8 myOrders;
       synchronized (application) {
-        if ((myCakes = (okowitz8) pageContext.getAttribute( "myCakes", PageContext.APPLICATION_SCOPE)) == null) {
-          myCakes = (okowitz8) new okowitz8();
-          pageContext.setAttribute( "myCakes", myCakes, PageContext.APPLICATION_SCOPE);
+        if ((myOrders = (okowitz8) pageContext.getAttribute( "myOrders", PageContext.APPLICATION_SCOPE)) == null) {
+          myOrders = (okowitz8) new okowitz8();
+          pageContext.setAttribute( "myOrders", myOrders, PageContext.APPLICATION_SCOPE);
           out.write(__oracle_jsp_text[3]);
-          OracleJspRuntime.__jspSetAllParams(request, (Object)myCakes, true);
+          OracleJspRuntime.__jspSetAllParams(request, (Object)myOrders, true);
           out.write(__oracle_jsp_text[4]);
         }
       }
@@ -68,7 +68,7 @@ public class _okowitz8 extends com.orionserver.http.OrionHttpJspPage {
         org.apache.taglibs.standard.tag.rt.core.SetTag __jsp_taghandler_1=(org.apache.taglibs.standard.tag.rt.core.SetTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.core.SetTag.class,"org.apache.taglibs.standard.tag.rt.core.SetTag var value");
         __jsp_taghandler_1.setParent(null);
         __jsp_taghandler_1.setVar("cakeList");
-        __jsp_taghandler_1.setValue((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${myCakes.all}",java.lang.Object.class, __ojsp_varRes,null));
+        __jsp_taghandler_1.setValue((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${myOrders.all}",java.lang.Object.class, __ojsp_varRes,null));
         __jsp_tag_starteval=__jsp_taghandler_1.doStartTag();
         if (__jsp_taghandler_1.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
           return;
@@ -79,7 +79,7 @@ public class _okowitz8 extends com.orionserver.http.OrionHttpJspPage {
         org.apache.taglibs.standard.tag.rt.core.ForEachTag __jsp_taghandler_2=(org.apache.taglibs.standard.tag.rt.core.ForEachTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.core.ForEachTag.class,"org.apache.taglibs.standard.tag.rt.core.ForEachTag begin end var");
         __jsp_taghandler_2.setParent(null);
         __jsp_taghandler_2.setBegin(0);
-        __jsp_taghandler_2.setEnd(OracleJspRuntime.toInt( (java.lang.Integer)oracle.jsp.runtime.OracleJspRuntime.evaluate("${myCakes.userCount - 1}",java.lang.Integer.class, __ojsp_varRes,null)));
+        __jsp_taghandler_2.setEnd(OracleJspRuntime.toInt( (java.lang.Integer)oracle.jsp.runtime.OracleJspRuntime.evaluate("${myOrders.orderCount - 1}",java.lang.Integer.class, __ojsp_varRes,null)));
         __jsp_taghandler_2.setVar("i");
         try {
           __jsp_tag_starteval=__jsp_taghandler_2.doStartTag();
@@ -110,7 +110,7 @@ public class _okowitz8 extends com.orionserver.http.OrionHttpJspPage {
               {
                 org.apache.taglibs.standard.tag.rt.core.OutTag __jsp_taghandler_5=(org.apache.taglibs.standard.tag.rt.core.OutTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.core.OutTag.class,"org.apache.taglibs.standard.tag.rt.core.OutTag value");
                 __jsp_taghandler_5.setParent(__jsp_taghandler_2);
-                __jsp_taghandler_5.setValue((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${cakeList[i].cakes_sold}",java.lang.Object.class, __ojsp_varRes,null));
+                __jsp_taghandler_5.setValue((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${cakeList[i].deliver_fee}",java.lang.Object.class, __ojsp_varRes,null));
                 __jsp_tag_starteval=__jsp_taghandler_5.doStartTag();
                 if (__jsp_taghandler_5.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
                   return;
@@ -177,7 +177,7 @@ public class _okowitz8 extends com.orionserver.http.OrionHttpJspPage {
     __oracle_jsp_text[7] = 
     "\n    \n    \n    ".toCharArray();
     __oracle_jsp_text[8] = 
-    "\n    <table border=\"2\">\n    <tr>\n      <th>Customer Name</th><th>Cakes Sold</th><th>Total</th><th>Bet</th>\n      <th>Number</th>\n    </tr>\n    ".toCharArray();
+    "\n    <table border=\"2\">\n    <tr>\n      <th>Customer Name</th><th>Cakes Sold</th><th>Total</th><th>Number</th>\n    </tr>\n    ".toCharArray();
     __oracle_jsp_text[9] = 
     "\n      <tr>\n        <td>\n          ".toCharArray();
     __oracle_jsp_text[10] = 

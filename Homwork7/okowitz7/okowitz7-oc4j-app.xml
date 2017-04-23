@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'windows-1252'?>
 <orion-application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xmlns.oracle.com/oracleas/schema/orion-application-10_0.xsd">
-    <web-module id="okowitz7-okowitz7-webapp" path="file:/D:/Users/okowitz/Documents/GitHub/CSC516InternetProg2/Homwork7/okowitz7/okowitz7/public_html/"/>
+    <web-module id="okowitz7-okowitz7-webapp" path="file:/C:/Users/tomokowitz/Documents/IT and Software/GitHub/CSC516InternetProg2/Homwork7/okowitz7/okowitz7/public_html/"/>
     <log>
         <file path="okowitz7-oc4j-app.log"/>
     </log>
