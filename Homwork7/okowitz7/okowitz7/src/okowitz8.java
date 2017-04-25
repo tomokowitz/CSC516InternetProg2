@@ -27,17 +27,9 @@ public class okowitz8 {
      * @param order
      */
     public void setOrder(okowitz7 order) {
-<<<<<<< HEAD
-    try
-    {
-        this.order = order;
-=======
-        
->>>>>>> origin/master
+
         this.allOrders.add(order);
-    }catch (Exception e)
-    {
-    }
+    
     }
 
    

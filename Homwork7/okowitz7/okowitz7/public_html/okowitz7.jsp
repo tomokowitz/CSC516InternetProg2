@@ -12,22 +12,6 @@
     </jsp:useBean>
    <jsp:useBean id="order" scope="request" class="okowitz7"  >
     </jsp:useBean>
-<<<<<<< HEAD
-    
-    <c:set target="${myCakes}" value="${param.custName}"
-           property="custName"/>
-    <c:set target="${myCakes}" value="${param.cakes_sold}"
-           property="cakes_sold"/>
-    <c:set target="${myOrders}" value="${myCakes}" 
-           property="order"/>
-    
-    
-    
-    <c:set var="deliver_fee" value="0"/>
-    
-    <c:set var="cakes_price" value="${myCakes.cakes_sold * 12 }" />
-=======
->>>>>>> origin/master
 
     <c:set target="${order}" value="${param.custname}"
            property="custname"/>
