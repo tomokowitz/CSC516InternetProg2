@@ -3,9 +3,8 @@ import java.util.ArrayList;
 public class okowitz8 {
 
 
-    ArrayList allOrders;
-    okowitz7 order;
-    int orderCount;
+    ArrayList allOrders = new ArrayList();
+
     
     public okowitz8() {
     }
@@ -28,18 +27,20 @@ public class okowitz8 {
      * @param order
      */
     public void setOrder(okowitz7 order) {
+<<<<<<< HEAD
     try
     {
         this.order = order;
+=======
+        
+>>>>>>> origin/master
         this.allOrders.add(order);
     }catch (Exception e)
     {
     }
     }
 
-    public okowitz7 getOrder() {
-        return order;
-    }
+   
     public int getOrderCount() {
         return allOrders.size();
     }
