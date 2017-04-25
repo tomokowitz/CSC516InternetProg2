@@ -1,28 +1,32 @@
 public class okowitz7 {
 
-    String custName;
-    int cakes_sold;
-//    double delivery_fee;
+    String custname;
+    int cakessold;
+
     double total; 
 
     public okowitz7() {
     }
 
 
-    public void setCustName(String custName) {
-        this.custName = custName;
+    public void setCustname(String arg) 
+    {
+        custname = arg;
     }
 
-    public String getCustName() {
-        return custName;
+    public String getCustname() 
+    {
+        return custname;
     }
 
-    public void setCakes_sold(int cakes_sold) {
-        this.cakes_sold = cakes_sold;
+    public void setCakessold(int arg) 
+    {
+        cakessold = arg;
     }
 
-    public int getCakes_sold() {
-        return cakes_sold;
+    public int getCakessold() 
+    {
+        return cakessold;
     }
 
 //    public void setDelivery_fee(double delivery_fee) {
@@ -30,14 +34,14 @@ public class okowitz7 {
 //    }
 
     public double getDelivery_fee() {
-        return this.cakes_sold * 2;
+        return this.cakessold * 2;
     }
 
-    public void setTotal(double total) {
-        this.total = total;
+    public void setTotal(double arg) {
+        this.total = arg;
     }
 
     public double getTotal() {
-        return this.cakes_sold * 14 ;
+        return this.cakessold * 14 ;
     }
 }
