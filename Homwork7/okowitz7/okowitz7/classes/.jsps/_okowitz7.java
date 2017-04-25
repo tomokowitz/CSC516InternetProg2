@@ -124,85 +124,6 @@ public class _okowitz7 extends com.orionserver.http.OrionHttpJspPage {
         OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_5,1);
       }
       out.write(__oracle_jsp_text[13]);
-      {
-        org.apache.taglibs.standard.tag.rt.core.SetTag __jsp_taghandler_6=(org.apache.taglibs.standard.tag.rt.core.SetTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.core.SetTag.class,"org.apache.taglibs.standard.tag.rt.core.SetTag var value");
-        __jsp_taghandler_6.setParent(null);
-        __jsp_taghandler_6.setVar("sold");
-        __jsp_taghandler_6.setValue((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${myCakes.cakes_sold}",java.lang.Object.class, __ojsp_varRes,null));
-        __jsp_tag_starteval=__jsp_taghandler_6.doStartTag();
-        if (__jsp_taghandler_6.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
-          return;
-        OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_6,1);
-      }
-      out.write(__oracle_jsp_text[14]);
-      {
-        org.apache.taglibs.standard.tag.rt.core.IfTag __jsp_taghandler_7=(org.apache.taglibs.standard.tag.rt.core.IfTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.core.IfTag.class,"org.apache.taglibs.standard.tag.rt.core.IfTag test");
-        __jsp_taghandler_7.setParent(null);
-        __jsp_taghandler_7.setTest(OracleJspRuntime.toBoolean( (java.lang.Boolean)oracle.jsp.runtime.OracleJspRuntime.evaluate("${ empty myCakes.cakes_sold}",java.lang.Boolean.class, __ojsp_varRes,null)));
-        __jsp_tag_starteval=__jsp_taghandler_7.doStartTag();
-        if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
-        {
-          do {
-            out.write(__oracle_jsp_text[15]);
-            {
-              org.apache.taglibs.standard.tag.rt.core.SetTag __jsp_taghandler_8=(org.apache.taglibs.standard.tag.rt.core.SetTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.core.SetTag.class,"org.apache.taglibs.standard.tag.rt.core.SetTag var value");
-              __jsp_taghandler_8.setParent(__jsp_taghandler_7);
-              __jsp_taghandler_8.setVar("sold");
-              __jsp_taghandler_8.setValue("Cakes Sold parameter is blank.");
-              __jsp_tag_starteval=__jsp_taghandler_8.doStartTag();
-              if (__jsp_taghandler_8.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
-                return;
-              OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_8,2);
-            }
-            out.write(__oracle_jsp_text[16]);
-          } while (__jsp_taghandler_7.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
-        }
-        if (__jsp_taghandler_7.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
-          return;
-        OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_7,1);
-      }
-      out.write(__oracle_jsp_text[17]);
-      {
-        org.apache.taglibs.standard.tag.rt.core.OutTag __jsp_taghandler_9=(org.apache.taglibs.standard.tag.rt.core.OutTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.core.OutTag.class,"org.apache.taglibs.standard.tag.rt.core.OutTag value");
-        __jsp_taghandler_9.setParent(null);
-        __jsp_taghandler_9.setValue((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${ sold }",java.lang.Object.class, __ojsp_varRes,null));
-        __jsp_tag_starteval=__jsp_taghandler_9.doStartTag();
-        if (__jsp_taghandler_9.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
-          return;
-        OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_9,1);
-      }
-      out.write(__oracle_jsp_text[18]);
-      {
-        org.apache.taglibs.standard.tag.rt.core.SetTag __jsp_taghandler_10=(org.apache.taglibs.standard.tag.rt.core.SetTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.core.SetTag.class,"org.apache.taglibs.standard.tag.rt.core.SetTag var value");
-        __jsp_taghandler_10.setParent(null);
-        __jsp_taghandler_10.setVar("deliver_fee");
-        __jsp_taghandler_10.setValue((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${myCakes.cakes_sold * 2}",java.lang.Object.class, __ojsp_varRes,null));
-        __jsp_tag_starteval=__jsp_taghandler_10.doStartTag();
-        if (__jsp_taghandler_10.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
-          return;
-        OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_10,1);
-      }
-      out.write(__oracle_jsp_text[19]);
-      {
-        org.apache.taglibs.standard.tag.rt.core.OutTag __jsp_taghandler_11=(org.apache.taglibs.standard.tag.rt.core.OutTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.core.OutTag.class,"org.apache.taglibs.standard.tag.rt.core.OutTag value");
-        __jsp_taghandler_11.setParent(null);
-        __jsp_taghandler_11.setValue((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${deliver_fee}",java.lang.Object.class, __ojsp_varRes,null));
-        __jsp_tag_starteval=__jsp_taghandler_11.doStartTag();
-        if (__jsp_taghandler_11.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
-          return;
-        OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_11,1);
-      }
-      out.write(__oracle_jsp_text[20]);
-      {
-        org.apache.taglibs.standard.tag.rt.core.OutTag __jsp_taghandler_12=(org.apache.taglibs.standard.tag.rt.core.OutTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.core.OutTag.class,"org.apache.taglibs.standard.tag.rt.core.OutTag value");
-        __jsp_taghandler_12.setParent(null);
-        __jsp_taghandler_12.setValue((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${ cakes_price + deliver_fee  }",java.lang.Object.class, __ojsp_varRes,null));
-        __jsp_tag_starteval=__jsp_taghandler_12.doStartTag();
-        if (__jsp_taghandler_12.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
-          return;
-        OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_12,1);
-      }
-      out.write(__oracle_jsp_text[21]);
 
     }
     catch (Throwable e) {
@@ -221,7 +142,7 @@ public class _okowitz7 extends com.orionserver.http.OrionHttpJspPage {
     }
 
   }
-  private static final char __oracle_jsp_text[][]=new char[22][];
+  private static final char __oracle_jsp_text[][]=new char[14][];
   static {
     try {
     __oracle_jsp_text[0] = 
@@ -251,23 +172,7 @@ public class _okowitz7 extends com.orionserver.http.OrionHttpJspPage {
     __oracle_jsp_text[12] = 
     "\n    \n    ".toCharArray();
     __oracle_jsp_text[13] = 
-    "\n\n    \n  <P> # of cakes sold:\n    ".toCharArray();
-    __oracle_jsp_text[14] = 
-    "\n    ".toCharArray();
-    __oracle_jsp_text[15] = 
-    "\n        ".toCharArray();
-    __oracle_jsp_text[16] = 
-    "\n    ".toCharArray();
-    __oracle_jsp_text[17] = 
-    "\n    ".toCharArray();
-    __oracle_jsp_text[18] = 
-    "\n    \n  <P> Delivery fee:\n    ".toCharArray();
-    __oracle_jsp_text[19] = 
-    "\n    ".toCharArray();
-    __oracle_jsp_text[20] = 
-    "\n    <P> _______________________\n    <P> Total: \n    $".toCharArray();
-    __oracle_jsp_text[21] = 
-    "\n  </body>\n</html>".toCharArray();
+    "\n\n    \n \n  </body>\n</html>".toCharArray();
     }
     catch (Throwable th) {
       System.err.println(th);

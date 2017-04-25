@@ -9,7 +9,13 @@ public class okowitz7 {
     double total; 
   
     public void setCustName(String custName) {
+    try
+    {
         this.custName = custName;
+    }
+        catch (Exception e)
+            {
+            }
     }
 
     public String getCustName() {
@@ -17,7 +23,13 @@ public class okowitz7 {
     }
 
     public void setCakes_sold(int cakes_sold) {
+    try
+    {
         this.cakes_sold = cakes_sold;
+    }
+        catch (Exception e)
+            {
+            }
     }
 
     public int getCakes_sold() {

@@ -21,7 +21,7 @@
            property="custName"/>
     <c:set target="${myCakes}" value="${param.cakes_sold}"
            property="cakes_sold"/>
-    <c:set target="${myOrders}" value="${myCakes}" // bug here tvo 23 apr 2017
+    <c:set target="${myOrders}" value="${myCakes}" 
            property="order"/>
     
     
