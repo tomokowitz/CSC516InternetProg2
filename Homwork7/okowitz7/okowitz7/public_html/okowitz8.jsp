@@ -25,13 +25,13 @@
                var="i">
       <tr>
         <td>
-          <c:out value="${cakeList[i].custName}" />
+          <c:out value="${cakeList[i].custname}" />
         </td>
         <td>
-          <c:out value="${cakeList[i].cakes_sold}" />
+          <c:out value="${cakeList[i].cakessold}" />
         </td>
         <td>
-          <c:out value="${cakeList[i].deliver_fee}" />
+          <c:out value="${cakeList[i].del_fee}" />
         </td>
         <td>
           <c:out value="${cakeList[i].total}" />

@@ -119,9 +119,6 @@ public class _okowitz7 extends com.orionserver.http.OrionHttpJspPage {
           return;
         OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_5,1);
       }
-<<<<<<< HEAD
-      out.write(__oracle_jsp_text[13]);
-=======
       out.write(__oracle_jsp_text[11]);
       {
         org.apache.taglibs.standard.tag.rt.core.SetTag __jsp_taghandler_6=(org.apache.taglibs.standard.tag.rt.core.SetTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.core.SetTag.class,"org.apache.taglibs.standard.tag.rt.core.SetTag var value");
@@ -202,7 +199,6 @@ public class _okowitz7 extends com.orionserver.http.OrionHttpJspPage {
         OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_12,1);
       }
       out.write(__oracle_jsp_text[19]);
->>>>>>> origin/master
 
     }
     catch (Throwable e) {
@@ -221,11 +217,7 @@ public class _okowitz7 extends com.orionserver.http.OrionHttpJspPage {
     }
 
   }
-<<<<<<< HEAD
-  private static final char __oracle_jsp_text[][]=new char[14][];
-=======
   private static final char __oracle_jsp_text[][]=new char[20][];
->>>>>>> origin/master
   static {
     try {
     __oracle_jsp_text[0] = 
@@ -255,9 +247,6 @@ public class _okowitz7 extends com.orionserver.http.OrionHttpJspPage {
     __oracle_jsp_text[12] = 
     "\n    ".toCharArray();
     __oracle_jsp_text[13] = 
-<<<<<<< HEAD
-    "\n\n    \n \n  </body>\n</html>".toCharArray();
-=======
     "\n        ".toCharArray();
     __oracle_jsp_text[14] = 
     "\n    ".toCharArray();
@@ -271,7 +260,6 @@ public class _okowitz7 extends com.orionserver.http.OrionHttpJspPage {
     "\n    <P> _______________________\n    <P> Total: \n    $".toCharArray();
     __oracle_jsp_text[19] = 
     "\n  </body>\n</html>".toCharArray();
->>>>>>> origin/master
     }
     catch (Throwable th) {
       System.err.println(th);
