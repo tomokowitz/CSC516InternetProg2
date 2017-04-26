@@ -10,14 +10,10 @@ public class okowitz8 {
     }
 
     public void setAllOrders(ArrayList allOrders) {
-    try
-    {
+    
         this.allOrders = allOrders;
     }
-        catch (Exception e)
-            {
-            }
-    }
+        
 
     public ArrayList getAll() {
         return allOrders;
@@ -29,7 +25,6 @@ public class okowitz8 {
     public void setOrder(okowitz7 order) {
 
         this.allOrders.add(order);
-    
     }
 
    

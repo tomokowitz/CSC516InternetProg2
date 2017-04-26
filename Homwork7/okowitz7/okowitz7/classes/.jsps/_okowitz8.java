@@ -90,7 +90,7 @@ public class _okowitz8 extends com.orionserver.http.OrionHttpJspPage {
               {
                 org.apache.taglibs.standard.tag.rt.core.OutTag __jsp_taghandler_3=(org.apache.taglibs.standard.tag.rt.core.OutTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.core.OutTag.class,"org.apache.taglibs.standard.tag.rt.core.OutTag value");
                 __jsp_taghandler_3.setParent(__jsp_taghandler_2);
-                __jsp_taghandler_3.setValue((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${cakeList[i].custName}",java.lang.Object.class, __ojsp_varRes,null));
+                __jsp_taghandler_3.setValue((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${cakeList[i].custname}",java.lang.Object.class, __ojsp_varRes,null));
                 __jsp_tag_starteval=__jsp_taghandler_3.doStartTag();
                 if (__jsp_taghandler_3.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
                   return;
@@ -100,7 +100,7 @@ public class _okowitz8 extends com.orionserver.http.OrionHttpJspPage {
               {
                 org.apache.taglibs.standard.tag.rt.core.OutTag __jsp_taghandler_4=(org.apache.taglibs.standard.tag.rt.core.OutTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.core.OutTag.class,"org.apache.taglibs.standard.tag.rt.core.OutTag value");
                 __jsp_taghandler_4.setParent(__jsp_taghandler_2);
-                __jsp_taghandler_4.setValue((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${cakeList[i].cakes_sold}",java.lang.Object.class, __ojsp_varRes,null));
+                __jsp_taghandler_4.setValue((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${cakeList[i].cakessold}",java.lang.Object.class, __ojsp_varRes,null));
                 __jsp_tag_starteval=__jsp_taghandler_4.doStartTag();
                 if (__jsp_taghandler_4.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
                   return;
@@ -110,7 +110,7 @@ public class _okowitz8 extends com.orionserver.http.OrionHttpJspPage {
               {
                 org.apache.taglibs.standard.tag.rt.core.OutTag __jsp_taghandler_5=(org.apache.taglibs.standard.tag.rt.core.OutTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.core.OutTag.class,"org.apache.taglibs.standard.tag.rt.core.OutTag value");
                 __jsp_taghandler_5.setParent(__jsp_taghandler_2);
-                __jsp_taghandler_5.setValue((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${cakeList[i].deliver_fee}",java.lang.Object.class, __ojsp_varRes,null));
+                __jsp_taghandler_5.setValue((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${cakeList[i].del_fee}",java.lang.Object.class, __ojsp_varRes,null));
                 __jsp_tag_starteval=__jsp_taghandler_5.doStartTag();
                 if (__jsp_taghandler_5.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
                   return;
