@@ -139,6 +139,9 @@
             <url path="database/"/>
          </list>
       </hash>
+      <hash n="offlineDBDataTypesSet">
+         <value n="sourceKey" v="oracle.javatools.db.JdbcDatabase"/>
+      </hash>
    </hash>
    <hash n="oracle.jdeveloper.runner.RunConfigurations">
       <hash n="runConfigurationDefinitions">

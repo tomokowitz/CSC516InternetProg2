@@ -1,10 +1,6 @@
 package okowitz3;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 
 public class okowitz3 {
@@ -34,6 +30,12 @@ public class okowitz3 {
 
      try
      {
+         Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+     }
+         catch (ClassNotFoundException e) {
+                      System.err.print("ClassNotFoundException: ");
+                            System.err.println(e.getMessage());
+                 }
       // Attempt to establish a connection to the given database
       // URL. The Driver Manager attempts to select an appropriate
       // driver from the set of registered
@@ -41,9 +43,12 @@ public class okowitz3 {
       // Genral form is:
       // DriverManager.getConnection(url, "myLogin", "myPassword");
       //con = DriverManager.getConnection(url, "", "");
-      con =   DriverManager.getConnection(
-                 "jdbc:ucanaccess://C:/Users/Tom Okowitz/Documents/IT and Software/jdbc/bakery.accdb");
+      //con =   DriverManager.getConnection(
+      //           "jdbc:ucanaccess://D:/Users/okowitz/Documents/GitHub/CSC516/jdbc/bakery/bakery.mdb");
+      
       // Returns a new Statement object for this Connection
+      try
+      {
       stmt = con.createStatement();
     
       // Returns a ResultSet that contains the data produced by the
@@ -77,8 +82,8 @@ public class okowitz3 {
      catch(SQLException ex)
      {
       System.err.println("SQLException: " + ex.getMessage());
-     }
-    }
+     } 
+    
     }
 
-
+}

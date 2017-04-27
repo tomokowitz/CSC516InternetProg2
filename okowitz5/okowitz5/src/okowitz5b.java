@@ -60,8 +60,18 @@ public class okowitz5b extends HttpServlet {
         double CAKEPRICE;
         CAKEPRICE = Double.parseDouble(request.getParameter( "CAKEPRICE" ));
 
-        try {
-            con =   DriverManager.getConnection("jdbc:ucanaccess://C:/Users/Tom Okowitz/Documents/IT and Software/jdbc/bakery.accdb");
+        try
+        {
+            Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+        }
+        catch (ClassNotFoundException e) 
+        {
+                     System.err.print("ClassNotFoundException: ");
+                           System.err.println(e.getMessage());
+         }
+        try 
+        {
+            //con =   DriverManager.getConnection("jdbc:ucanaccess://C:/Users/Tom Okowitz/Documents/IT and Software/jdbc/bakery.accdb");
             stmt = con.createStatement();
             
             stmt.executeUpdate("insert into CAKES values(" +
