@@ -20,7 +20,7 @@
     <c:set target="${myOrders}" value="${order}" 
            property="order"/>  
     
-    <c:set var="del_fee" value="0"/>
+    <c:set var="delfee" value="0"/>
     <c:set var="cakes_price" value="${order.cakessold * 12 }" />
     
   <P> # of cakes sold:
@@ -31,10 +31,10 @@
     <c:out value="${ sold }" />
     
   <P> Delivery fee:
-    <c:set var="del_fee" value="${order.cakessold * 2}"/>
-    <c:out value ="${del_fee}"  />
+    <c:set var="delfee" value="${order.delfee}"/>
+    <c:out value ="${delfee}"  />
     <P> _______________________
     <P> Total: 
-    $<c:out value="${ cakes_price + del_fee  }"/>
+    $<c:out value="${ cakes_price + delfee  }"/>
   </body>
 </html>

@@ -31,7 +31,7 @@
           <c:out value="${cakeList[i].cakessold}" />
         </td>
         <td>
-          <c:out value="${cakeList[i].del_fee}" />
+          <c:out value="${cakeList[i].delfee}" />
         </td>
         <td>
           <c:out value="${cakeList[i].total}" />

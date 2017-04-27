@@ -2,7 +2,7 @@ public class okowitz7 {
 
     String custname;
     int cakessold;
-
+    double delfee;
     double total; 
 
     public okowitz7() {
@@ -33,10 +33,13 @@ public class okowitz7 {
 //        this.delivery_fee = delivery_fee;
 //    }
 
-    public double getDelivery_fee() {
+    public double getDelfee() {
         return this.cakessold * 2;
     }
 
+    public void setDelfee(double arg){
+        this.delfee = arg;
+    }
     public void setTotal(double arg) {
         this.total = arg;
     }
