@@ -1,0 +1,16 @@
+Homework 9
+ 
+This is a repeat of homework 6. Just make sure that you use JSTL instead of Java scriptlets.
+ 
+Create a project named <lastname>9
+ 
+Write an JSP file named <lastname>9a.jsp that populates the options of 
+a select with all CUSTOMERID values.
+ 
+The SQL statement to get this without duplicates is
+ 
+SELECT DISTINCT CUSTOMERID FROM CUSTOMERS
+ 
+The action of the form that contains the select is to go to another JSP 
+named <lastname>9b.jsp that will print (in a table) the ORDERID, DATE, and 
+LOCATION for each ORDER record with that CUSTOMERID.
