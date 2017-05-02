@@ -12,5 +12,14 @@
 }
     </style>
   </head>
-  <body></body>
+  <body>
+  
+  <%-- set data source; other attributes are password and user  --%>
+    <sql:setDataSource driver="sun.jdbc.odbc.JdbcOdbcDriver"
+                       url="jdbc:odbc:bakery"    />
+  
+  
+  
+  
+  </body>
 </html>
