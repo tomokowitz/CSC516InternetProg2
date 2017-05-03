@@ -1,0 +1,12 @@
+Homework 10
+ 
+Use JSTL to do the following. Both problems will use the file hw10.xml
+ 
+Create a project named <lastname>10
+Write a JSP file named <lastname>10a.jsp that will display, in a table, all 
+information about customers.
+
+Write an HTML file named <lastname>10b.htm that will ask the user to enter the 
+last name of a customer into a text field. The action of the form will be to
+go to a JSP file named <lastname>10b.jsp that will print, in a table, 
+all information about customers with that last name.
