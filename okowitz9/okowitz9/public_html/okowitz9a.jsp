@@ -25,6 +25,5 @@
      var="results" />
   <input type = submit value="Submit">
          </form>
->>>>>>> origin/master
   </body>
 </html>
