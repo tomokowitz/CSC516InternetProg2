@@ -3,8 +3,6 @@ import oracle.jsp.runtime.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
-import oracle.jsp.el.*;
-import javax.servlet.jsp.el.*;
 
 
 public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
@@ -17,7 +15,7 @@ public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
 
   public void _jspService(HttpServletRequest request, HttpServletResponse response) throws java.io.IOException, ServletException {
 
-    response.setContentType( "text/html");
+    response.setContentType( "text/html;charset=windows-1252");
     /* set up the intrinsic variables using the pageContext goober:
     ** session = HttpSession
     ** application = ServletContext
@@ -34,15 +32,15 @@ public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
     JspWriter out = pageContext.getOut();
     _okowitz10 page = this;
     ServletConfig config = pageContext.getServletConfig();
-    javax.servlet.jsp.el.VariableResolver __ojsp_varRes = (VariableResolver)new OracleVariableResolverImpl(pageContext);
 
     try {
 
 
       out.write(__oracle_jsp_text[0]);
       out.write(__oracle_jsp_text[1]);
+      out.write(__oracle_jsp_text[2]);
       {
-        org.apache.taglibs.standard.tag.rt.core.ImportTag __jsp_taghandler_1=(org.apache.taglibs.standard.tag.rt.core.ImportTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.core.ImportTag.class,"org.apache.taglibs.standard.tag.rt.core.ImportTag url var");
+        org.apache.taglibs.standard.tag.el.core.ImportTag __jsp_taghandler_1=(org.apache.taglibs.standard.tag.el.core.ImportTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.el.core.ImportTag.class,"org.apache.taglibs.standard.tag.el.core.ImportTag url var");
         __jsp_taghandler_1.setParent(null);
         __jsp_taghandler_1.setUrl("hw10.xml");
         __jsp_taghandler_1.setVar("xmlFile");
@@ -57,18 +55,18 @@ public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
         }
         OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_1,1);
       }
-      out.write(__oracle_jsp_text[2]);
+      out.write(__oracle_jsp_text[3]);
       {
-        org.apache.taglibs.standard.tag.rt.xml.ParseTag __jsp_taghandler_2=(org.apache.taglibs.standard.tag.rt.xml.ParseTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.xml.ParseTag.class,"org.apache.taglibs.standard.tag.rt.xml.ParseTag var xml");
+        org.apache.taglibs.standard.tag.el.xml.ParseTag __jsp_taghandler_2=(org.apache.taglibs.standard.tag.el.xml.ParseTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.el.xml.ParseTag.class,"org.apache.taglibs.standard.tag.el.xml.ParseTag var xml");
         __jsp_taghandler_2.setParent(null);
         __jsp_taghandler_2.setVar("myDoc");
-        __jsp_taghandler_2.setXml((java.lang.Object)oracle.jsp.runtime.OracleJspRuntime.evaluate("${xmlFile}",java.lang.Object.class, __ojsp_varRes,null));
+        __jsp_taghandler_2.setXml("${xmlFile}");
         __jsp_tag_starteval=__jsp_taghandler_2.doStartTag();
         if (__jsp_taghandler_2.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
           return;
         OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_2,1);
       }
-      out.write(__oracle_jsp_text[3]);
+      out.write(__oracle_jsp_text[4]);
       {
         org.apache.taglibs.standard.tag.common.xml.ForEachTag __jsp_taghandler_3=(org.apache.taglibs.standard.tag.common.xml.ForEachTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.common.xml.ForEachTag.class,"org.apache.taglibs.standard.tag.common.xml.ForEachTag var select");
         __jsp_taghandler_3.setParent(null);
@@ -79,9 +77,9 @@ public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
           if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
           {
             do {
-              out.write(__oracle_jsp_text[4]);
+              out.write(__oracle_jsp_text[5]);
               {
-                org.apache.taglibs.standard.tag.rt.xml.ExprTag __jsp_taghandler_4=(org.apache.taglibs.standard.tag.rt.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.xml.ExprTag.class,"org.apache.taglibs.standard.tag.rt.xml.ExprTag select");
+                org.apache.taglibs.standard.tag.el.xml.ExprTag __jsp_taghandler_4=(org.apache.taglibs.standard.tag.el.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.el.xml.ExprTag.class,"org.apache.taglibs.standard.tag.el.xml.ExprTag select");
                 __jsp_taghandler_4.setParent(__jsp_taghandler_3);
                 __jsp_taghandler_4.setSelect("$customer/CustNo");
                 __jsp_tag_starteval=__jsp_taghandler_4.doStartTag();
@@ -89,9 +87,9 @@ public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
                   return;
                 OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_4,2);
               }
-              out.write(__oracle_jsp_text[5]);
+              out.write(__oracle_jsp_text[6]);
               {
-                org.apache.taglibs.standard.tag.rt.xml.ExprTag __jsp_taghandler_5=(org.apache.taglibs.standard.tag.rt.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.xml.ExprTag.class,"org.apache.taglibs.standard.tag.rt.xml.ExprTag select");
+                org.apache.taglibs.standard.tag.el.xml.ExprTag __jsp_taghandler_5=(org.apache.taglibs.standard.tag.el.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.el.xml.ExprTag.class,"org.apache.taglibs.standard.tag.el.xml.ExprTag select");
                 __jsp_taghandler_5.setParent(__jsp_taghandler_3);
                 __jsp_taghandler_5.setSelect("$customer/CustFirstName");
                 __jsp_tag_starteval=__jsp_taghandler_5.doStartTag();
@@ -99,9 +97,9 @@ public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
                   return;
                 OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_5,2);
               }
-              out.write(__oracle_jsp_text[6]);
+              out.write(__oracle_jsp_text[7]);
               {
-                org.apache.taglibs.standard.tag.rt.xml.ExprTag __jsp_taghandler_6=(org.apache.taglibs.standard.tag.rt.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.xml.ExprTag.class,"org.apache.taglibs.standard.tag.rt.xml.ExprTag select");
+                org.apache.taglibs.standard.tag.el.xml.ExprTag __jsp_taghandler_6=(org.apache.taglibs.standard.tag.el.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.el.xml.ExprTag.class,"org.apache.taglibs.standard.tag.el.xml.ExprTag select");
                 __jsp_taghandler_6.setParent(__jsp_taghandler_3);
                 __jsp_taghandler_6.setSelect("$customer/CustLastName");
                 __jsp_tag_starteval=__jsp_taghandler_6.doStartTag();
@@ -109,9 +107,9 @@ public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
                   return;
                 OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_6,2);
               }
-              out.write(__oracle_jsp_text[7]);
+              out.write(__oracle_jsp_text[8]);
               {
-                org.apache.taglibs.standard.tag.rt.xml.ExprTag __jsp_taghandler_7=(org.apache.taglibs.standard.tag.rt.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.xml.ExprTag.class,"org.apache.taglibs.standard.tag.rt.xml.ExprTag select");
+                org.apache.taglibs.standard.tag.el.xml.ExprTag __jsp_taghandler_7=(org.apache.taglibs.standard.tag.el.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.el.xml.ExprTag.class,"org.apache.taglibs.standard.tag.el.xml.ExprTag select");
                 __jsp_taghandler_7.setParent(__jsp_taghandler_3);
                 __jsp_taghandler_7.setSelect("$customer/CustStreet");
                 __jsp_tag_starteval=__jsp_taghandler_7.doStartTag();
@@ -119,9 +117,9 @@ public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
                   return;
                 OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_7,2);
               }
-              out.write(__oracle_jsp_text[8]);
+              out.write(__oracle_jsp_text[9]);
               {
-                org.apache.taglibs.standard.tag.rt.xml.ExprTag __jsp_taghandler_8=(org.apache.taglibs.standard.tag.rt.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.xml.ExprTag.class,"org.apache.taglibs.standard.tag.rt.xml.ExprTag select");
+                org.apache.taglibs.standard.tag.el.xml.ExprTag __jsp_taghandler_8=(org.apache.taglibs.standard.tag.el.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.el.xml.ExprTag.class,"org.apache.taglibs.standard.tag.el.xml.ExprTag select");
                 __jsp_taghandler_8.setParent(__jsp_taghandler_3);
                 __jsp_taghandler_8.setSelect("$customer/CustCity");
                 __jsp_tag_starteval=__jsp_taghandler_8.doStartTag();
@@ -129,9 +127,9 @@ public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
                   return;
                 OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_8,2);
               }
-              out.write(__oracle_jsp_text[9]);
+              out.write(__oracle_jsp_text[10]);
               {
-                org.apache.taglibs.standard.tag.rt.xml.ExprTag __jsp_taghandler_9=(org.apache.taglibs.standard.tag.rt.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.xml.ExprTag.class,"org.apache.taglibs.standard.tag.rt.xml.ExprTag select");
+                org.apache.taglibs.standard.tag.el.xml.ExprTag __jsp_taghandler_9=(org.apache.taglibs.standard.tag.el.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.el.xml.ExprTag.class,"org.apache.taglibs.standard.tag.el.xml.ExprTag select");
                 __jsp_taghandler_9.setParent(__jsp_taghandler_3);
                 __jsp_taghandler_9.setSelect("$customer/CustStatee");
                 __jsp_tag_starteval=__jsp_taghandler_9.doStartTag();
@@ -139,9 +137,9 @@ public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
                   return;
                 OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_9,2);
               }
-              out.write(__oracle_jsp_text[10]);
+              out.write(__oracle_jsp_text[11]);
               {
-                org.apache.taglibs.standard.tag.rt.xml.ExprTag __jsp_taghandler_10=(org.apache.taglibs.standard.tag.rt.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.xml.ExprTag.class,"org.apache.taglibs.standard.tag.rt.xml.ExprTag select");
+                org.apache.taglibs.standard.tag.el.xml.ExprTag __jsp_taghandler_10=(org.apache.taglibs.standard.tag.el.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.el.xml.ExprTag.class,"org.apache.taglibs.standard.tag.el.xml.ExprTag select");
                 __jsp_taghandler_10.setParent(__jsp_taghandler_3);
                 __jsp_taghandler_10.setSelect("$customer/CustZip");
                 __jsp_tag_starteval=__jsp_taghandler_10.doStartTag();
@@ -149,9 +147,9 @@ public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
                   return;
                 OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_10,2);
               }
-              out.write(__oracle_jsp_text[11]);
+              out.write(__oracle_jsp_text[12]);
               {
-                org.apache.taglibs.standard.tag.rt.xml.ExprTag __jsp_taghandler_11=(org.apache.taglibs.standard.tag.rt.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.rt.xml.ExprTag.class,"org.apache.taglibs.standard.tag.rt.xml.ExprTag select");
+                org.apache.taglibs.standard.tag.el.xml.ExprTag __jsp_taghandler_11=(org.apache.taglibs.standard.tag.el.xml.ExprTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.el.xml.ExprTag.class,"org.apache.taglibs.standard.tag.el.xml.ExprTag select");
                 __jsp_taghandler_11.setParent(__jsp_taghandler_3);
                 __jsp_taghandler_11.setSelect("$customer/CustBal");
                 __jsp_tag_starteval=__jsp_taghandler_11.doStartTag();
@@ -159,7 +157,7 @@ public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
                   return;
                 OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_11,2);
               }
-              out.write(__oracle_jsp_text[12]);
+              out.write(__oracle_jsp_text[13]);
             } while (__jsp_taghandler_3.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
           }
           if (__jsp_taghandler_3.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
@@ -171,7 +169,7 @@ public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
         }
         OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_3,1);
       }
-      out.write(__oracle_jsp_text[13]);
+      out.write(__oracle_jsp_text[14]);
 
     }
     catch (Throwable e) {
@@ -190,21 +188,21 @@ public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
     }
 
   }
-  private static final char __oracle_jsp_text[][]=new char[14][];
+  private static final char __oracle_jsp_text[][]=new char[15][];
   static {
     try {
     __oracle_jsp_text[0] = 
     "\n".toCharArray();
     __oracle_jsp_text[1] = 
-    "\n<html>\n  <head>\n    <title>okowitz10</title>\n  </head>\n  <body>\n  ".toCharArray();
+    "\n".toCharArray();
     __oracle_jsp_text[2] = 
-    "\n    ".toCharArray();
+    "\n<html>\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\"/>\n    <title>okowitz10</title>\n  </head>\n  <body>\n \n  ".toCharArray();
     __oracle_jsp_text[3] = 
-    "\n        <table border=\"2\">\n            <tr><th>CustNo</th><th>CustFirstName</th><th>CustLastName</th>\n            <th>CustStreet</th><th>CustCity</th><th>CustState</th>\n            <th>CustZip</th><th>CustBal</th></tr>\n            ".toCharArray();
+    "\n    ".toCharArray();
     __oracle_jsp_text[4] = 
-    "\n              <tr>\n                <td>".toCharArray();
+    "\n        <table border=\"2\">\n            <tr><th>CustNo</th><th>CustFirstName</th><th>CustLastName</th>\n            <th>CustStreet</th><th>CustCity</th><th>CustState</th>\n            <th>CustZip</th><th>CustBal</th></tr>\n            ".toCharArray();
     __oracle_jsp_text[5] = 
-    "</td>\n                <td>".toCharArray();
+    "\n              <tr>\n                <td>".toCharArray();
     __oracle_jsp_text[6] = 
     "</td>\n                <td>".toCharArray();
     __oracle_jsp_text[7] = 
@@ -218,9 +216,11 @@ public class _okowitz10 extends com.orionserver.http.OrionHttpJspPage {
     __oracle_jsp_text[11] = 
     "</td>\n                <td>".toCharArray();
     __oracle_jsp_text[12] = 
-    "</td>\n                \n              </tr>\n            ".toCharArray();
+    "</td>\n                <td>".toCharArray();
     __oracle_jsp_text[13] = 
-    "\n            \n        </table>\n  </body>\n</html>".toCharArray();
+    "</td>\n                \n              </tr>\n            ".toCharArray();
+    __oracle_jsp_text[14] = 
+    "\n            \n        </table>\n  </body>\n</html>\n  \n  \n  \n".toCharArray();
     }
     catch (Throwable th) {
       System.err.println(th);
