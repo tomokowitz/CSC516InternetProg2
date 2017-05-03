@@ -39,6 +39,36 @@ public class _okowitz9a extends com.orionserver.http.OrionHttpJspPage {
       out.write(__oracle_jsp_text[0]);
       out.write(__oracle_jsp_text[1]);
       out.write(__oracle_jsp_text[2]);
+      out.write(__oracle_jsp_text[3]);
+      {
+        org.apache.taglibs.standard.tag.el.sql.SetDataSourceTag __jsp_taghandler_1=(org.apache.taglibs.standard.tag.el.sql.SetDataSourceTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.el.sql.SetDataSourceTag.class,"org.apache.taglibs.standard.tag.el.sql.SetDataSourceTag driver url");
+        __jsp_taghandler_1.setParent(null);
+        __jsp_taghandler_1.setDriver("sun.jdbc.odbc.JdbcOdbcDriver");
+        __jsp_taghandler_1.setUrl("jdbc:odbc:bakery");
+        __jsp_tag_starteval=__jsp_taghandler_1.doStartTag();
+        if (__jsp_taghandler_1.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
+          return;
+        OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_1,1);
+      }
+      out.write(__oracle_jsp_text[4]);
+      out.write(__oracle_jsp_text[5]);
+      {
+        org.apache.taglibs.standard.tag.el.sql.QueryTag __jsp_taghandler_2=(org.apache.taglibs.standard.tag.el.sql.QueryTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.taglibs.standard.tag.el.sql.QueryTag.class,"org.apache.taglibs.standard.tag.el.sql.QueryTag var sql");
+        __jsp_taghandler_2.setParent(null);
+        __jsp_taghandler_2.setVar("results");
+        __jsp_taghandler_2.setSql(" SELECT DISTINCT CUSTOMERID FROM CUSTOMERS");
+        try {
+          __jsp_tag_starteval=__jsp_taghandler_2.doStartTag();
+          if (__jsp_taghandler_2.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
+            return;
+        } catch (Throwable th) {
+          __jsp_taghandler_2.doCatch(th);
+        } finally {
+          __jsp_taghandler_2.doFinally();
+        }
+        OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_2,1);
+      }
+      out.write(__oracle_jsp_text[6]);
 
     }
     catch (Throwable e) {
@@ -57,7 +87,7 @@ public class _okowitz9a extends com.orionserver.http.OrionHttpJspPage {
     }
 
   }
-  private static final char __oracle_jsp_text[][]=new char[3][];
+  private static final char __oracle_jsp_text[][]=new char[7][];
   static {
     try {
     __oracle_jsp_text[0] = 
@@ -65,7 +95,15 @@ public class _okowitz9a extends com.orionserver.http.OrionHttpJspPage {
     __oracle_jsp_text[1] = 
     "\n".toCharArray();
     __oracle_jsp_text[2] = 
-    "\n\n<html>\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\"/>\n    <title>okowitz9a</title>\n    <style type=\"text/css\">\n      body {\n      background-color: #ffde73; \n}\n    </style>\n  </head>\n  <body></body>\n</html>".toCharArray();
+    "\n\n<html>\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\"/>\n    <title>okowitz9a</title>\n    <style type=\"text/css\">\n      body {\n      background-color: #ffde73; \n}\n    </style>\n  </head>\n  <body>\n  <form ACTION=\"okowitz9b.jsp\" METHOD=\"POST\">\n  ".toCharArray();
+    __oracle_jsp_text[3] = 
+    "\n    ".toCharArray();
+    __oracle_jsp_text[4] = 
+    "\n                       \n                       \n         ".toCharArray();
+    __oracle_jsp_text[5] = 
+    "\n    ".toCharArray();
+    __oracle_jsp_text[6] = 
+    "\n  <input type = submit value=\"Submit\">\n         </form>\n  </body>\n</html>".toCharArray();
     }
     catch (Throwable th) {
       System.err.println(th);
