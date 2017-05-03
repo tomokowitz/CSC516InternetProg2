@@ -13,13 +13,18 @@
     </style>
   </head>
   <body>
-  
+  <form ACTION="okowitz9b.jsp" METHOD="POST">
   <%-- set data source; other attributes are password and user  --%>
     <sql:setDataSource driver="sun.jdbc.odbc.JdbcOdbcDriver"
                        url="jdbc:odbc:bakery"    />
-  
-  
-  
-  
+                       
+                       
+         <%--Execute query; result stored in var --%>
+    <sql:query
+     sql=" SELECT DISTINCT CUSTOMERID FROM CUSTOMERS"
+     var="results" />
+  <input type = submit value="Submit">
+         </form>
+>>>>>>> origin/master
   </body>
 </html>
