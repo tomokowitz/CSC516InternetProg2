@@ -1,0 +1,26 @@
+17/05/03 13:25:40.488 10.1.3.3.0 Started
+17/05/03 13:25:44.785 okowitz10-okowitz10-webapp: 10.1.3.3.0 Started
+17/05/03 13:25:44.876 okowitz10-okowitz10-webapp: Servlet error
+javax.servlet.jsp.JspTagException: /hw10.xml
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(ImportSupport.java:287)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(ImportSupport.java:158)
+	at _okowitz10._jspService(_okowitz10.java:53)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:298)
+	at java.lang.Thread.run(Thread.java:595)
+17/05/03 13:37:53.297 okowitz10-okowitz10-webapp: 10.1.3.3.0 Stopped

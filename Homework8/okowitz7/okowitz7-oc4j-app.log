@@ -1,0 +1,483 @@
+17/03/31 18:20:33.343 10.1.3.3.0 Started
+17/03/31 18:20:34.682 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/03/31 18:24:45.371 okowitz7-okowitz7-webapp: 10.1.3.3.0 Stopped
+17/03/31 18:24:45.888 10.1.3.3.0 Started
+17/03/31 18:24:47.631 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/03/31 18:34:32.606 okowitz7-okowitz7-webapp: 10.1.3.3.0 Stopped
+17/03/31 18:34:32.980 10.1.3.3.0 Started
+17/03/31 18:34:34.621 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/03/31 18:41:55.854 10.1.3.3.0 Started
+17/03/31 18:41:57.407 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/04 17:28:09.883 10.1.3.3.0 Started
+17/04/04 17:28:13.903 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/04 17:32:22.157 10.1.3.3.0 Started
+17/04/04 17:32:25.135 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/04 17:35:59.846 10.1.3.3.0 Started
+17/04/04 17:36:02.406 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/05 12:39:43.675 10.1.3.3.0 Started
+17/04/05 12:39:48.576 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/05 12:43:23.172 okowitz7-okowitz7-webapp: 10.1.3.3.0 Stopped
+17/04/05 12:43:23.935 10.1.3.3.0 Started
+17/04/05 12:43:25.701 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/05 12:44:24.603 10.1.3.3.0 Started
+17/04/05 12:44:25.982 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/23 01:09:06.574 10.1.3.3.0 Started
+17/04/23 01:09:22.685 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/23 01:10:37.323 okowitz7-okowitz7-webapp: Servlet error
+javax.servlet.jsp.JspTagException: Invalid property in &lt;set&gt;:  "name"
+	at org.apache.taglibs.standard.tag.common.core.SetSupport.doEndTag(SetSupport.java:160)
+	at _okowitz7._jspService(_okowitz7.java:76)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/23 01:16:54.62 10.1.3.3.0 Started
+17/04/23 01:17:41.797 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/23 01:18:01.404 okowitz7-okowitz7-webapp: Servlet error
+javax.servlet.jsp.JspTagException: Invalid property in &lt;set&gt;:  "name"
+	at org.apache.taglibs.standard.tag.common.core.SetSupport.doEndTag(SetSupport.java:160)
+	at _okowitz7._jspService(_okowitz7.java:76)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:298)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/23 01:21:18.645 10.1.3.3.0 Started
+17/04/23 01:21:32.423 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/23 01:21:50.716 okowitz7-okowitz7-webapp: Servlet error
+javax.servlet.jsp.JspTagException: Invalid property in &lt;set&gt;:  "name"
+	at org.apache.taglibs.standard.tag.common.core.SetSupport.doEndTag(SetSupport.java:160)
+	at _okowitz7._jspService(_okowitz7.java:76)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:298)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/23 01:24:53.371 10.1.3.3.0 Started
+17/04/23 01:25:16.920 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/23 01:25:38.854 okowitz7-okowitz7-webapp: Servlet error
+javax.servlet.jsp.JspTagException: Invalid property in &lt;set&gt;:  "cName"
+	at org.apache.taglibs.standard.tag.common.core.SetSupport.doEndTag(SetSupport.java:160)
+	at _okowitz7._jspService(_okowitz7.java:76)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:298)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/23 01:29:49.294 10.1.3.3.0 Started
+17/04/23 01:30:04.230 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/23 01:30:26.318 okowitz7-okowitz7-webapp: Servlet error
+javax.servlet.jsp.JspTagException: Invalid property in &lt;set&gt;:  "cName"
+	at org.apache.taglibs.standard.tag.common.core.SetSupport.doEndTag(SetSupport.java:160)
+	at _okowitz7._jspService(_okowitz7.java:76)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:298)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/23 01:33:11.427 10.1.3.3.0 Started
+17/04/23 01:33:30.86 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/23 01:33:44.450 okowitz7-okowitz7-webapp: Servlet error
+javax.servlet.jsp.JspTagException: Invalid property in &lt;set&gt;:  "cName"
+	at org.apache.taglibs.standard.tag.common.core.SetSupport.doEndTag(SetSupport.java:160)
+	at _okowitz7._jspService(_okowitz7.java:76)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:298)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/23 01:37:47.699 10.1.3.3.0 Started
+17/04/23 01:38:09.800 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/23 01:38:26.84 okowitz7-okowitz7-webapp: Servlet error
+javax.servlet.jsp.JspTagException: Invalid property in &lt;set&gt;:  "cName"
+	at org.apache.taglibs.standard.tag.common.core.SetSupport.doEndTag(SetSupport.java:160)
+	at _okowitz7._jspService(_okowitz7.java:76)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:298)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/23 01:48:25.46 10.1.3.3.0 Started
+17/04/23 01:48:41.673 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/23 01:49:06.75 okowitz7-okowitz7-webapp: Servlet error
+java.lang.IllegalArgumentException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.taglibs.standard.tag.common.core.SetSupport.doEndTag(SetSupport.java:154)
+	at _okowitz7._jspService(_okowitz7.java:88)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:298)
+	at java.lang.Thread.run(Thread.java:595)
+<<<<<<< HEAD
+17/04/23 22:37:56.988 10.1.3.3.0 Started
+17/04/23 22:38:30.57 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/23 22:39:20.2 okowitz7-okowitz7-webapp: Servlet error
+=======
+17/04/25 11:37:58.754 10.1.3.3.0 Started
+17/04/25 11:38:04.180 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/25 11:38:29.916 okowitz7-okowitz7-webapp: Servlet error
+>>>>>>> origin/master
+java.lang.IllegalArgumentException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.taglibs.standard.tag.common.core.SetSupport.doEndTag(SetSupport.java:154)
+<<<<<<< HEAD
+	at _okowitz7._jspService(_okowitz7.java:88)
+=======
+	at _okowitz7._jspService(_okowitz7.java:84)
+>>>>>>> origin/master
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+<<<<<<< HEAD
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:298)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/23 22:54:28.553 10.1.3.3.0 Started
+17/04/23 22:55:09.687 10.1.3.3.0 Started
+17/04/23 22:55:32.276 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/23 22:56:15.757 okowitz7-okowitz7-webapp: Servlet error
+=======
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/25 11:41:00.448 10.1.3.3.0 Started
+17/04/25 11:41:03.638 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/25 11:45:44.556 10.1.3.3.0 Started
+17/04/25 11:45:47.808 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/25 11:46:11.770 okowitz7-okowitz7-webapp: Servlet error
+>>>>>>> origin/master
+java.lang.IllegalArgumentException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.taglibs.standard.tag.common.core.SetSupport.doEndTag(SetSupport.java:154)
+<<<<<<< HEAD
+	at _okowitz7._jspService(_okowitz7.java:88)
+=======
+	at _okowitz7._jspService(_okowitz7.java:84)
+>>>>>>> origin/master
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+<<<<<<< HEAD
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:298)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/23 23:02:34.471 10.1.3.3.0 Started
+17/04/23 23:03:01.680 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/23 23:03:40.766 okowitz7-okowitz7-webapp: Servlet error
+=======
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/25 11:48:25.755 okowitz7-okowitz7-webapp: 10.1.3.3.0 Stopped
+17/04/25 11:48:27.483 10.1.3.3.0 Started
+17/04/25 11:48:33.320 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/25 11:48:54.428 okowitz7-okowitz7-webapp: Servlet error
+>>>>>>> origin/master
+java.lang.IllegalArgumentException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.taglibs.standard.tag.common.core.SetSupport.doEndTag(SetSupport.java:154)
+<<<<<<< HEAD
+	at _okowitz7._jspService(_okowitz7.java:88)
+=======
+	at _okowitz7._jspService(_okowitz7.java:84)
+>>>>>>> origin/master
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+<<<<<<< HEAD
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:298)
+	at java.lang.Thread.run(Thread.java:595)
+=======
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/25 12:07:00.188 10.1.3.3.0 Started
+17/04/25 12:07:02.563 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/25 12:09:07.522 10.1.3.3.0 Started
+17/04/25 12:09:10.115 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/25 12:09:32.897 okowitz7-okowitz7-webapp: Servlet error
+javax.servlet.jsp.JspException
+	at org.apache.taglibs.standard.tag.common.core.SetSupport.doEndTag(SetSupport.java:169)
+	at _okowitz7._jspService(_okowitz7.java:96)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/25 12:11:09.526 10.1.3.3.0 Started
+17/04/25 12:11:12.327 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/25 12:11:33.404 okowitz7-okowitz7-webapp: Servlet error
+javax.servlet.jsp.JspTagException: Invalid property in &lt;set&gt;:  "myCakes"
+	at org.apache.taglibs.standard.tag.common.core.SetSupport.doEndTag(SetSupport.java:160)
+	at _okowitz7._jspService(_okowitz7.java:96)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/25 12:16:39.817 10.1.3.3.0 Started
+17/04/25 12:16:42.7 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/25 12:16:58.781 okowitz7-okowitz7-webapp: Servlet error
+javax.servlet.jsp.JspException
+	at org.apache.taglibs.standard.tag.common.core.SetSupport.doEndTag(SetSupport.java:169)
+	at _okowitz7._jspService(_okowitz7.java:96)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/25 12:20:02.991 10.1.3.3.0 Started
+17/04/25 12:20:05.897 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+>>>>>>> origin/master
+17/04/26 12:25:23.99 10.1.3.3.0 Started
+17/04/26 12:25:29.521 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/26 12:29:18.225 10.1.3.3.0 Started
+17/04/26 12:29:20.422 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/26 12:29:20.452 okowitz7-okowitz7-webapp: Servlet error
+javax.servlet.jsp.JspTagException: 'end' < 0
+	at javax.servlet.jsp.jstl.core.LoopTagSupport.validateEnd(LoopTagSupport.java:450)
+	at org.apache.taglibs.standard.tag.rt.core.ForEachTag.setEnd(ForEachTag.java:53)
+	at _okowitz8._jspService(_okowitz8.java:82)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:298)
+	at java.lang.Thread.run(Thread.java:595)
+17/04/26 12:30:22.781 10.1.3.3.0 Started
+17/04/26 12:30:24.759 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/27 00:45:53.29 10.1.3.3.0 Started
+17/04/27 00:45:58.524 okowitz7-okowitz7-webapp: 10.1.3.3.0 Started
+17/04/27 00:47:39.163 okowitz7-okowitz7-webapp: Servlet error
+javax.servlet.jsp.el.ELException: Unable to find a value for "del_fee" in object of class "okowitz7" using operator "."
+	at org.apache.commons.el.Logger.logError(Logger.java:481)
+	at org.apache.commons.el.Logger.logError(Logger.java:498)
+	at org.apache.commons.el.Logger.logError(Logger.java:611)
+	at org.apache.commons.el.ArraySuffix.evaluate(ArraySuffix.java:340)
+	at org.apache.commons.el.ComplexValue.evaluate(ComplexValue.java:145)
+	at org.apache.commons.el.ExpressionEvaluatorImpl.evaluate(ExpressionEvaluatorImpl.java:263)
+	at org.apache.commons.el.ExpressionEvaluatorImpl.evaluate(ExpressionEvaluatorImpl.java:190)
+	at oracle.jsp.el.OracleExpressionEvaluator.evaluate(OracleExpressionEvaluator.java:69)
+	at oracle.jsp.runtime.OracleJspRuntime.evaluate(OracleJspRuntime.java:2063)
+	at _okowitz8._jspService(_okowitz8.java:113)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)

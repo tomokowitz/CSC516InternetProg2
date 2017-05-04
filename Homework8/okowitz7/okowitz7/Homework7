@@ -1,0 +1,22 @@
+Homework 7
+ 
+Create a project named <lastname>7.
+ 
+Write an HTML file named <lastname>7.htm that contains form elements to let someone enter a person's name and the number of cakes that person has ordered.. The action of the HTML file should go to a jsp file named <lastname>7.jsp.
+ 
+The jsp will calculate the total and delivery fee for that order for that person.
+ 
+Delivery fee is calculated like this:
+cakes * 2
+
+Total is calculated like this:
+cakes * 12 + deliveryfee
+
+ 
+The jsp will output the name, cakes sold, delivery fee, and total for that person.
+ 
+If any field of the input is empty, an appropriate error message should be printed.
+ 
+Make sure you load all parameter values into a bean named <lastname>7.java. It will make it much easier to do homework 8 if you do this.
+ 
+You cannot use any java scriptlets in your jsp page. Use only JSTL tags.
