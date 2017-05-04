@@ -23,7 +23,7 @@
                 <td><x:out select="$customer/CustLastName" /></td>
                 <td><x:out select="$customer/CustStreet" /></td>
                 <td><x:out select="$customer/CustCity" /></td>
-                <td><x:out select="$customer/CustStatee" /></td>
+                <td><x:out select="$customer/CustState" /></td>
                 <td><x:out select="$customer/CustZip" /></td>
                 <td><x:out select="$customer/CustBal" /></td>
                 

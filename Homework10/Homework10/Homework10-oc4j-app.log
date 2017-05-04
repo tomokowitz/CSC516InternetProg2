@@ -1,2 +1,59 @@
 17/05/03 19:17:42.639 10.1.3.3.0 Started
 17/05/03 19:17:47.955 Homework10-Homework10-webapp: 10.1.3.3.0 Started
+17/05/04 11:57:46.134 10.1.3.3.0 Started
+17/05/04 11:58:03.78 Homework10-Homework10-webapp: 10.1.3.3.0 Started
+17/05/04 11:58:13.493 Homework10-Homework10-webapp: Servlet error
+javax.servlet.jsp.JspTagException: org.jaxen.UnresolvableException: $:param.customer
+	at org.apache.taglibs.standard.tag.common.xml.WhenTag.condition(WhenTag.java:55)
+	at org.apache.taglibs.standard.tag.common.core.WhenTagSupport.doStartTag(WhenTagSupport.java:65)
+	at _okowitz10b._jspService(_okowitz10b.java:92)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+17/05/04 12:00:54.484 10.1.3.3.0 Started
+17/05/04 12:00:58.47 Homework10-Homework10-webapp: 10.1.3.3.0 Started
+17/05/04 12:01:05.369 Homework10-Homework10-webapp: Servlet error
+javax.servlet.jsp.JspTagException: org.jaxen.UnresolvableException: $:param.customer
+	at org.apache.taglibs.standard.tag.common.xml.WhenTag.condition(WhenTag.java:55)
+	at org.apache.taglibs.standard.tag.common.core.WhenTagSupport.doStartTag(WhenTagSupport.java:65)
+	at _okowitz10b._jspService(_okowitz10b.java:92)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.3.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:59)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:462)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:594)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:518)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:713)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:370)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:871)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:453)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:221)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:122)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:111)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:239)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$700(ServerSocketAcceptHandler.java:34)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:880)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.3.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+17/05/04 12:05:39.41 10.1.3.3.0 Started
+17/05/04 12:05:40.609 Homework10-Homework10-webapp: 10.1.3.3.0 Started
+17/05/04 12:06:44.905 10.1.3.3.0 Started
+17/05/04 12:06:46.228 Homework10-Homework10-webapp: 10.1.3.3.0 Started
+17/05/04 12:07:22.56 Homework10-Homework10-webapp: 10.1.3.3.0 Stopped
+17/05/04 12:07:22.492 10.1.3.3.0 Started
+17/05/04 12:07:23.748 Homework10-Homework10-webapp: 10.1.3.3.0 Started
