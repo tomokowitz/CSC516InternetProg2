@@ -22,15 +22,14 @@ public class okowitz11 extends HttpServlet {
         }
         catch(java.lang.ClassNotFoundException e)
         {
-          return student;
+          
         }
         try
         {
           con = DriverManager.getConnection (connection_string,"","");
             String query = 
-              "SELECT FIRSTNAME, LASTNAME, PHONE, DOB, MAJOR, ADDRESS, " +
-              "CITY, STATE " +
-              "FROM STUDENTS WHERE CAKE_ID = ?";
+              "SELECT CAKEID, CAKENAME, CAKEPRICE " +
+              "FROM CAKES WHERE CAKEID = ?";
             PreparedStatement s = con.prepareStatement(query);
             ResultSet rs = s.executeQuery();
             if (rs.next())

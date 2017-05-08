@@ -2,6 +2,8 @@ Homework 11
  
 Create a project named <lastname>11
  
-Write an AJAX application using AJAX DWR that will display all information about a CAKE when the user enters the CAKE_ID into a text field.
+Write an AJAX application using AJAX DWR that will display all information 
+about a CAKE when the user enters the CAKE_ID into a text field.
  
-The html file should be named <lastname>11.htm; and the java filenames should also include your lastname.
+The html file should be named <lastname>11.htm; and the java filenames should 
+also include your lastname.
