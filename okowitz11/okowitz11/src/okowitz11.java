@@ -4,11 +4,42 @@ import java.io.PrintWriter;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
+import java.sql.*;
+ 
+import java.util.ArrayList;
+
 public class okowitz11 extends HttpServlet {
     private static final String CONTENT_TYPE = "text/html; charset=windows-1252";
 
     public void init(ServletConfig config) throws ServletException {
         super.init(config);
+        
+        String connection_string = "jdbc:odbc:classes";
+        Connection con;
+        try
+        {
+          Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+        }
+        catch(java.lang.ClassNotFoundException e)
+        {
+          return student;
+        }
+        try
+        {
+          con = DriverManager.getConnection (connection_string,"","");
+            String query = 
+              "SELECT FIRSTNAME, LASTNAME, PHONE, DOB, MAJOR, ADDRESS, " +
+              "CITY, STATE " +
+              "FROM STUDENTS WHERE CAKE_ID = ?";
+            PreparedStatement s = con.prepareStatement(query);
+            ResultSet rs = s.executeQuery();
+            if (rs.next())
+            {
+            }
+        }
+        catch (Exception e)
+        {
+        }
     }
 
     /**Process the HTTP doGet request.
