@@ -10,8 +10,11 @@ import java.util.ArrayList;
 
 public class okowitz11 
 {
-    public void init(ServletConfig config) throws ServletException {
-        super.init(config);
+
+    ArrayList cakes = new ArrayList();
+    
+    public void LoadCakeInfo() throws ServletException {
+        
         
         String connection_string = "jdbc:odbc:bakery";
         Connection con;
