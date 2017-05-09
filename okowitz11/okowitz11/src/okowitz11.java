@@ -48,6 +48,7 @@ public class okowitz11
         catch (Exception e)
         {
         }
+        return newCake;
     }
 
     /**Process the HTTP doGet request.
