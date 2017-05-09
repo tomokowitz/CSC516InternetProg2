@@ -1,0 +1,26 @@
+<html>
+<head>
+<script type="text/javascript" src="dwr/interface/ex3Script.js"></script>
+<script type="text/javascript" src="dwr/engine.js"></script>
+<script type="text/javascript" src="dwr/util.js"></script>
+<script src="ex3.js"></script> 
+</head>
+<body>
+<form> 
+Username:
+<input type="text" id="username"
+       onkeyup="showData(this.value, password.value)">
+Password:
+<input type="password" id="password"
+       onkeyup="showData(username.value, this.value)">
+</form>
+<p>First Name: <span id="firstName"></span></p> 
+<p>Last Name: <span id="lastName"></span></p> 
+<p>Phone: <span id="phone"></span></p> 
+<p>DOB: <span id="dob"></span></p> 
+<p>Major: <span id="major"></span></p> 
+<p>Address: <span id="address"></span></p> 
+<p>City: <span id="city"></span></p> 
+<p>State: <span id="state"></span></p> 
+</body>
+</html>

@@ -7,7 +7,7 @@
    <list n="listOfChildren">
       <hash>
          <value n="nodeClass" v="oracle.ide.model.Project"/>
-         <url n="URL" path="okowitz11/okowitz11.jpr"/>
+         <url n="URL" path="../dwrProject2.jpr"/>
       </hash>
    </list>
 </jws:workspace>

@@ -8,13 +8,12 @@ import java.sql.*;
  
 import java.util.ArrayList;
 
-public class okowitz11 extends HttpServlet {
-    private static final String CONTENT_TYPE = "text/html; charset=windows-1252";
-
+public class okowitz11 
+{
     public void init(ServletConfig config) throws ServletException {
         super.init(config);
         
-        String connection_string = "jdbc:odbc:classes";
+        String connection_string = "jdbc:odbc:bakery";
         Connection con;
         try
         {
@@ -43,27 +42,27 @@ public class okowitz11 extends HttpServlet {
 
     /**Process the HTTP doGet request.
      */
-    public void doGet(HttpServletRequest request, 
-                      HttpServletResponse response) throws ServletException, IOException {response.setContentType(CONTENT_TYPE);
-        PrintWriter out = response.getWriter();
-        out.println("<html>");
-        out.println("<head><title>okowitz11</title></head>");
-        out.println("<body>");
-        out.println("<p>The servlet has received a GET. This is the reply.</p>");
-        out.println("</body></html>");
-        out.close();
-    }
+//    public void doGet(HttpServletRequest request, 
+//                      HttpServletResponse response) throws ServletException, IOException {response.setContentType(CONTENT_TYPE);
+//        PrintWriter out = response.getWriter();
+//        out.println("<html>");
+//        out.println("<head><title>okowitz11</title></head>");
+//        out.println("<body>");
+//        out.println("<p>The servlet has received a GET. This is the reply.</p>");
+//        out.println("</body></html>");
+//        out.close();
+//    }
 
     /**Process the HTTP doPost request.
      */
-    public void doPost(HttpServletRequest request, 
-                       HttpServletResponse response) throws ServletException, IOException {response.setContentType(CONTENT_TYPE);
-        PrintWriter out = response.getWriter();
-        out.println("<html>");
-        out.println("<head><title>okowitz11</title></head>");
-        out.println("<body>");
-        out.println("<p>The servlet has received a POST. This is the reply.</p>");
-        out.println("</body></html>");
-        out.close();
-    }
+//    public void doPost(HttpServletRequest request, 
+//                       HttpServletResponse response) throws ServletException, IOException {response.setContentType(CONTENT_TYPE);
+//        PrintWriter out = response.getWriter();
+//        out.println("<html>");
+//        out.println("<head><title>okowitz11</title></head>");
+//        out.println("<body>");
+//        out.println("<p>The servlet has received a POST. This is the reply.</p>");
+//        out.println("</body></html>");
+//        out.close();
+//    }
 }

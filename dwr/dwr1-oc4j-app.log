@@ -1,0 +1,1982 @@
+07/11/29 15:24:46.998 10.1.3.0.0 Started
+07/11/29 15:24:59.486 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 15:32:30.295 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 15:32:30.305 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 15:33:20.347 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 15:33:20.347 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 16:41:50.236 10.1.3.0.0 Started
+07/11/29 16:42:18.777 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 16:47:12.840 dwr1-dwrProject1-webapp: 10.1.3.0.0 Stopped
+07/11/29 17:34:18.513 10.1.3.0.0 Started
+07/11/29 17:34:35.187 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 17:41:05.58 10.1.3.0.0 Started
+07/11/29 17:41:26.148 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 17:44:02.32 10.1.3.0.0 Started
+07/11/29 17:44:11.696 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 17:44:57.92 10.1.3.0.0 Started
+07/11/29 17:45:00.877 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 17:46:56.523 10.1.3.0.0 Started
+07/11/29 17:47:00.940 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 17:52:48.159 10.1.3.0.0 Started
+07/11/29 17:52:51.944 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 17:53:27.716 10.1.3.0.0 Started
+07/11/29 17:53:31.591 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 21:39:17.900 10.1.3.0.0 Started
+07/11/29 21:39:22.857 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 21:52:03.231 10.1.3.0.0 Started
+07/11/29 21:52:43.549 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 21:52:47.845 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:52:47.855 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:52:48.996 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:52:48.996 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:52:49.117 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:52:49.117 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:52:49.137 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:52:49.137 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:55:06.975 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:55:06.975 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:55:07.5 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:55:07.5 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:55:07.5 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:55:07.5 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:56:44.815 10.1.3.0.0 Started
+07/11/29 21:56:52.817 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 21:56:53.157 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:56:53.157 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:56:53.177 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:56:53.177 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:57:09.591 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:57:09.591 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:57:09.611 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:57:09.611 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:57:51.351 10.1.3.0.0 Started
+07/11/29 21:57:55.247 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 21:57:55.377 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:57:55.387 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:57:55.407 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:57:55.407 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:57:55.417 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:57:55.417 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:58:08.676 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:58:08.676 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:58:08.696 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 21:58:08.696 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:01:42.824 10.1.3.0.0 Started
+07/11/29 22:01:46.950 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 22:01:47.80 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:01:47.80 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:01:47.120 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:01:47.120 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:01:47.120 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:01:47.120 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:09:30.446 10.1.3.0.0 Started
+07/11/29 22:09:39.700 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 22:09:41.22 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:09:41.32 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:09:41.332 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:09:41.332 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:09:41.342 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:09:41.342 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:12:01.43 10.1.3.0.0 Started
+07/11/29 22:12:05.79 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 22:12:05.209 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:12:05.209 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:12:05.249 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:12:05.259 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:12:05.259 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:12:05.259 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:12:05.269 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:12:05.269 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:12:05.279 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:12:05.279 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:16:46.63 dwr1-dwrProject1-webapp: 10.1.3.0.0 Stopped
+07/11/29 22:16:46.914 10.1.3.0.0 Started
+07/11/29 22:16:53.193 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 22:16:53.714 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:16:53.714 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:16:53.994 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:16:53.994 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:16:54.94 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:16:54.94 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:19:12.433 10.1.3.0.0 Started
+07/11/29 22:19:16.599 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 22:19:16.769 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:19:16.779 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:20:08.284 10.1.3.0.0 Started
+07/11/29 22:20:12.560 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 22:31:19.68 dwr1-dwrProject1-webapp: 10.1.3.0.0 Stopped
+07/11/29 22:31:20.630 10.1.3.0.0 Started
+07/11/29 22:31:29.753 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 22:31:30.94 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:31:30.94 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:31:30.164 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:31:30.164 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:31:30.194 dwr1-dwrProject1-webapp: Error initializing servlet
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:31:30.194 dwr1-dwrProject1-webapp: Servlet error
+java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.directwebremoting.impl.ContainerUtil.class$(ContainerUtil.java:97)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaults(ContainerUtil.java:150)
+	at org.directwebremoting.impl.ContainerUtil.setupDefaultContainer(ContainerUtil.java:125)
+	at org.directwebremoting.servlet.DwrServlet.init(DwrServlet.java:73)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.loadServlet(HttpApplication.java:2231)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4617)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.findServlet(HttpApplication.java:4541)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpApplication.getRequestDispatcher(HttpApplication.java:2821)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:740)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/11/29 22:33:10.198 10.1.3.0.0 Started
+07/11/29 22:33:13.873 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 22:33:17.158 dwr1-dwrProject1-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/11/29 22:35:09.249 dwr1-dwrProject1-webapp: 10.1.3.0.0 Stopped
+07/11/29 22:35:09.950 10.1.3.0.0 Started
+07/11/29 22:35:13.295 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 22:35:44.59 dwr1-dwrProject1-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/11/29 22:36:30.276 10.1.3.0.0 Started
+07/11/29 22:36:33.921 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/11/29 22:36:36.625 dwr1-dwrProject1-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 11:16:47.684 10.1.3.0.0 Started
+07/12/02 11:17:20.351 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/12/02 11:17:30.806 dwr1-dwrProject1-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 11:37:42.138 10.1.3.0.0 Started
+07/12/02 11:37:58.722 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/12/02 11:38:52.469 dwr1-dwrProject1-webapp: 10.1.3.0.0 Stopped
+07/12/02 11:38:53.311 10.1.3.0.0 Started
+07/12/02 11:38:57.316 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/12/02 11:40:17.291 dwr1-dwrProject1-webapp: 10.1.3.0.0 Stopped
+07/12/02 11:40:17.822 10.1.3.0.0 Started
+07/12/02 11:40:22.18 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/12/02 11:40:25.884 dwr1-dwrProject1-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 11:45:57.420 dwr1-dwrProject1-webapp: 10.1.3.0.0 Stopped
+07/12/02 11:45:58.362 10.1.3.0.0 Started
+07/12/02 11:46:05.392 dwr1-dwrProject2-webapp: 10.1.3.0.0 Started
+07/12/02 11:46:11.60 dwr1-dwrProject2-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 11:46:11.80 dwr1-dwrProject2-webapp: dwr-invoker: Method execution failed: 
+java.lang.InstantiationException: Illegal Access to default constructor
+	at org.directwebremoting.create.NewCreator.getInstance(NewCreator.java:69)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:333)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:273)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:120)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/12/02 11:46:11.190 dwr1-dwrProject2-webapp: dwr-invoker: --Erroring: batchId[0] message[java.lang.InstantiationException: Illegal Access to default constructor]
+07/12/02 11:46:14.505 dwr1-dwrProject2-webapp: dwr-invoker: Method execution failed: 
+java.lang.InstantiationException: Illegal Access to default constructor
+	at org.directwebremoting.create.NewCreator.getInstance(NewCreator.java:69)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:333)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:273)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:120)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/12/02 11:46:14.505 dwr1-dwrProject2-webapp: dwr-invoker: --Erroring: batchId[1] message[java.lang.InstantiationException: Illegal Access to default constructor]
+07/12/02 11:46:17.179 dwr1-dwrProject2-webapp: dwr-invoker: Method execution failed: 
+java.lang.InstantiationException: Illegal Access to default constructor
+	at org.directwebremoting.create.NewCreator.getInstance(NewCreator.java:69)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:333)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:273)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:120)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/12/02 11:46:17.189 dwr1-dwrProject2-webapp: dwr-invoker: --Erroring: batchId[2] message[java.lang.InstantiationException: Illegal Access to default constructor]
+07/12/02 11:46:19.92 dwr1-dwrProject2-webapp: dwr-invoker: Method execution failed: 
+java.lang.InstantiationException: Illegal Access to default constructor
+	at org.directwebremoting.create.NewCreator.getInstance(NewCreator.java:69)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:333)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:273)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:120)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+07/12/02 11:46:19.92 dwr1-dwrProject2-webapp: dwr-invoker: --Erroring: batchId[3] message[java.lang.InstantiationException: Illegal Access to default constructor]
+07/12/02 11:47:27.540 dwr1-dwrProject2-webapp: 10.1.3.0.0 Stopped
+07/12/02 11:47:28.101 10.1.3.0.0 Started
+07/12/02 11:47:32.667 dwr1-dwrProject2-webapp: 10.1.3.0.0 Started
+07/12/02 11:54:28.35 dwr1-dwrProject2-webapp: 10.1.3.0.0 Stopped
+07/12/02 11:54:28.585 10.1.3.0.0 Started
+07/12/02 11:54:33.502 dwr1-dwrProject2-webapp: 10.1.3.0.0 Started
+07/12/02 11:54:39.271 dwr1-dwrProject2-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 11:55:57.774 dwr1-dwrProject2-webapp: 10.1.3.0.0 Stopped
+07/12/02 11:55:58.475 10.1.3.0.0 Started
+07/12/02 11:56:02.230 dwr1-dwrProject2-webapp: 10.1.3.0.0 Started
+07/12/02 11:56:04.914 dwr1-dwrProject2-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 13:18:21.572 10.1.3.0.0 Started
+07/12/02 13:22:57.39 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 13:24:10.184 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 13:32:34.639 10.1.3.0.0 Started
+07/12/02 13:33:01.988 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 13:34:13.91 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 13:34:14.132 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:34:17.998 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:34:18.879 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:34:19.610 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:34:44.736 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:34:44.916 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:34:45.117 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:34:48.121 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:34:48.381 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:34:49.423 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:36:12.562 10.1.3.0.0 Started
+07/12/02 13:36:29.587 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 13:36:42.856 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 13:36:43.467 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:36:48.194 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:36:51.178 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:36:54.132 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:37:00.822 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:42:15.204 10.1.3.0.0 Started
+07/12/02 13:42:28.283 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 13:43:13.478 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 13:43:13.548 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:43:16.752 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:43:18.956 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:43:21.409 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:43:50.381 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 13:43:51.342 10.1.3.0.0 Started
+07/12/02 13:43:55.518 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 13:44:03.389 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 13:44:03.440 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:45:47.559 10.1.3.0.0 Started
+07/12/02 13:45:51.495 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 13:46:01.19 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 13:46:01.59 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:46:44.201 10.1.3.0.0 Started
+07/12/02 13:46:48.427 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 13:46:57.99 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 13:46:57.139 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:47:54.993 10.1.3.0.0 Started
+07/12/02 13:47:58.538 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 13:48:08.332 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 13:48:08.372 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:51:35.169 10.1.3.0.0 Started
+07/12/02 13:51:38.904 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 13:51:46.876 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 13:51:46.926 dwr1-dwrProject3-webapp: dwr-invoker: No converter found for 'dwrproject3.Student'
+07/12/02 13:54:41.737 10.1.3.0.0 Started
+07/12/02 13:54:45.643 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 13:54:53.484 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 13:56:14.891 10.1.3.0.0 Started
+07/12/02 13:56:18.436 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 13:56:28.621 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 13:58:34.462 10.1.3.0.0 Started
+07/12/02 13:58:38.398 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 13:58:45.278 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 14:01:46.959 10.1.3.0.0 Started
+07/12/02 14:01:50.844 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 14:01:57.885 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 14:07:05.757 10.1.3.0.0 Started
+07/12/02 14:07:09.573 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 14:15:38.915 10.1.3.0.0 Started
+07/12/02 14:15:42.721 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 14:15:49.651 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 18:48:05.510 10.1.3.0.0 Started
+07/12/02 18:48:25.980 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 18:50:36.307 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 18:50:37.18 10.1.3.0.0 Started
+07/12/02 18:50:41.395 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 18:51:02.805 10.1.3.0.0 Started
+07/12/02 18:51:07.1 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 18:51:41.871 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 18:51:42.552 10.1.3.0.0 Started
+07/12/02 18:51:46.378 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 18:52:51.582 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 18:52:51.962 10.1.3.0.0 Started
+07/12/02 18:52:55.738 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 18:53:46.941 10.1.3.0.0 Started
+07/12/02 18:53:50.757 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 18:53:54.182 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 18:54:30.955 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 18:54:31.706 10.1.3.0.0 Started
+07/12/02 18:54:36.12 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 18:54:36.963 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 18:59:30.926 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 18:59:32.48 10.1.3.0.0 Started
+07/12/02 18:59:41.121 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 18:59:48.471 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 19:33:14.796 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 19:33:15.758 10.1.3.0.0 Started
+07/12/02 19:33:23.559 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 19:33:24.831 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 19:58:11.598 10.1.3.0.0 Started
+07/12/02 19:58:32.769 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 19:58:44.346 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 20:00:08.366 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 20:00:09.578 10.1.3.0.0 Started
+07/12/02 20:00:19.572 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 20:00:33.803 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 20:19:12.632 10.1.3.0.0 Started
+07/12/02 20:19:32.210 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 20:22:17.768 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 20:22:18.870 10.1.3.0.0 Started
+07/12/02 20:22:30.186 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 20:23:59.3 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 20:23:59.965 10.1.3.0.0 Started
+07/12/02 20:24:08.637 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 20:24:22.888 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 20:25:04.798 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 20:25:05.519 10.1.3.0.0 Started
+07/12/02 20:25:11.678 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 20:25:20.230 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 20:25:30.285 dwr1-dwrProject3-webapp: dwr-invoker: Marshalling exception
+org.directwebremoting.extend.MarshallException: Error marshalling dwrproject3.Student: dwrproject3.Student. See the logs for more details.
+	at org.directwebremoting.convert.BasicObjectConverter.convertInbound(BasicObjectConverter.java:151)
+	at org.directwebremoting.dwrp.DefaultConverterManager.convertInbound(DefaultConverterManager.java:159)
+	at org.directwebremoting.dwrp.BaseCallMarshaller.marshallInbound(BaseCallMarshaller.java:152)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:44)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:120)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: java.lang.InstantiationException: dwrproject3.Student
+	at java.lang.Class.newInstance0(Class.java:335)
+	at java.lang.Class.newInstance(Class.java:303)
+	at org.directwebremoting.convert.BasicObjectConverter.convertInbound(BasicObjectConverter.java:84)
+	... 20 more
+07/12/02 20:25:30.325 dwr1-dwrProject3-webapp: dwr-invoker: --Erroring: batchId[4] message[org.directwebremoting.extend.MarshallException: Error marshalling dwrproject3.Student: dwrproject3.Student. See the logs for more details.]
+07/12/02 20:26:55.958 dwr1-dwrProject3-webapp: dwr-invoker: Marshalling exception
+org.directwebremoting.extend.MarshallException: Error marshalling dwrproject3.Student: dwrproject3.Student. See the logs for more details.
+	at org.directwebremoting.convert.BasicObjectConverter.convertInbound(BasicObjectConverter.java:151)
+	at org.directwebremoting.dwrp.DefaultConverterManager.convertInbound(DefaultConverterManager.java:159)
+	at org.directwebremoting.dwrp.BaseCallMarshaller.marshallInbound(BaseCallMarshaller.java:152)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:44)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:120)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: java.lang.InstantiationException: dwrproject3.Student
+	at java.lang.Class.newInstance0(Class.java:335)
+	at java.lang.Class.newInstance(Class.java:303)
+	at org.directwebremoting.convert.BasicObjectConverter.convertInbound(BasicObjectConverter.java:84)
+	... 20 more
+07/12/02 20:26:55.958 dwr1-dwrProject3-webapp: dwr-invoker: --Erroring: batchId[5] message[org.directwebremoting.extend.MarshallException: Error marshalling dwrproject3.Student: dwrproject3.Student. See the logs for more details.]
+07/12/02 20:30:15.255 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 20:30:16.116 10.1.3.0.0 Started
+07/12/02 20:30:23.727 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 20:30:32.660 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 20:30:42.123 dwr1-dwrProject3-webapp: dwr-invoker: Marshalling exception
+org.directwebremoting.extend.MarshallException: Error marshalling dwrproject3.Student: dwrproject3.Student. See the logs for more details.
+	at org.directwebremoting.convert.BasicObjectConverter.convertInbound(BasicObjectConverter.java:151)
+	at org.directwebremoting.dwrp.DefaultConverterManager.convertInbound(DefaultConverterManager.java:159)
+	at org.directwebremoting.dwrp.BaseCallMarshaller.marshallInbound(BaseCallMarshaller.java:152)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:44)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:120)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: java.lang.InstantiationException: dwrproject3.Student
+	at java.lang.Class.newInstance0(Class.java:335)
+	at java.lang.Class.newInstance(Class.java:303)
+	at org.directwebremoting.convert.BasicObjectConverter.convertInbound(BasicObjectConverter.java:84)
+	... 20 more
+07/12/02 20:30:42.183 dwr1-dwrProject3-webapp: dwr-invoker: --Erroring: batchId[4] message[org.directwebremoting.extend.MarshallException: Error marshalling dwrproject3.Student: dwrproject3.Student. See the logs for more details.]
+07/12/02 20:32:35.156 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 20:32:35.676 10.1.3.0.0 Started
+07/12/02 20:32:41.925 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 20:32:49.637 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 20:34:28.228 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 20:34:31.173 10.1.3.0.0 Started
+07/12/02 20:35:04.400 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 20:35:15.56 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 20:38:53.49 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 20:38:54.491 10.1.3.0.0 Started
+07/12/02 20:39:07.249 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 20:39:54.998 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 20:39:55.829 10.1.3.0.0 Started
+07/12/02 20:39:59.374 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 20:40:07.386 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 20:40:25.81 dwr1-dwrProject3-webapp: dwr-invoker: Marshalling exception
+org.directwebremoting.extend.MarshallException: Error marshalling dwrproject3.Student: dwrproject3.Student. See the logs for more details.
+	at org.directwebremoting.convert.BasicObjectConverter.convertInbound(BasicObjectConverter.java:151)
+	at org.directwebremoting.dwrp.DefaultConverterManager.convertInbound(DefaultConverterManager.java:159)
+	at org.directwebremoting.dwrp.BaseCallMarshaller.marshallInbound(BaseCallMarshaller.java:152)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:44)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:120)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: java.lang.InstantiationException: dwrproject3.Student
+	at java.lang.Class.newInstance0(Class.java:335)
+	at java.lang.Class.newInstance(Class.java:303)
+	at org.directwebremoting.convert.BasicObjectConverter.convertInbound(BasicObjectConverter.java:84)
+	... 20 more
+07/12/02 20:40:25.101 dwr1-dwrProject3-webapp: dwr-invoker: --Erroring: batchId[10] message[org.directwebremoting.extend.MarshallException: Error marshalling dwrproject3.Student: dwrproject3.Student. See the logs for more details.]
+07/12/02 20:44:50.102 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 20:44:51.404 10.1.3.0.0 Started
+07/12/02 20:44:55.861 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 20:45:02.310 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 20:45:17.382 dwr1-dwrProject3-webapp: dwr-invoker: Marshalling exception
+org.directwebremoting.extend.MarshallException: Error marshalling dwrproject3.Student: dwrproject3.Student. See the logs for more details.
+	at org.directwebremoting.convert.BasicObjectConverter.convertInbound(BasicObjectConverter.java:151)
+	at org.directwebremoting.dwrp.DefaultConverterManager.convertInbound(DefaultConverterManager.java:159)
+	at org.directwebremoting.dwrp.BaseCallMarshaller.marshallInbound(BaseCallMarshaller.java:152)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:44)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:120)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: java.lang.InstantiationException: dwrproject3.Student
+	at java.lang.Class.newInstance0(Class.java:335)
+	at java.lang.Class.newInstance(Class.java:303)
+	at org.directwebremoting.convert.BasicObjectConverter.convertInbound(BasicObjectConverter.java:84)
+	... 20 more
+07/12/02 20:45:17.422 dwr1-dwrProject3-webapp: dwr-invoker: --Erroring: batchId[12] message[org.directwebremoting.extend.MarshallException: Error marshalling dwrproject3.Student: dwrproject3.Student. See the logs for more details.]
+07/12/02 20:46:20.172 dwr1-dwrProject3-webapp: dwr-invoker: Marshalling exception
+org.directwebremoting.extend.MarshallException: Error marshalling dwrproject3.Student: dwrproject3.Student. See the logs for more details.
+	at org.directwebremoting.convert.BasicObjectConverter.convertInbound(BasicObjectConverter.java:151)
+	at org.directwebremoting.dwrp.DefaultConverterManager.convertInbound(DefaultConverterManager.java:159)
+	at org.directwebremoting.dwrp.BaseCallMarshaller.marshallInbound(BaseCallMarshaller.java:152)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:44)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:120)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: java.lang.InstantiationException: dwrproject3.Student
+	at java.lang.Class.newInstance0(Class.java:335)
+	at java.lang.Class.newInstance(Class.java:303)
+	at org.directwebremoting.convert.BasicObjectConverter.convertInbound(BasicObjectConverter.java:84)
+	... 20 more
+07/12/02 20:46:20.172 dwr1-dwrProject3-webapp: dwr-invoker: --Erroring: batchId[4] message[org.directwebremoting.extend.MarshallException: Error marshalling dwrproject3.Student: dwrproject3.Student. See the logs for more details.]
+07/12/02 20:51:46.601 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 20:51:47.943 10.1.3.0.0 Started
+07/12/02 20:52:05.298 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 20:52:16.34 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 20:53:53.354 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 20:53:54.515 10.1.3.0.0 Started
+07/12/02 20:54:00.324 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 20:54:08.295 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 20:57:09.926 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 20:57:11.208 10.1.3.0.0 Started
+07/12/02 20:57:15.334 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 20:57:21.713 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 20:57:24.367 dwr1-dwrProject3-webapp: dwr-invoker: Marshalling exception: Missing method or missing parameter converters: ex3Script.setStudent
+07/12/02 20:57:24.387 dwr1-dwrProject3-webapp: dwr-invoker: --Erroring: batchId[4] message[java.lang.IllegalArgumentException: Missing method or missing parameter converters: ex3Script.setStudent]
+07/12/02 20:57:58.456 dwr1-dwrProject3-webapp: dwr-invoker: Marshalling exception: Missing method or missing parameter converters: ex3Script.setStudent
+07/12/02 20:57:58.456 dwr1-dwrProject3-webapp: dwr-invoker: --Erroring: batchId[5] message[java.lang.IllegalArgumentException: Missing method or missing parameter converters: ex3Script.setStudent]
+07/12/02 21:01:25.674 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 21:01:29.439 10.1.3.0.0 Started
+07/12/02 21:02:53.30 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 21:04:06.245 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 21:08:39.398 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 21:08:56.562 10.1.3.0.0 Started
+07/12/02 21:09:33.395 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 21:09:55.137 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 21:14:18.285 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 21:14:19.697 10.1.3.0.0 Started
+07/12/02 21:14:34.899 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 21:14:47.747 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 21:23:29.828 10.1.3.0.0 Started
+07/12/02 21:23:39.192 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 21:23:47.233 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/02 21:25:25.565 dwr1-dwrProject3-webapp: 10.1.3.0.0 Stopped
+07/12/02 21:25:26.286 10.1.3.0.0 Started
+07/12/02 21:25:31.543 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/02 21:25:41.357 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/05 18:24:36.282 10.1.3.0.0 Started
+07/12/05 18:25:15.476 dwr1-dwrProject1-webapp: 10.1.3.0.0 Started
+07/12/05 18:25:23.789 dwr1-dwrProject1-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/05 18:29:21.462 dwr1-dwrProject1-webapp: 10.1.3.0.0 Stopped
+07/12/05 18:29:22.827 10.1.3.0.0 Started
+07/12/05 18:29:35.276 dwr1-dwrProject2-webapp: 10.1.3.0.0 Started
+07/12/05 18:30:15.955 dwr1-dwrProject2-webapp: dwr-invoker: Missing WEB-INF/web.xml
+07/12/05 18:41:59.697 dwr1-dwrProject2-webapp: 10.1.3.0.0 Stopped
+07/12/05 18:42:00.972 10.1.3.0.0 Started
+07/12/05 18:42:14.646 dwr1-dwrProject3-webapp: 10.1.3.0.0 Started
+07/12/05 18:42:27.195 dwr1-dwrProject3-webapp: dwr-invoker: Missing WEB-INF/web.xml
