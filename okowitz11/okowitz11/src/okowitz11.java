@@ -29,7 +29,7 @@ public class okowitz11
         }
         catch(java.lang.ClassNotFoundException e)
         {
-          
+          return newCake;
         }
         try
         {
@@ -38,9 +38,11 @@ public class okowitz11
               "SELECT CAKEID, CAKENAME, CAKEPRICE " +
               "FROM CAKES WHERE CAKEID = ?";
             PreparedStatement s = con.prepareStatement(query);
+            s.setString(1, cakeid);
             ResultSet rs = s.executeQuery();
             if (rs.next())
             {
+                newCake = new Cake(rs.getString(1), rs.getString(2),rs.getDouble(3));
             }
         }
         catch (Exception e)
