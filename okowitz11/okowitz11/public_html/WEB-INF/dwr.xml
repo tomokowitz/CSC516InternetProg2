@@ -4,8 +4,9 @@
 <dwr>
   <allow>
     <create creator="new" javascript="okowitz11Script">
-      <param name="class" value="dwr1.okowitz11"/>
+      <param name="class" value="okowitz11"/>
     </create>
+    <convert converter="bean" match="okowitz11.Cake"/>
   </allow>
 
 </dwr>

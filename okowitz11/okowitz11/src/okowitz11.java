@@ -1,3 +1,5 @@
+package okowitz11;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -13,8 +15,11 @@ public class okowitz11
 
     ArrayList cakes = new ArrayList();
     
-    public void LoadCakeInfo() throws ServletException {
+    
+    public Cake getCake(String cakeid, String cakename, double cakeprice) {
+        Cake newCake = new Cake(cakeid, cakename, cakeprice);
         
+   
         
         String connection_string = "jdbc:odbc:bakery";
         Connection con;

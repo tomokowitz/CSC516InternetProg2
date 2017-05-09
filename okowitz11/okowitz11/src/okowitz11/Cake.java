@@ -8,10 +8,14 @@ public class Cake {
 
     public Cake() {
     
-    
-    
+      
     }
 
+    public Cake(String cakeid, String cakename, double cakeprice) {
+        this.cakeid = cakeid;
+        this.cakename = cakename;
+        this.cakeprice = cakeprice;
+    }
     public void setCakeid(String cakeid) {
         this.cakeid = cakeid;
     }
