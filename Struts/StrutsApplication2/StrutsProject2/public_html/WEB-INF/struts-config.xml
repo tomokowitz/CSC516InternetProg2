@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+  <action-mappings>
+    <action path="/register1" type="strutsproject2.RegisterAction">
+      <forward name="emptyUserName" path="/emptyusername.jsp"/>
+      <forward name="emptyPassword" path="/emptypassword.jsp"/>
+      <forward name="tooManyMatches" path="/tomanymatches.jsp"/>
+      <forward name="illegalUsernamePassword" path="/illegalentry.jsp"/>
+      <forward name="notStudent" path="/notstudent.jsp"/>
+      <forward name="notUser" path="/notuser.jsp"/>
+      <forward name="success" path="/success.jsp"/>
+    </action>
+  </action-mappings>
+</struts-config>

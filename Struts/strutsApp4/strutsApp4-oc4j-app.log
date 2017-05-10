@@ -1,0 +1,271 @@
+06/11/19 22:37:15.138 10.1.3.0.0 Started
+06/11/19 22:37:45.221 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/19 22:39:00.760 strutsApp4-strutsProject4-webapp: JspServlet: unable to dispatch to requested page: java.io.FileNotFoundException: /confirmRegistration.jsp
+	at oracle.jsp.runtimev2.JspPageCompiler.compilePage(JspPageCompiler.java:337)
+	at oracle.jsp.runtimev2.JspPageInfo.compileAndLoad(JspPageInfo.java:610)
+	at oracle.jsp.runtimev2.JspPageTable.compileAndServe(JspPageTable.java:634)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:370)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:478)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:401)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind.server.http.ServletRequestDispatcher.unprivileged_forward(ServletRequestDispatcher.java:270)
+	at com.evermind.server.http.ServletRequestDispatcher.access$100(ServletRequestDispatcher.java:42)
+	at com.evermind.server.http.ServletRequestDispatcher$2.oc4jRun(ServletRequestDispatcher.java:205)
+	at oracle.oc4j.security.OC4JSecurity.doPrivileged(OC4JSecurity.java:283)
+	at com.evermind.server.http.ServletRequestDispatcher.forward(ServletRequestDispatcher.java:209)
+	at org.apache.struts.action.RequestProcessor.doForward(RequestProcessor.java:1069)
+	at org.apache.struts.action.RequestProcessor.processForwardConfig(RequestProcessor.java:455)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:279)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1485)
+	at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:527)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind.server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind.server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind.server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at com.evermind.util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+
+06/11/19 22:39:14.890 strutsApp4-strutsProject4-webapp: JspServlet: unable to dispatch to requested page: java.io.FileNotFoundException: /confirmRegistration.jsp
+	at oracle.jsp.runtimev2.JspPageCompiler.compilePage(JspPageCompiler.java:337)
+	at oracle.jsp.runtimev2.JspPageInfo.compileAndLoad(JspPageInfo.java:610)
+	at oracle.jsp.runtimev2.JspPageTable.compileAndServe(JspPageTable.java:634)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:370)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:478)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:401)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind.server.http.ServletRequestDispatcher.unprivileged_forward(ServletRequestDispatcher.java:270)
+	at com.evermind.server.http.ServletRequestDispatcher.access$100(ServletRequestDispatcher.java:42)
+	at com.evermind.server.http.ServletRequestDispatcher$2.oc4jRun(ServletRequestDispatcher.java:205)
+	at oracle.oc4j.security.OC4JSecurity.doPrivileged(OC4JSecurity.java:283)
+	at com.evermind.server.http.ServletRequestDispatcher.forward(ServletRequestDispatcher.java:209)
+	at org.apache.struts.action.RequestProcessor.doForward(RequestProcessor.java:1069)
+	at org.apache.struts.action.RequestProcessor.processForwardConfig(RequestProcessor.java:455)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:279)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1485)
+	at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:527)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind.server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind.server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind.server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind.util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+
+06/11/19 22:40:24.220 10.1.3.0.0 Started
+06/11/19 22:40:31.560 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/19 23:04:08.137 10.1.3.0.0 Started
+06/11/19 23:04:20.94 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/19 23:08:59.356 10.1.3.0.0 Started
+06/11/19 23:09:07.67 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/19 23:14:54.917 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Stopped
+06/11/19 23:14:55.698 10.1.3.0.0 Started
+06/11/19 23:15:00.525 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/19 23:17:09.731 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Stopped
+06/11/19 23:17:10.352 10.1.3.0.0 Started
+06/11/19 23:17:14.77 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/19 23:19:44.904 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Stopped
+06/11/19 23:19:45.645 10.1.3.0.0 Started
+06/11/19 23:19:52.195 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 13:32:32.881 10.1.3.0.0 Started
+06/11/20 13:32:39.383 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 13:58:09.815 10.1.3.0.0 Started
+06/11/20 13:58:16.27 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 14:00:41.743 10.1.3.0.0 Started
+06/11/20 14:00:45.703 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 19:27:29.371 10.1.3.0.0 Started
+06/11/20 19:27:58.943 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 19:39:51.27 10.1.3.0.0 Started
+06/11/20 19:40:03.805 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 19:40:57.142 strutsApp4-strutsProject4-webapp: Servlet error
+javax.servlet.jsp.JspException: No getter method for property firstName of bean data
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:968)
+	at org.apache.struts.taglib.bean.WriteTag.doStartTag(WriteTag.java:286)
+	at _register._jspService(_register.java:50)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.0.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:60)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:416)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:478)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:401)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.unprivileged_forward(ServletRequestDispatcher.java:270)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.access$100(ServletRequestDispatcher.java:42)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher$2.oc4jRun(ServletRequestDispatcher.java:205)
+	at oracle.oc4j.security.OC4JSecurity.doPrivileged(OC4JSecurity.java:283)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forward(ServletRequestDispatcher.java:209)
+	at org.apache.struts.action.RequestProcessor.doForward(RequestProcessor.java:1069)
+	at org.apache.struts.action.RequestProcessor.processForwardConfig(RequestProcessor.java:455)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:279)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1485)
+	at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:527)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+06/11/20 19:41:36.308 strutsApp4-strutsProject4-webapp: Servlet error
+javax.servlet.jsp.JspException: No getter method for property firstName of bean data
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:968)
+	at org.apache.struts.taglib.bean.WriteTag.doStartTag(WriteTag.java:286)
+	at _register._jspService(_register.java:50)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.0.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:60)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:416)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:478)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:401)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.unprivileged_forward(ServletRequestDispatcher.java:270)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.access$100(ServletRequestDispatcher.java:42)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher$2.oc4jRun(ServletRequestDispatcher.java:205)
+	at oracle.oc4j.security.OC4JSecurity.doPrivileged(OC4JSecurity.java:283)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forward(ServletRequestDispatcher.java:209)
+	at org.apache.struts.action.RequestProcessor.doForward(RequestProcessor.java:1069)
+	at org.apache.struts.action.RequestProcessor.processForwardConfig(RequestProcessor.java:455)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:279)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1485)
+	at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:527)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+06/11/20 19:41:56.938 10.1.3.0.0 Started
+06/11/20 19:42:01.745 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 19:44:41.895 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Stopped
+06/11/20 19:44:42.516 10.1.3.0.0 Started
+06/11/20 19:44:46.71 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 19:46:59.513 10.1.3.0.0 Started
+06/11/20 19:47:03.229 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 19:47:29.867 10.1.3.0.0 Started
+06/11/20 19:47:33.402 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 19:49:33.925 10.1.3.0.0 Started
+06/11/20 19:49:37.320 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 19:53:59.457 10.1.3.0.0 Started
+06/11/20 19:54:03.553 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 19:55:46.922 10.1.3.0.0 Started
+06/11/20 19:55:50.497 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 19:57:34.917 10.1.3.0.0 Started
+06/11/20 19:57:38.582 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 20:06:53.180 10.1.3.0.0 Started
+06/11/20 20:06:56.855 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 20:07:13.269 strutsApp4-strutsProject4-webapp: Servlet error
+javax.servlet.jsp.JspException: No getter method for property crns of bean userFormBean
+	at org.apache.struts.util.RequestUtils.lookup(RequestUtils.java:968)
+	at org.apache.struts.taglib.bean.WriteTag.doStartTag(WriteTag.java:286)
+	at _confirmregistration._jspService(_confirmregistration.java:95)
+	at com.orionserver[Oracle Containers for J2EE 10g (10.1.3.0.0) ].http.OrionHttpJspPage.service(OrionHttpJspPage.java:60)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:416)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:478)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:401)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.unprivileged_forward(ServletRequestDispatcher.java:270)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.access$100(ServletRequestDispatcher.java:42)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher$2.oc4jRun(ServletRequestDispatcher.java:205)
+	at oracle.oc4j.security.OC4JSecurity.doPrivileged(OC4JSecurity.java:283)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forward(ServletRequestDispatcher.java:209)
+	at org.apache.struts.action.RequestProcessor.doForward(RequestProcessor.java:1069)
+	at org.apache.struts.action.RequestProcessor.processForwardConfig(RequestProcessor.java:455)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:279)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1485)
+	at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:527)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind[Oracle Containers for J2EE 10g (10.1.3.0.0) ].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+06/11/20 20:10:41.889 10.1.3.0.0 Started
+06/11/20 20:10:50.451 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 20:19:41.815 10.1.3.0.0 Started
+06/11/20 20:19:54.964 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 20:36:38.747 10.1.3.0.0 Started
+06/11/20 20:36:46.348 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 20:38:50.176 10.1.3.0.0 Started
+06/11/20 20:38:53.902 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 20:42:57.462 10.1.3.0.0 Started
+06/11/20 20:43:04.492 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/20 20:48:18.233 10.1.3.0.0 Started
+06/11/20 20:48:21.798 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 13:46:04.141 10.1.3.0.0 Started
+06/11/27 13:46:10.487 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 13:58:40.287 10.1.3.0.0 Started
+06/11/27 13:58:45.420 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 14:01:33.522 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Stopped
+06/11/27 14:01:34.193 10.1.3.0.0 Started
+06/11/27 14:01:39.122 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 14:04:05.842 10.1.3.0.0 Started
+06/11/27 14:04:09.947 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 14:25:13.462 10.1.3.0.0 Started
+06/11/27 14:25:17.568 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 14:27:08.335 10.1.3.0.0 Started
+06/11/27 14:27:12.348 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 14:28:33.916 10.1.3.0.0 Started
+06/11/27 14:28:37.851 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 14:30:45.997 10.1.3.0.0 Started
+06/11/27 14:30:50.57 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 17:35:17.141 10.1.3.0.0 Started
+06/11/27 17:35:45.662 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 17:38:45.290 10.1.3.0.0 Started
+06/11/27 17:38:52.240 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 17:43:53.3 10.1.3.0.0 Started
+06/11/27 17:43:56.638 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 17:49:28.966 10.1.3.0.0 Started
+06/11/27 17:49:32.521 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 17:53:28.460 10.1.3.0.0 Started
+06/11/27 17:53:32.106 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 17:55:49.733 10.1.3.0.0 Started
+06/11/27 17:55:53.389 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 17:58:46.658 10.1.3.0.0 Started
+06/11/27 17:58:50.253 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started
+06/11/27 18:07:00.588 10.1.3.0.0 Started
+06/11/27 18:07:04.203 strutsApp4-strutsProject4-webapp: 10.1.3.0.0 Started

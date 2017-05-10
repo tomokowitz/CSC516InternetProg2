@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+  <form-beans>
+    <form-bean name="userFormBean" type="strutsproject5.UserFormBean"/>
+  </form-beans>
+  <action-mappings>
+    <action path="/login" type="strutsproject5.RegisterAction"
+            parameter="operation">
+      <forward name="emptyUserName" path="/emptyusername.jsp"/>
+      <forward name="emptyPassword" path="/emptypassword.jsp"/>
+      <forward name="tooManyMatches" path="/tomanymatches.jsp"/>
+      <forward name="illegalUsernamePassword" path="/illegalentry.jsp"/>
+      <forward name="notStudent" path="/notstudent.jsp"/>
+      <forward name="notUser" path="/notuser.jsp"/>
+      <forward name="drop" path="/drop.jsp"/>
+      <forward name="see" path="/see.jsp"/>
+      <forward name="register" path="/register.jsp"/>
+    </action>
+    <action path="/register" type="strutsproject5.BeanRegisterAction"
+            name="userFormBean" scope="request">
+      <forward name="badCourse" path="/badcourse.jsp"/>
+      <forward name="badSection" path="/badsection.jsp"/>
+      <forward name="notExists" path="/notexists.jsp"/>
+      <forward name="success" path="/confirmregistration.jsp"/>
+    </action>
+    <action path="/choice2" type="strutsproject5.NextChoice"
+            parameter="choice">
+      <forward name="another" path="/register.jsp"/>
+      <forward name="see" path="/seeall.jsp"/>            
+    </action>
+    <action path="/goAhead" type="strutsproject5.FinalChoice"
+            parameter="choice">
+      <forward name="another" path="/register.jsp"/>
+      <forward name="see" path="/seeall.jsp"/>   
+      <forward name="complete" path="/complete.jsp"/>       
+    </action>
+  </action-mappings>
+  <message-resources parameter="MessageResources" null="false" /> 
+</struts-config>
+
+

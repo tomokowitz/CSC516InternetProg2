@@ -1,0 +1,51 @@
+06/11/18 17:05:30.319 10.1.3.0.0 Started
+06/11/18 17:05:36.67 StrutsApplication2-StrutsProject2-webapp: 10.1.3.0.0 Started
+06/11/18 17:06:23.385 StrutsApplication2-StrutsProject2-webapp: JspServlet: unable to dispatch to requested page: java.io.FileNotFoundException: C:\Documents and Settings\john\Desktop\sed2\struts1\StrutsApplication2\StrutsProject2\public_html\confirm.jsp (The system cannot find the file specified.
+)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at oracle.jsp.provider.JspFilesystemResource.fromStream(JspFilesystemResource.java:149)
+	at oracle.jsp.parse.XMLUtil.getFromStream(XMLUtil.java:227)
+	at oracle.jsp.runtimev2.JspPageCompiler.compilePage(JspPageCompiler.java:341)
+	at oracle.jsp.runtimev2.JspPageInfo.compileAndLoad(JspPageInfo.java:610)
+	at oracle.jsp.runtimev2.JspPageTable.compileAndServe(JspPageTable.java:634)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:370)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:478)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:401)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind.server.http.ServletRequestDispatcher.unprivileged_forward(ServletRequestDispatcher.java:270)
+	at com.evermind.server.http.ServletRequestDispatcher.access$100(ServletRequestDispatcher.java:42)
+	at com.evermind.server.http.ServletRequestDispatcher$2.oc4jRun(ServletRequestDispatcher.java:205)
+	at oracle.oc4j.security.OC4JSecurity.doPrivileged(OC4JSecurity.java:283)
+	at com.evermind.server.http.ServletRequestDispatcher.forward(ServletRequestDispatcher.java:209)
+	at org.apache.struts.action.RequestProcessor.doForward(RequestProcessor.java:1069)
+	at org.apache.struts.action.RequestProcessor.processForwardConfig(RequestProcessor.java:455)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:279)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1485)
+	at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:527)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:763)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:856)
+	at com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:719)
+	at com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:376)
+	at com.evermind.server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java:870)
+	at com.evermind.server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:451)
+	at com.evermind.server.http.HttpRequestHandler.serveOneRequest(HttpRequestHandler.java:218)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:119)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at oracle.oc4j.network.ServerSocketReadHandler$SafeRunnable.run(ServerSocketReadHandler.java:260)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.procClientSocket(ServerSocketAcceptHandler.java:230)
+	at oracle.oc4j.network.ServerSocketAcceptHandler.access$800(ServerSocketAcceptHandler.java:33)
+	at oracle.oc4j.network.ServerSocketAcceptHandler$AcceptHandlerHorse.run(ServerSocketAcceptHandler.java:831)
+	at com.evermind.util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:303)
+	at java.lang.Thread.run(Thread.java:595)
+
+06/11/18 17:07:18.204 10.1.3.0.0 Started
+06/11/18 17:07:23.722 StrutsApplication2-StrutsProject2-webapp: 10.1.3.0.0 Started
+06/11/18 17:18:49.338 StrutsApplication2-StrutsProject2-webapp: 10.1.3.0.0 Stopped
+06/11/18 17:18:50.229 10.1.3.0.0 Started
+06/11/18 17:18:58.822 StrutsApplication2-StrutsProject2-webapp: 10.1.3.0.0 Started
+06/11/18 17:21:46.433 10.1.3.0.0 Started
+06/11/18 17:21:49.417 StrutsApplication2-StrutsProject2-webapp: 10.1.3.0.0 Started
