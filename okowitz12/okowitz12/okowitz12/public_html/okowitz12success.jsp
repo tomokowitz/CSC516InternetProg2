@@ -6,8 +6,7 @@
   Statement stmt;
   PreparedStatement stmt2;
   String query = "SELECT DISTINCT ORDERID, DATE, LOCATION FROM ORDERS;";
-  
-  
+    
   public void setupDB()
   {
     try
