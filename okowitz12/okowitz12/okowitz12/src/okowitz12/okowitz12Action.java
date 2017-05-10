@@ -15,12 +15,7 @@ public class okowitz12Action extends Action {
                                  HttpServletResponse response) 
                                  throws Exception 
     {
-         PreparedStatement stmt;
          
-         
-         
-         
-                                 
          return (mapping.findForward(" ")); 
          return (mapping.findForward(" ")); 
          
@@ -28,7 +23,7 @@ public class okowitz12Action extends Action {
          
          String url = "jdbc:odbc:bakery";
          Connection con;
-         String query = 
+         Statement stmt;
          
          try
          {
@@ -43,6 +38,9 @@ public class okowitz12Action extends Action {
          {
              con = DriverManager.getConnection(url, "", "");
              
+             stmt.executeUpdate("insert into ORDERS values(" +
+                                            input1 + ",'" + input2 + "','" + today_date +
+                                            "','');");
          }
          catch(SQLException ex)
          {
@@ -50,10 +48,6 @@ public class okowitz12Action extends Action {
          }
          
          
-         ServletContext context = getServletContext();
-                         RequestDispatcher dispatcher =
-                                context.getRequestDispatcher("/ex2");
-                         dispatcher.forward(request, response);
          
          
          return (mapping.findForward("okowitz12success")); 
