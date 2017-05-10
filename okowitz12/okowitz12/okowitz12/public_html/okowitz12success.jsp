@@ -3,12 +3,10 @@
 <%! // Declarations ok for the page
   String url = "jdbc:odbc:bakery";
   Connection con;
-  Statement stmt3;
-  PreparedStatement stmt4;
-  String query = "select COUNT(*) as MATCHES from USERS where USERID like ? " +
-                      " and PASSWORD like ?;";
-  String query2 = "select COUNT(*) from USERROLES where ROLEID = 1 and " +
-                       " USERID like ?;";
+  Statement stmt;
+  PreparedStatement stmt2;
+  String query = "SELECT DISTINCT ORDERID, DATE, LOCATION FROM ORDERS;";
+  
   
   public void setupDB()
   {
@@ -24,8 +22,8 @@
     try
     {
            con = DriverManager.getConnection(url, "", "");
-           stmt = con.prepareStatement(query);
-           stmt2 = con.prepareStatement(query2);
+           stmt = con.createStatement();
+           stmt2 = con.prepareStatement(query);
     }
     catch(SQLException ex)
     {
@@ -41,12 +39,11 @@
   <body>
   <%
     setupDB();
-    String input1 = request.getParameter( "course" );
-    String input2 = request.getParameter( "username" );
+    
     try
     {
-        stmt.setString(1, input1);
-        ResultSet rs = stmt.executeQuery();
+        
+        ResultSet rs = stmt2.executeQuery();
   %>
   
   
@@ -60,21 +57,16 @@
             <%
         while (rs.next())
         {
-           String crn = rs.getString("CRN");
-           String section = rs.getString("SECTION");
-           String date = rs.getString("DATES");
-           String time = rs.getString("TIMES");
-           String instructor = rs.getString("INSTRUCTOR");
-           String room = rs.getString("ROOM");
+           String orderid = rs.getString("ORDERID");
+           String date = rs.getString("DATE");
+           String location = rs.getString("LOCATION");
     %>
            <TR>
            <TD><input type='radio' name='crn' value='<%=crn%>'> </TD>
-           <TD><%= crn %></TD>
-           <TD><%= section %></TD>
+           <TD><%= orderid %></TD>
            <TD><%= date %></TD>
-           <TD><%= time %></TD>
-           <TD><%= instructor %></TD>
-           <TD><%= room %></TD>  
+           <TD><%= location %></TD>
+
            </TR>
     <%
         }
