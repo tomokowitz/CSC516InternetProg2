@@ -3,7 +3,7 @@
 <struts-config>
  
   <action-mappings>
-    <action path="" type="">
+    <action path="" type="okowitz12.okowitz12Action">
         <forward name="" path=""/>
         <forward name="" path=""/>
         <forward name="" path=""/>

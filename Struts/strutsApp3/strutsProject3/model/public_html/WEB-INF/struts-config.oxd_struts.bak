@@ -1,6 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <?Oracle-JDeveloper Diagram = '1.1.2'?>
-<?Oracle-JDeveloper DBDiagram = '1.1'?>
 <diagram xmlns="http://xmlns.oracle.com/jdeveloper/modeler/diagram">
    <!--This is redundant information provided by the diagrammer for the structure pane-->
    <structure xmlns=""/>
