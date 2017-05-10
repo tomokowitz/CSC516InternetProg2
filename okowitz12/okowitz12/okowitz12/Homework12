@@ -1,0 +1,18 @@
+Homework 12
+ 
+The video lectures for Struts 1, Struts 2, and Struts 3 contain enough 
+information to do this assignment.
+ 
+Create a struts application in a project named <lastname>12 that will have the following features:
+    -an initial html file named <lastname>12.jsp that will allow a user to 
+    enter for a new ORDERS record.
+    -a jsp page named <lastname>success.jsp that will display a table of 
+        information about all ORDERS records in the database (including the new one)
+        - don't worry if the.new record doesn't show up immediately.
+    -a series of jsp pages that will display the reason why the new ORDERS 
+        record could not have been entered. These reasons should include that 
+        the ORDERID already exists, that the CUSTOMERID does not exist in the 
+        CUSTOMERS table, or that one or more of the data fields are empty.
+    - new subclass of Action named <lastname>12Action.java that will figure out 
+        what to do.
+    - struts-config.xml
