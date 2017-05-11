@@ -186,6 +186,16 @@
             <value n="URI" v="http://jakarta.apache.org/struts/tags-tiles"/>
             <value n="version" v="1.0"/>
          </hash>
+         <hash n="WEB-INF\struts-bean.tld">
+            <value n="jspVersion" v="1.1"/>
+            <value n="name" v="Struts Bean"/>
+            <value n="prefix" v="bean"/>
+            <value n="runInEditor" v="false"/>
+            <value n="showInPalette" v="true"/>
+            <value n="tldURL" v="WEB-INF/struts-bean.tld"/>
+            <value n="URI" v="http://jakarta.apache.org/struts/tags-bean"/>
+            <value n="version" v="1.0"/>
+         </hash>
       </hash>
    </hash>
    <hash n="oracle.tip.tools.ide.pm.addin.PMProjectSettings">
