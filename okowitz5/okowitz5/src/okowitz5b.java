@@ -72,6 +72,7 @@ public class okowitz5b extends HttpServlet {
         try 
         {
             //con =   DriverManager.getConnection("jdbc:ucanaccess://C:/Users/Tom Okowitz/Documents/IT and Software/jdbc/bakery.accdb");
+             con = DriverManager.getConnection (url,"","");
             stmt = con.createStatement();
             
             stmt.executeUpdate("insert into CAKES values(" +

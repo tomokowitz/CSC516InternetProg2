@@ -4,10 +4,13 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+import java.sql.Statement;
 
 import java.util.*;
 
@@ -19,14 +22,52 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import javax.servlet.*;
+import javax.servlet.http.*;
+import java.io.*;
+import java.sql.*;
 
 public class okowitz5a extends HttpServlet {
     private static final String CONTENT_TYPE = "text/html; charset=windows-1252";
 
-    //PreparedStatement stmt;
+    PreparedStatement stmt;
     public void init(ServletConfig config) throws ServletException {
         super.init(config);
         
+        String url = "jdbc:odbc:bakery";
+             // more generally, url = "jdbc:mySubprotocol:myDataSource";
+               
+        Connection con;
+             // A Connection represents a session with a specific database.
+             // Within the
+             // context of a Connection, SQL statements are executed and
+             // results are returned.
+            
+        Statement stmt;
+             // A Statement object is used for executing a static SQL
+             // statement and obtaining
+             // the results produced by it.       
+        String query;
+        query = "SELECT * FROM CAKES WHERE CAKEID = ?"       ;
+        
+        try
+               {
+                Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+               }
+               catch(java.lang.ClassNotFoundException e)
+               {
+                System.err.print("ClassNotFoundException: ");
+                System.err.println(e.getMessage());
+               }
+               try
+               {
+                   con = DriverManager.getConnection(url, "", "");
+                   stmt = con.prepareStatement(query);
+               }
+               catch(SQLException ex)
+               {
+                  System.err.println("SQLException: " + ex.getMessage());
+               }
         
     }
 
@@ -41,47 +82,48 @@ public class okowitz5a extends HttpServlet {
         int CAKEID;
         boolean exists = false;
         String input1= request.getParameter( "CAKEID" );
+        
+        
+        
         CAKEID = Integer.parseInt( request.getParameter( "CAKEID" ));
         String CAKENAME = request.getParameter( "CAKENAME" );
         double CAKEPRICE;
         CAKEPRICE = Double.parseDouble(request.getParameter( "CAKEPRICE" ));
         
         
+        PrintWriter output;
+              response.setContentType( "text/html" ); 
+              output = response.getWriter();          
+        
+        
+        try
+              {
+                stmt.setString(1, input1);
+                ResultSet rs = stmt.executeQuery();
+                ResultSetMetaData rsmd = rs.getMetaData();
+                int columns = rsmd.getColumnCount();
+                int count = 0;
+                boolean printed = false;
+                while (rs.next())
+                {
+                  if (! printed)
+                  {}
+                }
+        }
+              catch(SQLException ex)
+              {
+                 System.err.println("SQLException: " + ex.getMessage());
+              }
         String id="";
         String name="";
         String price="";
 
-        Vector nameVector = new Vector();
-        Vector priceVector = new Vector();
-        
-        Vector customerVector = new Vector();
-        int[] count= new int[1];
-            
-            
-         
-        try {
-            BufferedReader cakein = new BufferedReader(new FileReader("D:/Users/okowitz/Documents/GitHub/CSC516InternetProg2/DataFiles/CAKES.txt"));
-         
-                     
+           try
+           {
        
-            String s; 
-                 while (true) 
-                 { 
-                    s = cakein.readLine(); 
-                    if (s == null) break; 
-                    int comma = s.indexOf(',');
-                    id = s.substring(0,comma);
-                    int intID = Integer.parseInt(id);
-                    count[0]++;
-                    
-                    
-                    String secondSubstring = s.substring(comma+1);
-                    int secondComma = secondSubstring.indexOf(',');
-                    name = secondSubstring.substring(0, secondComma);
-                    
-                    String thirdSubstring = secondSubstring.substring(secondComma+1);
-                    int thirdComma = thirdSubstring.indexOf(',');
-                    price = thirdSubstring.substring(0,thirdComma);
+
+                    int intID ;
+
                     
                     if(intID==CAKEID)
                     {
@@ -89,8 +131,8 @@ public class okowitz5a extends HttpServlet {
                     }
                     
                     
-                } 
-                cakein.close(); 
+                 
+                
                 if(exists) {
                     String paramErrMsg = "This cake ID already exists.";
                     request.setAttribute("strErrMsg", paramErrMsg);
@@ -117,10 +159,6 @@ public class okowitz5a extends HttpServlet {
         }
         try
         {
-                
-                
-              
-                        
                 response.setContentType(CONTENT_TYPE);
                 PrintWriter out = response.getWriter();
                 out.println("<html>");
