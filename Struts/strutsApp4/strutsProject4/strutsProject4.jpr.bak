@@ -1,26 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <jpr:project xmlns:jpr="http://xmlns.oracle.com/ide/project">
    <hash n="component-versions">
-      <value n="oracle.adf.dt.migration.ProjectMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.adfdt.controller.jsf.addin.JSFProjectMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.adfdt.controller.struts.addin.db.ADFStrutsProjectMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.adfdt.controller.struts.addin.StrutsProjectMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.adfdtinternal.model.portlet.migration.WebCenterProjectMigrator" v="10.1.3.3.0"/>
-      <value n="oracle.adfdtinternal.view.faces.addin.ADFFacesLibraryMigrator" v="10.1.3.3.0"/>
-      <value n="oracle.bm.commonIde.ProjectUpgrader" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.ide.model.Project" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.ide.model.ResourcePathsMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.jbo.dt.jclient.migrator.JCProjectMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.jbo.dt.jdevx.ui.appnav.APProjectMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.jdeveloper.dbmodeler.migration.ProjectMigratorHelper" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.jdeveloper.ejb.EjbMigrator" v="10.1.3.3.0"/>
-      <value n="oracle.jdeveloper.offlinedb.migration.OfflineDBProjectMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.jdevimpl.jsp.JsfLibraryMigrator" v="10.1.3.3.0"/>
-      <value n="oracle.jdevimpl.jsp.JspMigrator" v="10.1.3.0.4;10.1.3.1.0"/>
-      <value n="oracle.jdevimpl.runner.RunConfigurationsMigrator" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.jdevimpl.webservices.WebServicesMigratorHelper" v="10.1.3.0.4;10.1.3.3.0"/>
-      <value n="oracle.tip.tools.ide.pm.addin.PMProjectMigrator" v="10.1.3.3.0"/>
-      <value n="oracle.toplink.addin.migration.TopLinkProjectMigrator" v="10.1.3.0.4;10.1.3.1.0"/>
+      <value n="oracle.adf.dt.migration.ProjectMigrator" v="10.1.3.0.4"/>
+      <value n="oracle.adfdt.controller.jsf.addin.JSFProjectMigrator" v="10.1.3.0.4"/>
+      <value n="oracle.adfdt.controller.struts.addin.db.ADFStrutsProjectMigrator" v="10.1.3.0.4"/>
+      <value n="oracle.adfdt.controller.struts.addin.StrutsProjectMigrator" v="10.1.3.0.4"/>
+      <value n="oracle.bm.commonIde.ProjectUpgrader" v="10.1.3.0.4"/>
+      <value n="oracle.ide.model.Project" v="10.1.3.0.4"/>
+      <value n="oracle.ide.model.ResourcePathsMigrator" v="10.1.3.0.4"/>
+      <value n="oracle.jbo.dt.jclient.migrator.JCProjectMigrator" v="10.1.3.0.4"/>
+      <value n="oracle.jbo.dt.jdevx.ui.appnav.APProjectMigrator" v="10.1.3.0.4"/>
+      <value n="oracle.jdeveloper.dbmodeler.migration.ProjectMigratorHelper" v="10.1.3.0.4"/>
+      <value n="oracle.jdeveloper.offlinedb.migration.OfflineDBProjectMigrator" v="10.1.3.0.4"/>
+      <value n="oracle.jdevimpl.jsp.JspMigrator" v="10.1.3.0.4"/>
+      <value n="oracle.jdevimpl.runner.RunConfigurationsMigrator" v="10.1.3.0.4"/>
+      <value n="oracle.jdevimpl.webservices.WebServicesMigratorHelper" v="10.1.3.0.4"/>
+      <value n="oracle.toplink.addin.migration.TopLinkProjectMigrator" v="10.1.3.0.4"/>
    </hash>
    <list n="contentSets">
       <string v="oracle.jdeveloper.model.PathsConfiguration/javaContentSet"/>
@@ -29,14 +24,10 @@
       <string v="oracle.jdeveloper.model.J2eeSettings/webContentSet"/>
       <string v="oracle.toplink.addin.TopLinkProjectSettings/toplinkContentSet"/>
       <string v="oracle.bm.commonIde.data.project.ModelerProjectSettings/modelersContentSet"/>
-      <string v="oracle.tip.tools.ide.pm.addin.PMProjectSettings/Integration_Content"/>
    </list>
    <value n="defaultPackage" v="strutsproject4"/>
    <hash n="oracle.bm.commonIde.data.project.ModelerProjectSettings">
       <hash n="modelersContentSet">
-         <list n="pattern-filters">
-            <string v="+**"/>
-         </list>
          <list n="url-path">
             <url path="model/"/>
          </list>
@@ -249,6 +240,72 @@
             <value n="URI" v="http://java.sun.com/jstl/xml_rt"/>
             <value n="version" v="1.0"/>
          </hash>
+         <hash n="WEB-INF\lib\struts.jar!\META-INF\tlds\struts-bean.tld">
+            <hash n="baseLibrary">
+               <value n="name" v="Struts Bean"/>
+               <value n="version" v="1.0"/>
+            </hash>
+            <value n="jspVersion" v="1.1"/>
+            <value n="name" v="Struts Bean"/>
+            <value n="tldURL" v="WEB-INF/lib/struts.jar!/META-INF/tlds/struts-bean.tld"/>
+            <value n="URI" v="http://jakarta.apache.org/struts/tags-bean"/>
+            <value n="version" v="1.0"/>
+         </hash>
+         <hash n="WEB-INF\lib\struts.jar!\META-INF\tlds\struts-html.tld">
+            <hash n="baseLibrary">
+               <value n="name" v="Struts HTML"/>
+               <value n="version" v="1.0"/>
+            </hash>
+            <value n="jspVersion" v="1.1"/>
+            <value n="name" v="Struts HTML"/>
+            <value n="tldURL" v="WEB-INF/lib/struts.jar!/META-INF/tlds/struts-html.tld"/>
+            <value n="URI" v="http://jakarta.apache.org/struts/tags-html"/>
+            <value n="version" v="1.0"/>
+         </hash>
+         <hash n="WEB-INF\lib\struts.jar!\META-INF\tlds\struts-logic.tld">
+            <hash n="baseLibrary">
+               <value n="name" v="Struts Logic"/>
+               <value n="version" v="1.0"/>
+            </hash>
+            <value n="jspVersion" v="1.1"/>
+            <value n="name" v="Struts Logic"/>
+            <value n="tldURL" v="WEB-INF/lib/struts.jar!/META-INF/tlds/struts-logic.tld"/>
+            <value n="URI" v="http://jakarta.apache.org/struts/tags-logic"/>
+            <value n="version" v="1.0"/>
+         </hash>
+         <hash n="WEB-INF\lib\struts.jar!\META-INF\tlds\struts-nested.tld">
+            <hash n="baseLibrary">
+               <value n="name" v="Struts Nested"/>
+               <value n="version" v="1.0"/>
+            </hash>
+            <value n="jspVersion" v="1.1"/>
+            <value n="name" v="Struts Nested"/>
+            <value n="tldURL" v="WEB-INF/lib/struts.jar!/META-INF/tlds/struts-nested.tld"/>
+            <value n="URI" v="http://jakarta.apache.org/struts/tags-nested"/>
+            <value n="version" v="1.0"/>
+         </hash>
+         <hash n="WEB-INF\lib\struts.jar!\META-INF\tlds\struts-template.tld">
+            <hash n="baseLibrary">
+               <value n="name" v="Struts Templates"/>
+               <value n="version" v="1.0"/>
+            </hash>
+            <value n="jspVersion" v="1.1"/>
+            <value n="name" v="Struts Templates"/>
+            <value n="tldURL" v="WEB-INF/lib/struts.jar!/META-INF/tlds/struts-template.tld"/>
+            <value n="URI" v="http://jakarta.apache.org/struts/tags-template"/>
+            <value n="version" v="1.0"/>
+         </hash>
+         <hash n="WEB-INF\lib\struts.jar!\META-INF\tlds\struts-tiles.tld">
+            <hash n="baseLibrary">
+               <value n="name" v="Struts Tiles"/>
+               <value n="version" v="1.0"/>
+            </hash>
+            <value n="jspVersion" v="1.1"/>
+            <value n="name" v="Struts Tiles"/>
+            <value n="tldURL" v="WEB-INF/lib/struts.jar!/META-INF/tlds/struts-tiles.tld"/>
+            <value n="URI" v="http://jakarta.apache.org/struts/tags-tiles"/>
+            <value n="version" v="1.0"/>
+         </hash>
          <hash n="WEB-INF\struts-bean.tld">
             <hash n="baseLibrary">
                <value n="name" v="Struts Bean"/>
@@ -260,13 +317,6 @@
             <value n="URI" v="http://jakarta.apache.org/struts/tags-bean"/>
             <value n="version" v="1.0"/>
          </hash>
-      </hash>
-   </hash>
-   <hash n="oracle.tip.tools.ide.pm.addin.PMProjectSettings">
-      <hash n="Integration_Content">
-         <list n="pattern-filters">
-            <string v="+**"/>
-         </list>
       </hash>
    </hash>
    <hash n="oracle.toplink.addin.TopLinkProjectSettings">
