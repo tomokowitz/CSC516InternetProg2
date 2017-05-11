@@ -79,13 +79,13 @@ public class okowitz5a extends HttpServlet {
                                                             
       
                 
-        int CAKEID;
+        int id;
         boolean exists = false;
         String input1= request.getParameter( "CAKEID" );
-        CAKEID = Integer.parseInt( request.getParameter( "CAKEID" ));
-        String CAKENAME = request.getParameter( "CAKENAME" );
-        double CAKEPRICE;
-        CAKEPRICE = Double.parseDouble(request.getParameter( "CAKEPRICE" ));
+        id = Integer.parseInt( request.getParameter( "CAKEID" ));
+        String name = request.getParameter( "CAKENAME" );
+        double price;
+        price = Double.parseDouble(request.getParameter( "CAKEPRICE" ));
         
         
         PrintWriter output;
@@ -128,9 +128,9 @@ public class okowitz5a extends HttpServlet {
                 }
                 else
                 {
-                    request.setAttribute("CAKEID", CAKEID);
-                    request.setAttribute("CAKENAME", CAKENAME);
-                    request.setAttribute("CAKEPRICE", CAKEPRICE);
+                    request.setAttribute("CAKEID", id);
+                    request.setAttribute("CAKENAME", name);
+                    request.setAttribute("CAKEPRICE", price);
                     
                     ServletContext context = getServletContext();
                     RequestDispatcher dispatcher = context.getRequestDispatcher("/okowitz5b");
