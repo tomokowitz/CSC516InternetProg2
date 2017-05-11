@@ -3,11 +3,11 @@
 <struts-config>
  
   <action-mappings>
-    <action path="" type="okowitz12.okowitz12Action">
-        <forward name="" path=""/>
-        <forward name="" path=""/>
-        <forward name="" path=""/>
-        <forward name="" path=""/>
+    <action path="/okowitz12" type="okowitz12.okowitz12Action">
+        <forward name="duporder" path="/duporder.jsp"/>
+        <forward name="emptyfield" path="/emptyfield.jsp"/>
+        <forward name="nocustomer" path="/nocustomer.jsp"/>
+        <forward name="success" path="okowitz12success.jsp"/>
     </action>
   </action-mappings>
 </struts-config>

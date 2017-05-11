@@ -4,5 +4,18 @@
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
     <title>okowitz12</title>
   </head>
-  <body></body>
+  <body>
+  
+  <form action="/okowitz12.do" method="POST">
+    
+        <input type="text" name="orderid"/>
+  
+        <input type="text" name="ordername"/>
+  
+        <input type="text" name="orderlocation"/>
+  
+        <input type="submit" value="submit order"/>
+  
+  </form>
+  </body>
 </html>
