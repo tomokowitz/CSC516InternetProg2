@@ -48,26 +48,26 @@ public class okowitz5a extends HttpServlet {
              // statement and obtaining
              // the results produced by it.       
         String query;
-        query = "SELECT * FROM CAKES WHERE CAKEID = ?"       ;
+        query = "SELECT COUNT(*) AS MATCHES FROM CAKES WHERE CAKEID = ?;"  ;
         
         try
-               {
-                Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-               }
-               catch(java.lang.ClassNotFoundException e)
-               {
-                System.err.print("ClassNotFoundException: ");
-                System.err.println(e.getMessage());
-               }
-               try
-               {
-                   con = DriverManager.getConnection(url, "", "");
-                   stmt = con.prepareStatement(query);
-               }
-               catch(SQLException ex)
-               {
-                  System.err.println("SQLException: " + ex.getMessage());
-               }
+       {
+            Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+       }
+       catch(java.lang.ClassNotFoundException e)
+       {
+            System.err.print("ClassNotFoundException: ");
+            System.err.println(e.getMessage());
+       }
+       try
+       {
+           con = DriverManager.getConnection(url, "", "");
+           stmt = con.prepareStatement(query);
+       }
+       catch(SQLException ex)
+       {
+          System.err.println("SQLException: " + ex.getMessage());
+       }
         
     }
 
@@ -82,9 +82,6 @@ public class okowitz5a extends HttpServlet {
         int CAKEID;
         boolean exists = false;
         String input1= request.getParameter( "CAKEID" );
-        
-        
-        
         CAKEID = Integer.parseInt( request.getParameter( "CAKEID" ));
         String CAKENAME = request.getParameter( "CAKENAME" );
         double CAKEPRICE;
@@ -104,34 +101,22 @@ public class okowitz5a extends HttpServlet {
                 int columns = rsmd.getColumnCount();
                 int count = 0;
                 boolean printed = false;
-                while (rs.next())
-                {
-                  if (! printed)
-                  {}
-                }
-        }
+                rs.next();
+                    int match_count = rs.getInt("MATCHES");
+                    if (match_count >= 1)
+                    {
+                        exists=true;
+                    }
+                    
+                 }
               catch(SQLException ex)
               {
                  System.err.println("SQLException: " + ex.getMessage());
               }
-        String id="";
-        String name="";
-        String price="";
+        
 
            try
            {
-       
-
-                    int intID ;
-
-                    
-                    if(intID==CAKEID)
-                    {
-                        exists = true;
-                    }
-                    
-                    
-                 
                 
                 if(exists) {
                     String paramErrMsg = "This cake ID already exists.";
@@ -143,9 +128,9 @@ public class okowitz5a extends HttpServlet {
                 }
                 else
                 {
-                    request.setAttribute("CAKEID", id);
-                    request.setAttribute("CAKENAME", name);
-                    request.setAttribute("CAKEPRICE", price);
+                    request.setAttribute("CAKEID", CAKEID);
+                    request.setAttribute("CAKENAME", CAKENAME);
+                    request.setAttribute("CAKEPRICE", CAKEPRICE);
                     
                     ServletContext context = getServletContext();
                     RequestDispatcher dispatcher = context.getRequestDispatcher("/okowitz5b");
