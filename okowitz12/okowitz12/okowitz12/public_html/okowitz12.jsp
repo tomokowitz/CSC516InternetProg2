@@ -7,13 +7,15 @@
   <body>
   
   <form action="/okowitz12.do" method="POST">
-    
+    Order ID:
         <input type="text" name="orderid"/>
-  
+  <br> Order Name:
         <input type="text" name="ordername"/>
-  
+  <br> Order Location:
         <input type="text" name="orderlocation"/>
-  
+  <br> Customer ID:
+        <input type="text" name="customerid"/>
+        
         <input type="submit" value="submit order"/>
   
   </form>
