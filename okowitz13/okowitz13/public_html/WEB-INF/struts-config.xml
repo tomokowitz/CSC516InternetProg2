@@ -2,4 +2,5 @@
 <!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
 <struts-config>
   <message-resources parameter="okowitz13.ApplicationResources"/>
+  <message-resources parameter="MessageResources" null="false" /> 
 </struts-config>

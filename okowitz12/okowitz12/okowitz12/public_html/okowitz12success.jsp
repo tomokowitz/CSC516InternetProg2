@@ -5,7 +5,7 @@
   Connection con;
   Statement stmt;
   PreparedStatement stmt2;
-  String query = "SELECT DISTINCT ORDERID, DATE, LOCATION FROM ORDERS;";
+  String query = "SELECT DISTINCT ORDERID, DATE, LOCATION, CUSTOMERID FROM ORDERS;";
     
   public void setupDB()
   {
@@ -51,7 +51,7 @@
                 <TH>ORDER ID</TH>
                 <TH>ORDER DATE</TH>
                 <TH>ORDER LOCATION</TH>
-                
+                <TH>CUSTOMER ID</TH>
             </TR>
             <%
         while (rs.next())
@@ -59,13 +59,14 @@
            String orderid = rs.getString("ORDERID");
            String date = rs.getString("DATE");
            String location = rs.getString("LOCATION");
+           String customerid = rs.getString("CUSTOMERID");
     %>
            <TR>
-           <TD><input type='radio' name='crn' value='<%=crn%>'> </TD>
+           
            <TD><%= orderid %></TD>
            <TD><%= date %></TD>
            <TD><%= location %></TD>
-
+           <TD><%= customerid %></TD>
            </TR>
     <%
         }

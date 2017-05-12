@@ -15,21 +15,51 @@ public class okowitz12Action extends Action {
                                  HttpServletResponse response) 
                                  throws Exception 
     {
-    
-    
-         //the ORDERID already exists,
-         return (mapping.findForward(" ")); 
+          
+         String orderid = request.getParameter("orderid");
+         String name = request.getParameter("ordername");
+         String location = request.getParameter("orderlocation");
+         String customerid = request.getParameter("customerid");
+         Boolean emptyfield = false;
+         //one or more of the data fields are empty.
          
-         //the CUSTOMERID does not exist in the 
-         //         CUSTOMERS table
-         return (mapping.findForward(" ")); 
+          if (orderid == null || orderid.trim().equals(""))
+          { 
+            emptyfield = true;   
+          }
+         
+         if (name == null || name.trim().equals(""))
+         { 
+             emptyfield = true;   
+         }
+         
+         if (location == null || location.trim().equals(""))
+         { 
+             emptyfield = true;  
+         }
+         
+         if (customerid == null || customerid.trim().equals(""))
+         { 
+             emptyfield = true;  
+         }
          
          //one or more of the data fields are empty.
-         return (mapping.findForward(""));
+         if(emptyfield)
+         {
+            return (mapping.findForward("emptyfield"));
+         }
          
          String url = "jdbc:odbc:bakery";
          Connection con;
-         Statement stmt;
+         
+         //the ORDERID already exists,
+         String query = 
+               "select COUNT(*) as ORDERMATCHES from ORDERS where ORDERERID like ? ;";
+               
+         //the CUSTOMERID does not exist in the 
+         //         CUSTOMERS table      
+         String query2 = "select COUNT(*) as CUSTMATCHES from CUSTOMERS where CUSTOMERID = ?;";
+         
          
          try
          {
@@ -40,39 +70,48 @@ public class okowitz12Action extends Action {
           System.err.print("ClassNotFoundException: ");
           System.err.println(e.getMessage());
          }
+         
          try
          {
+             PreparedStatement stmt;
+             PreparedStatement stmt2;
+             Statement stmt3;
              con = DriverManager.getConnection(url, "", "");
+             stmt3 = con.createStatement();
              
-             stmt.executeUpdate("insert into ORDERS values(" +
-                                            input1 + ",'" + input2 + "','" + today_date +
-                                            "','');");
+             //the ORDERID already exists,
+             stmt = con.prepareStatement(query);
+             stmt.setString(1, orderid);
+             
+             ResultSet rs = stmt.executeQuery();
+             rs.next();
+             int order_match_count = rs.getInt("ORDERMATCHES");
+             if (order_match_count > 1)
+             {
+                 return (mapping.findForward("duporder"));         
+             }
+             stmt2 = con.prepareStatement(query2);
+             stmt2.setString(1, customerid);
+             ResultSet rs2 = stmt2.executeQuery();
+             rs2.next();
+             int cust_match_count = rs2.getInt("CUSTOMERMATCHES");
+             if (cust_match_count > 1)
+             {
+                 return (mapping.findForward("nocustomer"));    
+             }
+             
+             stmt3.executeUpdate("insert into ORDERS (ORDERID, NAME, LOCATION, CUSTOMERID) values(" +
+                                            orderid + ",'" + name + "','" + location +
+                                            "'," + customerid + ");");
+                                            
+             
+             
          }
          catch(SQLException ex)
          {
             System.err.println("SQLException: " + ex.getMessage());
          }
-         
-         
-         
-         
-         return (mapping.findForward("okowitz12success")); 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
+         return (mapping.findForward("success")); 
+                                                   
      }
-    public okowitz12Action() {
-    }
 }
