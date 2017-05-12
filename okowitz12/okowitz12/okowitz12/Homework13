@@ -4,18 +4,18 @@ Homework 13
 The video lectures for Struts 4 and Struts5 contain enough information to do this assignment.
  
 Modify homework 12. The changes are:
-Your initial html file named <lastname>12.jsp now uses message resources 
-property files to display all text.
-Have an English message resources files and a Spanish message resources file. 
-Use the Google translate site (http://translate.google.com/#) to translate 
-from English to Spanish. The filenames should be MessageResources.properties 
-and MessageResources_es.properties.
-an ActionForm named <lastname>13ActionForm that will read the data 
-from <lastname>12.jsp.
-a subclass of Action named <lastname>13Action.java that will get 
-the data from the <lastname>13ActionForm instance and see whether 
-it is possible to insert the new ORDERS record.
-a jsp page named <lastname>success.jsp that will echo the information 
-about the new ORDERS record. The data should come 
-from the <lastname>13ActionForm.
+    - Your initial html file named <lastname>12.jsp now uses message resources 
+        property files to display all text.
+    - Have an English message resources files and a Spanish message resources file. 
+    - Use the Google translate site (http://translate.google.com/#) to translate 
+        from English to Spanish. The filenames should be MessageResources.properties 
+        and MessageResources_es.properties.
+    - an ActionForm named <lastname>13ActionForm that will read the data 
+        from <lastname>12.jsp.
+    - a subclass of Action named <lastname>13Action.java that will get 
+        the data from the <lastname>13ActionForm instance and see whether 
+        it is possible to insert the new ORDERS record.
+    - a jsp page named <lastname>success.jsp that will echo the information 
+        about the new ORDERS record. The data should come 
+        from the <lastname>13ActionForm.
  
