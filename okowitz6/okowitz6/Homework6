@@ -1,0 +1,16 @@
+Homework 6
+ 
+Create a project named <lastname>6
+
+Write an JSP file named <lastname>6a.jsp that populates the options of a select with all CUSTOMERID values.
+ 
+The SQL statement to get this without duplicates is
+ 
+SELECT DISTINCT CUSTOMERID FROM CUSTOMERS
+ 
+The action of the form that contains the select is to go to another JSP named <lastname>6b.jsp that will print (in a table) the ORDERID, DATE, and LOCATION for each ORDER record with that CUSTOMERID.
+ +
+ +
+ 
+ 
+ 
