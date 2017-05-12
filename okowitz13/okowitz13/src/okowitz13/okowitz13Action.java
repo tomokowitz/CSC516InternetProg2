@@ -8,7 +8,7 @@ import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
 
-public class okowitz13ActionForm extends Action {
+public class okowitz13Action extends Action {
 
     public ActionForward execute(ActionMapping mapping, ActionForm form, 
                                  HttpServletRequest request, 
@@ -68,6 +68,6 @@ public class okowitz13ActionForm extends Action {
                                  
                                  
      }
-    public okowitz12Action() {
+    public okowitz13Action() {
     }
 }

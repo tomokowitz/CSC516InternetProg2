@@ -15,13 +15,18 @@ public class okowitz12Action extends Action {
                                  HttpServletResponse response) 
                                  throws Exception 
     {
-         
+    
+    
+         //the ORDERID already exists,
          return (mapping.findForward(" ")); 
          
-         
+         //the CUSTOMERID does not exist in the 
+         //         CUSTOMERS table
          return (mapping.findForward(" ")); 
          
-                 
+         //one or more of the data fields are empty.
+         return (mapping.findForward(""));
+         
          String url = "jdbc:odbc:bakery";
          Connection con;
          Statement stmt;
