@@ -9,7 +9,7 @@
         <forward name="duporder" path="/duporder.jsp"/>
         <forward name="emptyfield" path="/emptyfield.jsp"/>
         <forward name="nocustomer" path="/nocustomer.jsp"/>
-        <forward name="success" path="/okowitz12success.jsp"/>
+        <forward name="success" path="/okowitzsuccess.jsp"/>
     </action>
   </action-mappings>
   <message-resources parameter="MessageResources" null="false" /> 
