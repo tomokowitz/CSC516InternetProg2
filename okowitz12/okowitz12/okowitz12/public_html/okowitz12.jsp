@@ -5,8 +5,7 @@
     <title><bean:message key="form.title" /></title>
   </head>
   <body>
-  Your initial html file named "<lastname>12.jsp" now uses message resources property files to display all text.
-  <form action="/okowitz12.do" method="POST">
+  <form action="okowitz12.do" method="POST">
     <bean:message key="form.orderidprompt" />
         <input type="text" name="orderid"/>
   <br> <bean:message key="form.ordernameprompt" />

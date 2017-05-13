@@ -62,7 +62,7 @@ public class _emptyfield extends com.orionserver.http.OrionHttpJspPage {
   static {
     try {
     __oracle_jsp_text[0] = 
-    "\n<html>\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\"/>\n    <title>emptyfield</title>\n    <style type=\"text/css\">\n      body {\n      background-color: #ffde73; \n}\n    </style>\n  </head>\n  <body>\n  </body>\n</html>".toCharArray();
+    "\n<html>\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\"/>\n    <title>emptyfield</title>\n    <style type=\"text/css\">\n      body {\n      background-color: #ffde73; \n}\n    </style>\n  </head>\n <BODY>\n    <DIV align=\"center\">\n      <H1>\n        Missing information!\n      </h1>\n     One or more required fields is blank.\n      <A HREF=\"okowitz12.jsp\">Try again</A>.\n    </DIV>\n  </BODY>\n</html>".toCharArray();
     }
     catch (Throwable th) {
       System.err.println(th);

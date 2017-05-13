@@ -9,6 +9,13 @@
 }
     </style>
   </head>
-  <body>
-  </body>
+ <BODY>
+    <DIV align="center">
+      <H1>
+        Missing information!
+      </h1>
+     One or more required fields is blank.
+      <A HREF="okowitz12.jsp">Try again</A>.
+    </DIV>
+  </BODY>
 </html>

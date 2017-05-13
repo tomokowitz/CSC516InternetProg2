@@ -9,5 +9,13 @@
 }
     </style>
   </head>
-  <body></body>
-</html>
+  <BODY>
+    <DIV align="center">
+      <H1>
+        Not a customer!
+      </h1>
+     Not a customer.
+      <A HREF="okowitz12.jsp">Try again</A>.
+    </DIV>
+  </BODY>
+</HTML>

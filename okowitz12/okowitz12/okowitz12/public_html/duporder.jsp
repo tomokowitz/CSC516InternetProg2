@@ -9,5 +9,15 @@
 }
     </style>
   </head>
-  <body></body>
+  <body>
+  
+    <DIV align="center">
+      <H1>
+        Duplicate order!
+      </h1>
+     Order already exists.
+      <A HREF="okowitz12.jsp">Try again</A>.
+    </DIV>
+  
+  </body>
 </html>

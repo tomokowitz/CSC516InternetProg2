@@ -124,7 +124,7 @@ public class _okowitz12 extends com.orionserver.http.OrionHttpJspPage {
     __oracle_jsp_text[0] = 
     "\n<html>\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\"/>\n    <title>".toCharArray();
     __oracle_jsp_text[1] = 
-    "</title>\n  </head>\n  <body>\n  Your initial html file named \"<lastname>12.jsp\" now uses message resources property files to display all text.\n  <form action=\"/okowitz12.do\" method=\"POST\">\n    ".toCharArray();
+    "</title>\n  </head>\n  <body>\n  <form action=\"okowitz12.do\" method=\"POST\">\n    ".toCharArray();
     __oracle_jsp_text[2] = 
     "\n        <input type=\"text\" name=\"orderid\"/>\n  <br> ".toCharArray();
     __oracle_jsp_text[3] = 
