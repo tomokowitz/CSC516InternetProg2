@@ -5,7 +5,7 @@
     <form-bean name="okowitz13ActionForm" type="okowitz12.okowitz13ActionForm"/>
   </form-beans>
   <action-mappings>
-    <action path="/okowitz12" type="okowitz12.okowitz12Action">
+    <action path="/okowitz12" type="okowitz12.okowitz12Action" >
         <forward name="duporder" path="/duporder.jsp"/>
         <forward name="emptyfield" path="/emptyfield.jsp"/>
         <forward name="nocustomer" path="/nocustomer.jsp"/>
