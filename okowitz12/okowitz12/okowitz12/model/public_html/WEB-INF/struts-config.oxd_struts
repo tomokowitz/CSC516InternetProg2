@@ -69,6 +69,14 @@
             type="StrutsForward"
             class="j:l:String"/>
       </shape>
+      <shape
+         name="success">
+         <elemRef
+            name=""
+            value="/okowitz12_success"
+            type="StrutsForward"
+            class="j:l:String"/>
+      </shape>
    </structure>
    <!--This is the information that is used to build up the shapes. Top level shapes can be found by searching for shapeMap elements-->
    <diagramProperty
@@ -684,8 +692,8 @@
                      </infoMap>
                      <point
                         name="elementPosition"
-                        x="0.0"
-                        y="-20.835938"/>
+                        x="-66.0"
+                        y="0.0"/>
                      <string
                         name="shapeState">symbolic</string>
                      <boolean
@@ -733,7 +741,7 @@
                   <point
                      name=""
                      x="473.1327"
-                     y="257.88022"/>
+                     y="254.38022"/>
                   <point
                      name=""
                      x="473.1327"
@@ -1018,8 +1026,8 @@
                      </infoMap>
                      <point
                         name="elementPosition"
-                        x="0.0"
-                        y="-20.835938"/>
+                        x="-74.0"
+                        y="0.0"/>
                      <string
                         name="shapeState">symbolic</string>
                      <boolean
@@ -1066,8 +1074,8 @@
                   name="elementPoints">
                   <point
                      name=""
-                     x="500.3117"
-                     y="257.88022"/>
+                     x="499.0172"
+                     y="254.38022"/>
                   <point
                      name=""
                      x="521.1327"
@@ -1352,8 +1360,8 @@
                      </infoMap>
                      <point
                         name="elementPosition"
-                        x="0.0"
-                        y="-20.835938"/>
+                        x="-61.0"
+                        y="0.0"/>
                      <string
                         name="shapeState">symbolic</string>
                      <boolean
@@ -1401,7 +1409,7 @@
                   <point
                      name=""
                      x="497.1327"
-                     y="257.88022"/>
+                     y="254.38022"/>
                   <point
                      name=""
                      x="497.1327"
@@ -1462,6 +1470,170 @@
                <elemRef
                   name="surrogateOriginalDstRef"
                   value="/duporder.jsp"
+                  type="Page"
+                  class="j:l:String"/>
+               <elemRef
+                  name="surrogateOriginalSrcRef"
+                  value="/okowitz12"
+                  type="StrutsAction"
+                  class="j:l:String"/>
+               <boolean
+                  name="visibility"
+                  value="true"/>
+            </infoMap>
+            <long
+               name="sourceShapeDrUID"
+               value="-2321755210269024013"/>
+            <elemRef
+               name="sourceShapeRef"
+               value="/okowitz12"
+               type="StrutsAction"
+               class="j:l:String"/>
+         </shapeMap>
+         <shapeMap>
+            <long
+               name="DrUID"
+               value="-2004130623467669258"/>
+            <infoMap
+               name="containedShapes">
+               <infoMap
+                  name="srcWithershins">
+                  <long
+                     name="DrUID"
+                     value="4563582157315793004"/>
+                  <infoMap
+                     name="containedShapes"/>
+                  <infoMap
+                     name="displayPreference"/>
+                  <elemRef
+                     name="elementReference"
+                     value="TextShape"
+                     type="TEXT"
+                     class="j:l:String"/>
+                  <infoMap
+                     name="graphicalData">
+                     <infoMap
+                        name="diagramStateProperties">
+                        <infoMap
+                           name="symbolic">
+                           <dimension
+                              name="elementSize"
+                              width="59.0"
+                              height="20.835938"/>
+                        </infoMap>
+                     </infoMap>
+                     <point
+                        name="elementPosition"
+                        x="-58.999996"
+                        y="0.0"/>
+                     <string
+                        name="shapeState">symbolic</string>
+                     <boolean
+                        name="visibility"
+                        value="true"/>
+                  </infoMap>
+               </infoMap>
+            </infoMap>
+            <long
+               name="destinationShapeDrUID"
+               value="-1919100569276147861"/>
+            <elemRef
+               name="destinationShapeRef"
+               value="/okowitz12success.jsp"
+               type="Page"
+               class="j:l:String"/>
+            <infoMap
+               name="displayData">
+               <string
+                  name="nameOfElement">success</string>
+            </infoMap>
+            <infoMap
+               name="displayPreference"/>
+            <elemRef
+               name="elementReference"
+               value="/okowitz12_success"
+               type="StrutsForward"
+               class="j:l:String"/>
+            <infoMap
+               name="graphicalData">
+               <infoMap
+                  name="diagramStateProperties">
+                  <infoMap
+                     name="symbolic">
+                     <dimension
+                        name="elementSize"
+                        width="0.0"
+                        height="0.0"/>
+                     <infoMap
+                        name="layoutConstraints"/>
+                  </infoMap>
+               </infoMap>
+               <array
+                  name="elementPoints">
+                  <point
+                     name=""
+                     x="487.28802"
+                     y="252.38022"/>
+                  <point
+                     name=""
+                     x="511.512"
+                     y="494.61978"/>
+               </array>
+               <point
+                  name="elementPosition"
+                  x="499.5"
+                  y="374.5"/>
+               <graphicalProperties
+                  name="graphicalProperties">
+                  <color
+                     name="lineColor"
+                     rgb="0x0"
+                     alpha="0xff"/>
+                  <float
+                     name="lineWidth"
+                     value="1.0"/>
+                  <integer
+                     name="lineStyle"
+                     value="0"/>
+                  <font
+                     name="fontType"
+                     fontFamily="SansSerif"
+                     fontSize="11.0"
+                     fontWeight="normal"
+                     fontStyle="normal"/>
+                  <color
+                     name="fontColor"
+                     rgb="0x0"
+                     alpha="0xff"/>
+               </graphicalProperties>
+               <array
+                  name="lastGlyph">
+                  <integer
+                     name=""
+                     value="2"
+                     scalar="true"/>
+                  <integer
+                     name=""
+                     value="805306369"
+                     scalar="true"/>
+                  <integer
+                     name=""
+                     value="1092616192"
+                     scalar="true"/>
+                  <integer
+                     name=""
+                     value="1090519040"
+                     scalar="true"/>
+                  <integer
+                     name=""
+                     value="1120403456"
+                     scalar="true"/>
+               </array>
+               <string
+                  name="shapeState">symbolic</string>
+               <elemRef
+                  name="surrogateOriginalDstRef"
+                  value="/okowitz12success.jsp"
                   type="Page"
                   class="j:l:String"/>
                <elemRef
