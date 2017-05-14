@@ -14,8 +14,6 @@
   <H1 align="center">
   You have successfully entered the following order:
 </H1> 
-Welcome <bean:write name="data" scope="session" property="firstName"/>
- <bean:write name="data" scope="session" property="lastName"/>
 
            
  <table BORDER="1">
@@ -27,17 +25,12 @@ Welcome <bean:write name="data" scope="session" property="firstName"/>
             </TR>
             <TR>
            
-           <TD><bean:write name="" property=""/></TD>
-           <TD><bean:write name="" property=""/></TD>
-           <TD><bean:write name="" property=""/></TD>
-           <TD><bean:write name="" property=""/></TD>
+           <TD><bean:write name="data" property="orderid"/></TD>
+           <TD><bean:write name="data" property=""/></TD>
+           <TD><bean:write name="data" property="location"/></TD>
+           <TD><bean:write name="data" property="customerid"/></TD>
            </TR>
         </table>
  
-<form action="success.do" method="POST">
-  <P>  Enter class: <input type="text" name="course"> </P>
-  <P>  Enter section: <input type="text" name="section"> </P>
-  <P> <input type="submit" value="Register"> </P>
-</form>
   </body>
 </html>
